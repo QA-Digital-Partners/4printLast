@@ -91,7 +91,7 @@ const CustomCarWrap = (props) => {
       </div>
 
       {/******************  Full Vehicle Section ****************************/}
-      <div className="container flex flex-wrap lg:mb-[100px] mb-16">
+      <div className="container flex flex-wrap lg:mb-[100px] mb-16" id="coloChange">
         <div className="lg:w-5/12 w-full lg:pe-6 lg:ps-6 lg:ps-0 order-1 lg:order-0">
           <h2 className="font-bold lg:text-[70px] text-[45px] leading-[45px] lg:leading-[80px] z-10 relative lg:me-[-50px] uppercase hidden md:block">Full Vehicle
             <span className="text-4pblue lg:text-[80px] block">Color Change</span></h2>
@@ -132,7 +132,7 @@ const CustomCarWrap = (props) => {
       </div>
 
       {/******************  Graphic Design Racing Section ****************************/}
-      <div className="bg-4pblack lg:mb-[100px] mb-16 pb-16 lg:pb-0">
+      <div className="bg-4pblack lg:mb-[100px] mb-16 pb-16 lg:pb-0" id="graphicDesign">
         <div className="container text-white lg:pb-16 pt-12 pt-24">
           <h2 className="lg:text-[70px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Graphic Design and
           <span className="lg:text-[80px] text-4pblue block">Racing Stripes</span></h2>
@@ -188,13 +188,13 @@ const CustomCarWrap = (props) => {
       </div>
 
       {/******************  Texture Chrome and Special Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16">
+      <div className="container lg:mb-[100px] mb-16" id="textured">
         <h2 className="lg:text-[70px] text-[45px] lg:leading-[70px] leading-[50px] uppercase font-bold text-center">Textured, Chrome,
         <span className="lg:text-[80px] text-4pblue block">And Special Vinyl</span></h2>
         <p className=" text-center lg:px-20 px-6 pt-8">Take your vehicle's appearance to the next level with our premium specialty wraps. From eye-catching chrome finishes that demand attention to sophisticated textured materials that add depth and character to unique special vinyl effects that create unforgettable impressions, each specialty material is carefully selected from our premium material  collection, offering extraordinary visual and tactile experiences impossible to achieve with traditional methods.</p>
         <p className=" text-center lg:w-[60%] w-full px-6 lg:px-0 mx-auto font-bold pt-4 lg:pt-0">Transform your vehicle into a masterpiece with finishes combining innovative materials and stunning aesthetics.</p>
 
-        <div className="flex flex-wrap pt-8">
+        <div className="flex flex-wrap lg:flex-nowrap pt-8">
           <div className="lg:w-4/12 w-full content-center">
             <p className="text-4pblue text-[35px] font-bold ps-6 lg:ps-0">Features</p>
             <div className="grid grid-cols-2 gap-6 lg:pe-8 ps-6 lg:ps-0 pe-6 mt-4 mb-8 lg:mb-0">
@@ -233,7 +233,7 @@ const CustomCarWrap = (props) => {
 
       {/******************  Why Choos Us Section ****************************/}
       <div className="container lg:mb-[100px] mb-16">
-        <div className="bg-4pgrey rounded-3xl flex flex-wrap">
+        <div className="bg-4pgrey rounded-3xl flex flex-wrap lg:flex-nowrap">
           <div className="lg:w-7/12 w-full lg:ps-16 ps-6 pe-6 lg:pe-0 lg:py-16 py-8">
             <h2 className="lg:text-[70px] text-[45px] lg:leading-[70px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why
             <span className="lg:text-[80px] text-4pblue block">Choose Us</span></h2>

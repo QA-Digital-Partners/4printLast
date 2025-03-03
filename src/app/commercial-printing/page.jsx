@@ -269,7 +269,7 @@ const CommercialPrinting = (props) => {
       </div>
 
       {/******************  Apparel Section ****************************/}
-      <div className="lg:mb-[100px] mb-16" id="appareal">
+      <div className="lg:mb-[100px] mb-16" id="apparel">
         <div className="container flex flex-wrap lg:flex-nowrap">
           <div className="lg:w-[575px] bg-4pred lg:ps-12 ps-6 pe-6 lg:pe-0 content-center lg:rounded-l-lg pt-8 lg:pt-0 pb-8 lg:pb-0">
             <h2 className="text-white lg:text-[70px] text-[50px] leading-[70px] font-bold uppercase">Apparel</h2>

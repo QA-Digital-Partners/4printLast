@@ -13,12 +13,12 @@ const YouTubeVideo = ({image, imageWidth, imagHeigth, videoId, videoWidth, video
   return (
     <div className="video-container content-end">
       {!isVideoVisible ? (
-        <div className="" onClick={handleLoadVideo}>
+        <div className="" onClick={videoId ? handleLoadVideo : undefined}>
           {/* Imagen o botón para cargar el video */}
           <Image
             src={`/images/${image}`} // Reemplaza con la URL de tu imagen
             alt="Video Thumbnail"
-            className="cursor-pointer mx-auto"
+            className={` ${videoId ? 'cursor-pointer': ''} mx-auto`}
             sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
             srcSet={`/images/${image} 768w, /images/${image} 1024w`}
             width={imageWidth}

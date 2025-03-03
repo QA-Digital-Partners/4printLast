@@ -20,6 +20,7 @@ const HeaderComponent = () => {
         <div className="rounded-xl border-1 border-4plight-grey lg:py-8 py-4 bg-white flex px-8 shadow-usual bg-white flex-wrap lg:flex-nowrap">
           {/* LOGO */}
           <div className="lg:w-3/12 w-8/12">
+          <a href="/">
             <Image
               src="/images/Logo-no-lined.svg"
               alt="Logo without bottom line"
@@ -27,6 +28,7 @@ const HeaderComponent = () => {
               height={56}
               className="w-[12rem] lg:w-full"
             />
+          </a>
           </div>
 
           {/* MENÚ DESKTOP */}
@@ -36,7 +38,7 @@ const HeaderComponent = () => {
                 data.name === "Services" ? (
                   <DropdownMenu key={index} menu={data} options={dropDownOptions} />
                 ) : (
-                  <a key={index} href={data.link} className="mx-4 uppercase text-[15px]">
+                  <a key={index} href={data.link} className="mx-4 uppercase text-[15px] hover:text-4pblue hover:font-bold">
                     {data.name}
                   </a>
                 )

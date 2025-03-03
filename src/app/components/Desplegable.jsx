@@ -22,7 +22,7 @@ export const DropdownMenu = ({menu, options}) => {
 
       {/* Menú desplegable */}
       {isOpen && (
-        <div className="absolute z-[999] left-0 mt-0 w-auto w-56 bg-white border rounded-lg shadow-lg">
+        <div className="absolute z-[999] left-0 mt-0 w-auto w-64 bg-white border rounded-lg shadow-lg">
           <ul className="py-0 z-[999]">
             {options.map((data, index) => {
                 return(

@@ -43,13 +43,13 @@ const Services = (props) => {
       </div>
 
       {/******************  Vehicle Wrapping Section ************************/}
-      <div className="container lg:mb-[130px] mb-16">
+      <div className="container lg:mb-[130px] mb-16" id="fleetwrap">
         <div className="flex lg:flex-nowrap flex-wrap justify-between px-6">
           <div className="lg:w-7/12 w-full">
             <h2 className="font-bold lg:text-[60px] lg:leading-[60px] text-[45px] leading-[40px] uppercase">Commercial Vehicle Wrapping/ <span className="lg:text-[60px] text-[50px] block text-4pblue">Fleet Wrapping</span></h2>          
           </div>
           <div className="lg:w-3/12 w-9/12 py-6 lg:py-0 content-center">
-          <Button4P buttonText={'View all services'} buttonLink={'/services'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+          <Button4P buttonText={'View all services'} buttonLink={'/commercial-vehicle-wrapping-lettering/#commercialLettering'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
           </div>
         </div>
 
@@ -107,7 +107,7 @@ const Services = (props) => {
       </div>
 
       {/******************  Commercial Lettering Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16 px-4 lg:px-0">
+      <div className="container lg:mb-[100px] mb-16 px-4 lg:px-0" id="lettering">
         <div className="border-[1px] border-4plight-grey rounded-xl shadow-usual pb-16 px-4 lg:px-0">
           <div className="flex flex-wrap lg:flex-nowrap">
             <div className="lg:w-1/2 w-full lg:pt-16 pt-8 lg:ps-16">
@@ -146,7 +146,7 @@ const Services = (props) => {
       </div>
 
       {/******************  Custom Car Wrap Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16">
+      <div className="container lg:mb-[100px] mb-16" id="customwrap">
         <div className="bg-custom-car-wrap-sv rounded-xl lg:h-[75vh] h-[50vh]">
           <h2 className="text-white text-[60px] font-bold w-[25rem] leading-[65px] lg:pt-16 lg:ps-16 pt-8 px-6 pb-[150px]">Custom Car Wraps </h2>
         </div>
@@ -162,15 +162,15 @@ const Services = (props) => {
                 </div>
               )
             })}
-            <div className="lg:col-span-3 w-11/12 mx-auto">
-              <Button4P buttonText={'View full information'} buttonLink={'/'} buttonBgAnimation={'btn-white-to-blue'} iconOption={5} textColor={'text-4pblue'}/>
+            <div className="lg:col-span-3 w-11/12 lg:w-5/12 mx-auto">
+              <Button4P buttonText={'View full information'} buttonLink={'/custom-car-wraps'} buttonBgAnimation={'btn-white-to-blue'} iconOption={5} textColor={'text-4pblue'}/>
             </div>
           </div>
 
       </div>
 
       {/******************  Commercial Printing Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16 px-6 lg:px-0">
+      <div className="container lg:mb-[100px] mb-16 px-6 lg:px-0" id="printing">
         <h2 className="font-bold lg:text-[60px] text-[45px] lg:leading-[60px] leading-[42px] uppercase text-center">Commercial <span className="text-4pblue">Printing</span></h2>
         <div className="grid grid-cols-12 gap-5 mt-7">
           <div className="lg:col-span-5 col-span-12 bg-4pred wall-wrap lg:min-h-[71vh] rounded-lg lg:ps-[50px] lg:pb-[50px] lg:pt-0 ps-8 pe-8 lg:ps-0 pt-20 pb-12 text-white content-end">
@@ -215,7 +215,7 @@ const Services = (props) => {
             </div>
           </div>
           <div className="col-span-12 lg:w-3/12 w-10/12 mx-auto mt-5">
-            <Button4P buttonText={'View full information'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+            <Button4P buttonText={'View full information'} buttonLink={'/commercial-printing'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
           </div>
         </div>
 
@@ -223,7 +223,7 @@ const Services = (props) => {
       </div>
 
       {/******************  Appareal Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16">
+      <div className="container lg:mb-[100px] mb-16" id="apparel">
         <div className="lg:w-4/12 w-10/12 mx-auto rectangle-cuted rounded-md mb-[-45px] z-10 relative">
           <h2 className=" lg:text-[60px] text-[45px] text-white font-bold text-center py-2">APPAREL</h2>
         </div>
@@ -234,17 +234,17 @@ const Services = (props) => {
             )
           })}
           <div className="col-span-3 lg:w-4/12 w-10/12 mx-auto">
-            <Button4P buttonText={'View full information'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+            <Button4P buttonText={'View full information'} buttonLink={'/commercial-printing/#apparel'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
           </div>
         </div>
       </div>
 
       {/******************  Stationay Printing Section ****************************/}
-      <div className="container grid grid-cols-12 gap-5 lg:mb-[100px] mb-16 px-6 lg:px-0">
+      <div className="container grid grid-cols-12 gap-5 lg:mb-[100px] mb-16 px-6 lg:px-0" id="stationary">
         <div className="lg:col-span-4 col-span-12">
           <h2 className="font-bold text-[60px] leading-[60px] uppercase mb-12 lg:mb-0">Stationery <span className="block text-4pblue">Printing</span></h2>
           <div className="w-6/12 my-8 mx-auto lg:mx-0 hidden lg:block">
-            <Button4P buttonText={'Call Us'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
           </div>
           <div>
             {StationaryPrintingLeft.map((data, index) => {
@@ -289,7 +289,7 @@ const Services = (props) => {
         <div className="lg:w-4/12 w-full content-center">
           <h2 className="font-bold lg:text-[60px] lg:leading-[60px] text-[52px] leading-[45px] uppercase mb-8 lg:mb-0">Why Choose <span className="text-4pblue">Our Services</span></h2>
           <div className="w-6/12 my-8 mx-auto lg:mx-0 hidden lg:block">
-            <Button4P buttonText={'Call Us'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
           </div>
         </div>
 

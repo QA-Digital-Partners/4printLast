@@ -1,7 +1,8 @@
 import React from "react"
 import Button4PSmall from "./ButtonSmall";
+import YouTubeVideo from "./YoutubeLazyLoad";
 
-const ServicesCardHome = ({title, video, link, index}) => {
+const ServicesCardHome = ({title, video, link, image, index}) => {
 
     let desfase = ''
     if (index==0 || index==3) {
@@ -14,10 +15,18 @@ const ServicesCardHome = ({title, video, link, index}) => {
     <>
           <div className={` ${desfase}`}>
             <div className="relative w-full overflow-hidden min-h-[513px] rounded-xl">
+            {/******************  Old Section  ***************************
             <video autoPlay muted loop className="absolute top-1/2 left-1/2 min-w-full w-auto h-auto -translate-x-1/2 -translate-y-1/2 object-cover z-[-1]">
             <source src={`/videos/${video}`} type="video/mp4" />
               Tu navegador no soporta el formato de video.
-            </video>
+            </video>*/}
+            <YouTubeVideo 
+              image={image} 
+              videoId={video}
+              videoWidth={378}
+              videoHeight={672}
+              imageWidth={378}
+              imagHeigth={672}/>
             <div className="absolute bottom-0 w-full justify-center min-h-[139px] divpath btn-blue-to-red btn-animation p-4">
               <p className="text-white text-[20px] font-bold pb-4">
               {title}

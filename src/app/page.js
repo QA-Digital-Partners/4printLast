@@ -25,15 +25,17 @@ export default function Home() {
         </div>
       </div>
 
+      {/**************** Image and Foto Section *************************/}
       <div className="container lg:mt-[-35vh] lg:mb-[170px] mb-16">
         <div className="flex flex-wrap lg:flex-nowrap lg:mb-[-70px] gap-8">
-            <YouTubeVideo 
-              image={'banner-yt-placeholder-banner-hm.webp'} 
-              videoId={'Hw_ajR5rSmo?si=9FtTMf5xnI8I3VdC'} 
-              videoWidth={485}
-              videoHeight={488}
-              imageWidth={485}
-              imagHeigth={488}/>
+          <div className="lg:w-[485px] w-full content-end">
+            <div className="relative w-full overflow-hidden lg:min-h-[488px] min-h-[400px] h-[400px] rounded-xl">
+            <video autoPlay muted loop className="lg:absolute lg:top-1/2 lg:left-1/2 w-auto h-auto lg:-translate-x-1/2 lg:-translate-y-1/2 object-cover">
+            <source src={`/videos/la-choza-del-chef.mp4`} type="video/mp4" />
+              Tu navegador no soporta el formato de video.
+            </video>
+            </div>
+          </div>
             <Image
               src="/images/banner-image-hm.webp"
               alt="Image on banner La Palmirana"
@@ -132,7 +134,7 @@ export default function Home() {
           <div className="lg:max-w-[282px] lg:w-[282px] w-full lg:pt-32 order-1 lg:order-1">
             <YouTubeVideo 
             image={'4print-experience-videocover-1.webp'} 
-            videoId={'rBG4AFgk4js'}
+            videoId={'rKLjQyttGpg'}
             videoWidth={282} 
             videoHeight={501}
             imageWidth={282}
@@ -141,7 +143,7 @@ export default function Home() {
           <div className="lg:max-w-[282px] lg:w-[282px] w-full lg:pt-32 pt-8 order-2 lg:order-2">
             <YouTubeVideo 
               image={'4print-experience-videocover-2.webp'} 
-              videoId={'rBG4AFgk4js'} 
+              videoId={'CsFx4YJiU_A'} 
               videoWidth={282} 
               videoHeight={501}
               imageWidth={282}
@@ -150,7 +152,7 @@ export default function Home() {
           <div className="lg:max-w-[282px] lg:w-[282px] w-full pt-8 lg:pt-0 order-3 lg:order-3">
             <YouTubeVideo 
               image={'4print-experience-videocover-3.webp'} 
-              videoId={'rBG4AFgk4js'} 
+              videoId={'XPzyOf_ss70'} 
               videoWidth={282} 
               videoHeight={501}
               imageWidth={282}

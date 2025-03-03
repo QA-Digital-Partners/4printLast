@@ -20,7 +20,7 @@ const ReviewSection = (props) => {
             <h4 className="lg:text-[70px] font-bold lg:leading-[64px] text-[58px] leading-[52px] ps-8 lg:ps-0">WHAT OUR <span className="block text-4pblue lg:text-[80px]">CUSTOMER</span> ARE SAYING</h4>
             <p className="lg:text-[20px] font-semibold py-4 lg:ps-0 ps-8 ">Visit our Google REVIEWS</p>
             <div className="lg:max-w-[284px] ps-8 lg:ps-0 pe-8 lg:pe-0">
-              <Button4P buttonText={'View all reviews'} buttonLink={'#'} textColor={'text-white'} iconOption={2} buttonBgAnimation={'btn-red-to-blue'}/>
+              <Button4P buttonText={'View all reviews'} buttonLink={'https://www.google.com/search?client=opera-gx&q=4print+us&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0x89b7fdc1332cd389:0x1dee4584e17b5c5e,1,,,,'} self="_blank" textColor={'text-white'} iconOption={2} buttonBgAnimation={'btn-red-to-blue'}/>
             </div>
           </div>
 

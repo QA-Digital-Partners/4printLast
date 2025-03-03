@@ -140,33 +140,39 @@ export const ReviewImages = [
 export const ServicesGridHome = [
     {
         title: 'Commercial Vehicle Wrapping / Fleet Wrapping',
-        video: 'la-choza-del-chef.mp4',
-        link: '#'
+        video: 'kk_h6PNklOc',
+        image: 'fleet-wrapping-home-services.webp',
+        link: '/services/#fleetwrap'
     },
     {
         title: 'Commercial Vehicle Lettering',
-        video: 'la-choza-del-chef.mp4',
-        link: '#'
+        video: '6w6zwhzC4Vc',
+        image: 'lettering-home-service.webp',
+        link: '/services/#lettering'
     },
     {
         title: 'Custom Car Wraps (Color Change)',
-        video: 'la-choza-del-chef.mp4',
-        link: '#'
+        video: 'xLoc8T3c7RI',
+        image: 'custom-change-home-services.webp',
+        link: '/services/#customwrap'
     },
     {
         title: 'Commercial Printing',
-        video: 'la-choza-del-chef.mp4',
-        link: '#'
+        video: 'jhrLP6Dm8-Q',
+        image: 'commertial-printing-home-services.webp',
+        link: '/services/#printing'
     },
     {
         title: 'Apparel',
-        video: 'la-choza-del-chef.mp4',
-        link: '#'
+        video: 'ZmrhWZKgI0M',
+        image: 'aparrel-home-services.webp',
+        link: '/services/#apparel'
     },
     {
         title: 'Stationery Printing',
-        video: 'la-choza-del-chef.mp4',
-        link: '#'
+        video: '',
+        image: 'stationary-home-services.webp',
+        link: '/services/#stationary'
     },
 
 ]
@@ -185,22 +191,22 @@ export const AccesibleStart = ['Start with just $50 to see your design come to l
 
 export const MiniMenuServices = [ 
     {name:'Commercial Vehicle Wrapping / Fleet Wrapping', 
-    link: '#'
+    link: '#fleetwrap'
    },
    {name:'Commercial Vehicle Lettering, USDOT & MHIC',
-    link: '#'
+    link: '#lettering'
    },
    {name:'Custom Car Wraps (Color Change)',
-    link: '#'
+    link: '#customwrap'
    }, 
    {name:'Commercial Printing',
-    link: '#'
+    link: '#printing'
    }, 
    {name:'Apparel',
-    link: '#'
+    link: '#apparel'
    }, 
    {name:'Stationery Printing', 
-    link: '#'
+    link: '#stationary'
    }
 ]
 
