@@ -5,7 +5,7 @@ export const headerMenu = [
     {name:'About Us', link: '/about'},
     {name:'Services', link: '/services'},
     {name:'Contact', link: '#contact'},
-    {name:'Gallery', link: '/gallry'},
+    {name:'Gallery', link: '/gallery'},
 ]
 
 export const dropDownOptions = [
