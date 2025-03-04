@@ -68,18 +68,19 @@ export const BestBrands =[ '3M-179.svg', 'avery-179.svg', 'arlon-179.svg', 'brig
 
 export const MiniMenuHome = [ 
     {name:'Why Choose Vehicle Wrapping for Your Business?', 
-     link: '#whywrap'
+     link: '/commercial-vehicle-wrapping-lettering'
     },
     {name:'Why Choose Us?',
-     link: '#whyus'
+     link: '/custom-car-wrap/#whyus'
     },
     {name:'Design & Consultation',
-     link: '#design'
+     link: '/custom-car-wraps/#classic'
     }, 
     {name:'Other Services',
-     link: '#other'
-    }, {name:'Before & After',
-     link: '#before'
+     link: '/services/#printing'
+    }, 
+    {name:'Gallery',
+     link: '/gallery'
     }, 
     {name:'Certifications', 
      link: '#certifications'
@@ -736,5 +737,16 @@ export const StationaryCardInfo = [
         features: 'Weather-Resistant | Die-Cut Options | Bulk Pricing',
         buttonText: 'Design Door Hangers'
     },
+]
+
+export const GalleryImages = [
+    'cuber-truc-1', 'van-terrence','van-green-waste','efficient-moverso-1','van-dreamscape','freshness-van','truck-tree-services','van-jlr','mistery-van','pickup-m-and-d','m-and-d','van-espinal-1',
+    'zombie-house-2','cyber-truck-6', 'cyber-truck-9','cuber-truc-1','van-espinal-2','cyber-truc-2','trailer-snow-ball','mercedes-tormasol','van-espinal-3','van-mistery','trailer-santirana-3',
+    'pickup-santis-2','van-jlr-2','pickup-santis','mjd-4','camaro-red','pickup-tree','van-integrity','stony-man','freshness-van-2','van-rucky-ricardo','star-maids-3','van-ricky-ricardo','corvette-2',
+    'dr-mario-van-2','cyber-truck-5','van-pink','cyber-truck-4','efficient-moverso-2','pickup-depro','corvette','ice-goodies','trailer-snow-ball-2','mjd-5','tias-van','stony-man-2','pickup-home-improvement',
+    'van-brave-43','tree-services-1','integrity-3','trailer-santirana-2','nicks-truck','zombie-house','cyber-truck-8','tree-services','terrence-van-2','truck-ultra-envios','dr-mario-van','dreamscape-van-2',
+    'pickup-divine','avera-1','van-full-wrap-247','dr-mario-van-3','van-layla-gif','trailer-santirana','pickup-tree-2','beautifull-yards','pickup-santis-3','mjd-6','trailer-flavrz','container-sinaloa-2',
+    'trailer-move-junk','mistery-van-1','van-espinal-4','truck-fulwrap','star-maids','van-full-wrap-247-2','nicks-truck-2','container-sinaloa','terrence-van-4','van-benchmark','cyber-truck-7','cyber-truck-3',
+    'cyber-truck-10','container-sinaloa-3','ISA','ISA-2','pickup-divine-1','van-ricky-ricardo-3','dreamscape-van-3','pickup-george-and-son-2','pickup-george-and-son','mjd-1','mjd-2','mjd-3'
 ]
 

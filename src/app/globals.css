@@ -401,6 +401,18 @@ paint-order: stroke fill;
   background-repeat: no-repeat;
 }
 
+.bg-gallery {
+  background-image: url('/images/banner-gallery.webp');
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery-title {
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #FFF;
+  font-family: 'Verdana';
+  paint-order: stroke fill;
+}
 
 @media (max-width:767px) {
 

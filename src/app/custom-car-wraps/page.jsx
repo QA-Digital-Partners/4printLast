@@ -65,7 +65,7 @@ const CustomCarWrap = (props) => {
       </div>
 
       {/******************  Classic to Custom Section ****************************/}
-      <div className="lg:bg-gradient-to-r bg-gradient-to-t from-white lg:from-30% from-20% to-4pgrey lg:to-30% to-20% lg:mb-[100px] mb-16">
+      <div className="lg:bg-gradient-to-r bg-gradient-to-t from-white lg:from-30% from-20% to-4pgrey lg:to-30% to-20% lg:mb-[100px] mb-16" id="classic">
         <div className="container flex flex-wrap lg:flex-nowrap">
           <div className="lg:w-5/12 w-full lg:pt-[83px] pt-4 justify-evenly order-1 lg:order-0">
           <Image 
@@ -232,7 +232,7 @@ const CustomCarWrap = (props) => {
       </div>
 
       {/******************  Why Choos Us Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16">
+      <div className="container lg:mb-[100px] mb-16" id="whyus">
         <div className="bg-4pgrey rounded-3xl flex flex-wrap lg:flex-nowrap">
           <div className="lg:w-7/12 w-full lg:ps-16 ps-6 pe-6 lg:pe-0 lg:py-16 py-8">
             <h2 className="lg:text-[70px] text-[45px] lg:leading-[70px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why

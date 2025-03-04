@@ -340,7 +340,7 @@ const CommercialWrap = (props) => {
       </div>
 
       {/******************  Why Choose Us Section ****************************/}
-      <div className="container flex flex-wrap lg:flex-nowrap lg:mb-[100px] mb-16 px-6 lg:px-0">
+      <div className="container flex flex-wrap lg:flex-nowrap lg:mb-[100px] mb-16 px-6 lg:px-0" >
         <div className="lg:w-4/12 w-full content-center">
           <h2 className="font-bold lg:text-[60px] lg:leading-[60px] text-[52px] leading-[45px] uppercase mb-8 lg:mb-0">Why <span className="text-4pblue">Choose </span></h2>
           <div className="w-7/12 my-8 mx-auto lg:mx-0 hidden lg:block">
