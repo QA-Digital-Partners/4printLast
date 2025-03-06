@@ -159,7 +159,7 @@ const CommercialWrap = (props) => {
             <h3 className="text-4pblue lg:text-[50px] text-[45px] text-center lg:text-start leading-[50px] font-bold">Partial Vehicle Wraps</h3>
             <p className="leading-[23px] pt-6">Strategic coverage of specific vehicle areas for cost-effective branding.
             <br /><br />
-              <b>Best for:</b> Businesses with limited budgets or specific branding need 
+              <b>Best for:</b> Businesses with limited budgets or specific branding needs.
             </p>
             <p className="text-4pblack lg:text-[35px] text-[26px] py-6 font-bold">Features</p>
             <div className="grid lg:grid-cols-3 gap-5">

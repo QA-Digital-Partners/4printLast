@@ -24,8 +24,8 @@ const Services = (props) => {
 
           <div className="lg:w-5/12 w-full content-end justify-items-end lg:pt-32 pt-12">
             <div className="shape-banner-services lg:min-h-[339px] min-h-[21rem] bg-4pblue content-center px-16 lg:max-w-[453px] items-self-end pb-8">
-              <p className="text-white font-bold text-[22px] pb-4">Transform Your Brand with Our Professional Services.</p>
-              <div className="w-[190px]">
+              <p className="text-white font-bold text-[22px] pb-4 lg:mt-12">Transform Your Brand with Our Professional Services.</p>
+              <div className="w-[190px] lg:mt-8">
               <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-white'} iconOption={4} textColor={'text-4pblue'}/>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Services = (props) => {
             })}
           </div>
           <div className="lg:w-3/12 w-10/12 mx-auto">
-            <Button4P buttonText={'View full information'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+            <Button4P buttonText={'View full information'} buttonLink={'/commercial-vehicle-wrapping-lettering/#commercialLettering'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
           </div>
         </div>
       </div>
@@ -198,8 +198,8 @@ const Services = (props) => {
 
         <div className="grid grid-cols-12 gap-5 mt-5">
           <div className="car-magnets lg:col-span-5 col-span-12 lg:min-h-[43vh] rounded-lg lg:ps-[50px] lg:pb-[50px] ps-8 pe-8 lg:pe-0 pt-24 lg:pt-0 pb-16 text-white content-end">
-            <h3 className="text-[20px] font-bold pb-4 pe-16 leading-[23px]">Cut Vinyl/Lettering</h3>
-            <p className="lg:w-[19rem]">Custom-cut letters and graphics for professional business signage.</p>
+            <h3 className="text-[20px] font-bold pb-4 pe-16 leading-[23px]">Car Magnets</h3>
+            <p className="lg:w-[19rem]">Removable magnetic signs for temporary vehicle advertising.</p>
           </div>
 
           <div className="lg:col-span-7 col-span-12">

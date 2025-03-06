@@ -16,27 +16,27 @@ export const dropDownOptions = [
 
 // Textos del footer
 
-export const footerText = 'Lorem ipsum dolor sit amet consectetur adipiscing elit, fringilla cras litora mollis ac libero, himenaeos nostra auctor feugiat interdum ornare.'
+export const footerText = 'Since 2021, 4Print has helped businesses in the DMV area stand out with vehicle wraps and commercial printing solutions. We deliver quality, customization, and impactful results, turning your fleet into a powerful marketing tool.'
 
 export const socialIcons = [
-    {icon: 'tiktok-icon', alt:'TikTok icon'}, 
-    {icon: 'instagram-icon', alt:'Instagram icon'}, 
-    {icon: 'facebook-icon', alt:'Facebook icon'}, 
-    {icon: 'youtube-icon', alt:'Youtube icon'}
+    {icon: 'tiktok-icon', alt:'TikTok icon', link:'https://www.tiktok.com/@4printusa'}, 
+    {icon: 'instagram-icon', alt:'Instagram icon', link: 'https://www.instagram.com/4printus/'}, 
+    {icon: 'facebook-icon', alt:'Facebook icon', link: 'https://www.facebook.com/4printus'}, 
+    {icon: 'youtube-icon', alt:'Youtube icon', link: 'https://www.youtube.com/@4printus'}
 ]
 
 export const footerMenu = [
     {name:'Home', link: '/'},
     {name:'About Us', link: '/about'},
     {name:'Contact', link: '/contact'},
-    {name:'Gallery', link: '/gallry'}
+    {name:'Gallery', link: '/gallery'}
 ]
 
 export const footerMenuServicesleft = [
     {name:'Commercial Vehicle Lettering', link: '/'},
     {name:'Commercial Printing ', link: '/about'},
-    {name:'Apparel', link: '/contact'},
-    {name:'Stationery Printing', link: '/gallry'}
+    {name:'Apparel', link: '/services/#apparel'},
+    {name:'Stationery Printing', link: '/services/#stationary'}
 ]
 
 export const footerMenuServicesRight = [
@@ -47,7 +47,7 @@ export const footerMenuServicesRight = [
 export const footerContact = [
     {icon: 'phone-f-icon', name:'(443) 998-1717', link: 'tel:+14439981717'},
     {icon: 'mail-f-icon', name:'sales@4printus.com', link: 'mailto:sales@4printus.com'},
-    {icon: 'map-f-icon', name:'512 Crain Hwy N Unit 6, Glen Burnie, MD 21061, United States', link: 'mailto:sales@4printus.com'}
+    {icon: 'map-f-icon', name:'512 Crain Hwy N Unit 6, Glen Burnie, MD 21061, United States', link: 'https://maps.app.goo.gl/dZunpUZZmkJ9DUxS9?g_st=com.google.maps.preview.copy'}
 ]
 
 // Texto del Home 
@@ -71,7 +71,7 @@ export const MiniMenuHome = [
      link: '/commercial-vehicle-wrapping-lettering'
     },
     {name:'Why Choose Us?',
-     link: '/custom-car-wrap/#whyus'
+     link: '/custom-car-wraps/#whyus'
     },
     {name:'Design & Consultation',
      link: '/custom-car-wraps/#classic'

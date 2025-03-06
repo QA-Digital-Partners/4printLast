@@ -339,6 +339,9 @@ const AboutPage = (props) => {
 
       {/******************  Review Section ****************************/}
       <ReviewSection />
+
+      {/******************  Contact Form Section ****************************/}
+      <ContactFormFooter />
     </>
   )
 };

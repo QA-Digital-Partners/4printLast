@@ -27,6 +27,7 @@ const FooterComponent = (props) => {
             <ul className="flex">
               {socialIcons.map((data, index) => (
                 <li key={index} className="mx-2">
+                  <a href="">
                   <Image
                   src={`/images/${data.icon}.svg`}
                   alt={data.alt}
@@ -35,6 +36,7 @@ const FooterComponent = (props) => {
                   width={30}
                   height={30}
                 />
+                  </a>
                 </li>
               ))}
               <li></li>

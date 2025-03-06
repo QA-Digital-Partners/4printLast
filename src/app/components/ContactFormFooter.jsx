@@ -132,7 +132,7 @@ const ContactFormFooter = (props) => {
                         type="" 
                         className={`form-control p-2 border rounded-md w-full bg-4pgrey`}
                         id="comment" 
-                        placeholder="Tell Us about your Buiness!"
+                        placeholder="Tell us about your business!"
                         name="comment"/>
                 </div>
                 </div>
@@ -155,7 +155,7 @@ const ContactFormFooter = (props) => {
                 </form> 
             </div>
             <div className="w-[432px]">
-                <a href="https://maps.app.goo.gl/M4SWRhSxGvtsSv6w5" target="_blank">
+                <a href="https://maps.app.goo.gl/dZunpUZZmkJ9DUxS9?g_st=com.google.maps.preview.copy" target="_blank">
                     <Image
                         src={`/images/form-map.webp`} 
                         alt="Map image"

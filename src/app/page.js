@@ -21,7 +21,7 @@ export default function Home() {
             <span className="text-4pred">{titleHM.titleLineTreeHM} </span>
             <span className="h1-print-HM rounded-[50px] px-8 text-white">{titleHM.titleLineFourHM}</span> </h1>
 
-          <p className="lg:w-[35vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real resulbts with advertising solutions that deliver thousands of daily impressions.</p>
+          <p className="lg:w-[35vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with advertising solutions that deliver thousands of daily impressions.</p>
         </div>
       </div>
 
@@ -67,7 +67,7 @@ export default function Home() {
               )}
             </div>
 
-            <h3 className="text-white font-bold text-[35px] lg:px-8 px-2 text-center lg:text-start">We Work With The Best vynil BrandS</h3>
+            <h3 className="text-white font-bold text-[35px] lg:px-8 px-2 text-center lg:text-start uppercase">We Work With The Best Vinyl Brands</h3>
             <div className="grid lg:grid-cols-4 grid-cols-2 gap-[20px] lg:mb-[30px] mb-8 justify-items-center">
               {BestBrands.map((data, index) => 
                 <Image
@@ -348,7 +348,7 @@ export default function Home() {
           </div>
 
           <div className="bg-rombo lg:pt-[50px] pt-8 lg:ps-[75px] ps-8 lg:pe-16 pe-0 lg:mt-16 mt-8 pb-6 lg:min-w-[580px] lg:w-[580px] lg:min-h-[284px] bg-white">
-            <p className="no-skew lg:text-[18px] lg:leading-[23px] pe-4 lg:mb-4 mb-8">Since 2021, we've been transforming vehicles into powerful marketing tools throughout the DMV area. From ambitious startups companies to established corporations, we believe every business deserves the opportunity to stand out on the road.</p>
+            <p className="no-skew lg:text-[18px] lg:leading-[23px] pe-4 lg:mb-4 mb-8">Since 2021, we've been transforming vehicles into powerful marketing tools throughout the DMV area. From ambitious startup companies to established corporations, we believe every business deserves the opportunity to stand out on the road.</p>
             <div className="lg:w-8/12 w-11/12 content-center no-skew">
               <Button4P buttonText={'View full information'} buttonLink={'/about'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
             </div>
