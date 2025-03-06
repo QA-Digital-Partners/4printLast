@@ -67,7 +67,7 @@ export default function Home() {
               )}
             </div>
 
-            <h3 className="text-white font-bold text-[35px] lg:px-8 px-2 text-center lg:text-start uppercase">We Work With The Best Vinyl Brands</h3>
+            <h3 className="text-white font-bold text-[35px] px-2 text-center lg:text-start uppercase">We Work With The Best Vinyl Brands</h3>
             <div className="grid lg:grid-cols-4 grid-cols-2 gap-[20px] lg:mb-[30px] mb-8 justify-items-center">
               {BestBrands.map((data, index) => 
                 <Image
