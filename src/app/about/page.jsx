@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react"
 import { AccesibleStart, AdvanceTrainingCert, FleetGraphicsCert, GeekWrapsCert, PreferedInstallerCert, QualityProcess } from "../data/data";
 import ReviewSection from "../components/ReviewSection";
+import ContactFormFooter from "../components/ContactFormFooter";
 
 export const metadata = {
     title: "About us - 4Print ",
