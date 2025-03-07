@@ -33,15 +33,15 @@ export const footerMenu = [
 ]
 
 export const footerMenuServicesleft = [
-    {name:'Commercial Vehicle Lettering', link: '/'},
-    {name:'Commercial Printing ', link: '/about'},
+    {name:'Commercial Vehicle Lettering', link: '/commercial-vehicle-wrapping-lettering'},
+    {name:'Commercial Printing ', link: '/commercial-printing'},
     {name:'Apparel', link: '/services/#apparel'},
     {name:'Stationery Printing', link: '/services/#stationary'}
 ]
 
 export const footerMenuServicesRight = [
-    {name:'Commercial Vehicle Wrapping / Fleet Wrapping', link: '/'},
-    {name:'Luxury Wrapping & Color Change (Vehicle Wrapping)', link: '/about'},
+    {name:'Commercial Vehicle Wrapping / Fleet Wrapping', link: '/commercial-vehicle-wrapping-lettering'},
+    {name:'Luxury Wrapping & Color Change (Vehicle Wrapping)', link: '/custom-car-wraps#textured'},
 ]
 
 export const footerContact = [
@@ -90,7 +90,7 @@ export const MiniMenuHome = [
 // Section 4Print Experience - Home Page
 
 export const ExperienceText = "See why businesses throughout Maryland, Virginia and DC trust us with their brand visibility. Check out our recent projects and client testimonials!"
-export const ActionTitle = "\"Actions speak louder than wraps. Here's how we deliver excellence:\""
+export const ActionTitle = "Actions speak louder than wraps. Here's how we deliver excellence:"
 export const ActionList = [
     {
         boldText: "Start Small, Think Big:",
