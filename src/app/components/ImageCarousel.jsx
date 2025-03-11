@@ -70,7 +70,7 @@ const ImageCarousel = ({ imageData, imageWidth, imageHeigh, sectionId }) => {
               srcSet={`/images/${slide.image} 768w, /images/${slide.image} 1024w`}
               width={imageWidth}
               height={imageHeigh} 
-              className=''
+              className='max-h-[360px] lg:max-h-[400px]'
               style={{ width: `${imageWidth}px`, height: `${imageHeigh}px` }}/>
           </SwiperSlide>
         ))}

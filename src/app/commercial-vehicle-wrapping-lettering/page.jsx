@@ -402,7 +402,7 @@ const CommercialWrap = (props) => {
       {/******************  FAQs Section ****************************/}
       <div className="container lg:mb-[100px] mb-16">
         <div className="flex flex-wrap bg-4pblack rounded-2xl lg:pt-16 lg:pb-20 lg:min-h-[850px] lg:h-[710px]">
-          <div className="lg:w-4/12 w-full justify-items-center content-end">
+          <div className="lg:w-4/12 w-full justify-items-center content-top lg:pt-32">
             <h2 className="text-transparent stroke-[2px] stroke-white font-black lg:text-[178px] text-[105px] lg:transform lg:-rotate-180 stroke4p italic tracking-tighter ">FAQ's</h2>
           </div>
 

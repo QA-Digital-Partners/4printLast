@@ -105,10 +105,10 @@ const HeaderComponent = () => {
                   <li key={index} className="mx-4 uppercase text-[18px] py-2">
                     {data.name === "Services" ? (
                       <div className="flex justify-between items-center">
-                        <a href={data.link}>{data.name}</a>
+                        <a href={data.link} className="w-4/12">{data.name}</a>
                         {/* FLECHA PARA ABRIR EL DROPDOWN */}
                         <button
-                          className="ml-2 text-gray-700"
+                          className="ml-2 text-gray-700 w-8/12 text-end"
                           onClick={() => setMobileDropdownOpen(!mobileDropdownOpen)}
                         >
                           {mobileDropdownOpen ? "▲" : "▼"}

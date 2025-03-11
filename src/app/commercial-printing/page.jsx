@@ -64,9 +64,9 @@ const CommercialPrinting = (props) => {
 
       {/******************  Window Vinyls Section ****************************/}
       <div className="bg-gradient-to-t from-[#EFEEEE] lg:from-[63%] from-[82%] to-whitwe lg:to-[63%] to-[82%] lg:pb-24 pb-16 lg:mb-[100px]" id="windowvinyls">
-        <div className="container flex ">
-          <div className="lg:w-7/12 lg:pe-2 pe-6 ps-6 lg:ps-0">
-            <h2 className="lg:text-[70px] text-[45px] uppercase lg:leading-[80px] leading-[50px] font-bold pb-4">Window Vinyls <span className="text-4pred lg:text-[80px] text-[55px]">(perforated and regular)</span></h2>
+        <div className="container flex flex-wrap lg:flex-nowrap">
+          <div className="lg:w-7/12 w-full lg:pe-2 pe-6 ps-6 lg:ps-0 order-1 lg:order-0">
+            <h2 className="lg:text-[70px] text-[45px] uppercase lg:leading-[80px] leading-[50px] font-bold pb-4">Window Vinyls <span className="text-4pred lg:text-[80px] text-[50px]">(perforated and regular)</span></h2>
             <h3 className="text-4pblue lg:text-[28px] text-[22px] leading-[33px] font-bold lg:me-[-20px] pb-6">Transform Your Windows into Marketing Tools!</h3>
             <p className="leading-[23px] pb-8 lg:pe-8">Turn your storefront or office windows into powerful advertising space without sacrificing natural light. Our perforated window vinyls strike the perfect balance, allowing visibility from inside while displaying vibrant graphics outside and keeping spaces bright.
               <br /><br />
@@ -80,7 +80,7 @@ const CommercialPrinting = (props) => {
               <Button4P buttonText={'Get Your Window Graphics'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
             </div>
           </div>
-          <div className="lg:w-6/12 content-end justify-items-end">
+          <div className="lg:w-6/12 w-full content-end justify-items-end order-0 lg:order-1">
             <Image
               src="/images/window-vynils.webp"
               alt="Window Vinyls Image"
@@ -315,7 +315,7 @@ const CommercialPrinting = (props) => {
           <p className="text-4pred lg:text-[28px] text-[22px] py-2 font-bold">Comfort Meets Brand Identity!</p>
           <p className="leading-[23px] lg:pe-4">High-quality custom t-shirts perfect for teams, events, or merchandise. Choose from various styles, colors, and printing options to create the perfect look. Available in both short and long sleeve options for year-round wear.</p>
           <div className="lg:w-7/12 w-[370px] mt-12 lg:pe-12 mx-auto lg:mx-0 content-center">
-            <Button4P buttonText={'Order Your T-shirts'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
+            <Button4P buttonText={'Order Your T-shirts'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
           </div>
         </div>
       </div>
@@ -336,7 +336,7 @@ const CommercialPrinting = (props) => {
           <div className="flex flex-wrap pt-12">
             <div className="lg:w-5/12 lg:pe-8">
               <div className="lg:w-9/12 w-[370px] lg:pb-12 mx-auto lg:mx-0 content-center">
-                <Button4P buttonText={'Order Your Polo Shirts'} buttonLink={'/'} buttonBgAnimation={'btn-white-to-red'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
+                <Button4P buttonText={'Order Your Polo Shirts'} buttonLink={'#contact'} buttonBgAnimation={'btn-white-to-red'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
               </div>
               <div className="grid lgLgrid-cols-2 gap-6 text-4pblack mt-12 pb-8 lg:pb-0">
                 <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-2xl shadow-usual min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Professional Embroidery</p></div>
@@ -379,7 +379,7 @@ const CommercialPrinting = (props) => {
               <p className="font-bold lg:text-[28px] text-[22px] py-4">Cozy Corporate Branding! </p>
               <p className="text-white leading-[23px] pb-8">Keep your team warm while promoting your brand. Our custom hoodies combine comfort with style, perfect for staff uniforms, merchandise, or promotional giveaways.</p>
               <div className="lg:w-10/12 mx-auto lg:mx-0">
-                <Button4P buttonText={'Order your hoodies today'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+                <Button4P buttonText={'Order your hoodies today'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
               </div>
             </div>
             <div className="w-full content-end z-10 md:hidden block mt-8">
@@ -411,7 +411,7 @@ const CommercialPrinting = (props) => {
           <p className="font-bold lg:text-[28px] text-[22px] py-4">Professional Protection!</p>
           <p className="leading-[23px] pb-8 pe-2">Make an impression with custom branded jackets. Ideal for outdoor teams, corporate events, or promotional wear. Choose from various styles and materials for any season.</p>
           <div className="lg:w-7/12 w-[370px] mx-auto lg:mx-0">
-            <Button4P buttonText={'Order your jackets'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+            <Button4P buttonText={'Order your jackets'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
           </div>
           <div className="grid grid-cols-2 gap-6 text-4pblack mt-12">
             <div className="bg-white py-4 border-[1px] border-4plight-grey rounded-2xl shadow-usual min-h-[64px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Weather-Resistant</p></div>
