@@ -28,7 +28,7 @@ export const socialIcons = [
 export const footerMenu = [
     {name:'Home', link: '/'},
     {name:'About Us', link: '/about'},
-    {name:'Contact', link: '/contact'},
+    {name:'Contact', link: '#contact'},
     {name:'Gallery', link: '/gallery'}
 ]
 
