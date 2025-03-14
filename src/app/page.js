@@ -211,7 +211,7 @@ export default function Home() {
             <h2 className="font-bold lg:text-[70px] lg:leading-[68px] text-[52px] leading-[52px]">OUR <span className="lg:text-[80px] text-[60px] block text-4pblue">SERVICES</span></h2>          
           </div>
           <div className="lg:w-3/12 w-full content-center py-8 lg:py-0">
-          <Button4P buttonText={'View all services'} buttonLink={'/services'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+          <Button4P buttonText={'View all services'} buttonLink={'/services'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={3} textColor={'text-white'}/>
           </div>
         </div>
 
@@ -369,7 +369,7 @@ export default function Home() {
           <div className="bg-rombo lg:pt-[50px] pt-8 lg:ps-[75px] ps-8 lg:pe-16 pe-0 lg:mt-16 mt-8 pb-6 lg:min-w-[580px] lg:w-[580px] lg:min-h-[284px] bg-white">
             <p className="no-skew lg:text-[18px] lg:leading-[23px] pe-4 lg:mb-4 mb-8">Since 2021, we've been transforming vehicles into powerful marketing tools throughout the DMV area. From ambitious startup companies to established corporations, we believe every business deserves the opportunity to stand out on the road.</p>
             <div className="lg:w-8/12 w-11/12 content-center no-skew">
-              <Button4P buttonText={'View full information'} buttonLink={'/about'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white'}/>
+              <Button4P buttonText={'View full information'} buttonLink={'/about'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={3} textColor={'text-white'}/>
             </div>
           </div>
 

@@ -344,7 +344,7 @@ const CommercialWrap = (props) => {
         <div className="lg:w-4/12 w-full content-center">
           <h2 className="font-bold lg:text-[60px] lg:leading-[60px] text-[52px] leading-[45px] uppercase mb-8 lg:mb-0">Why <span className="text-4pblue">Choose </span></h2>
           <div className="w-7/12 my-8 mx-auto lg:mx-0 hidden lg:block">
-            <Button4P buttonText={'Schedule now'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+            <Button4P buttonText={'Schedule now'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
           </div>
         </div>
 
@@ -373,7 +373,7 @@ const CommercialWrap = (props) => {
             })}
 
             <div className="lg:w-6/12 w-[250px] my-8 mx-auto lg:mx-0 lg:hidden block">
-              <Button4P buttonText={'Schedule now'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+              <Button4P buttonText={'Schedule now'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
             </div>
           </div>
 

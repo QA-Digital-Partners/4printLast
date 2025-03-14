@@ -88,7 +88,7 @@ const FooterComponent = (props) => {
             <div className="bg-4pblue pt-[3px] lg:w-[99px] mb-4"></div>
             <ul className="">
                 {footerContact.map((data, index) => (
-                  <a key={index} href={data.link} className="hover:text-4pred">
+                  <a key={index} href={data.link} className={`hover:text-4pred  ${data.link.startsWith("tel:") ? "click_call_footer" : ""}`}>
                     <li className="pb-4 leading-5 flex items-start">
                       <Image
                         src={`/images/${data.icon}.svg`} 

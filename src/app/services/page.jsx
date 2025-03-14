@@ -26,7 +26,7 @@ const Services = (props) => {
             <div className="shape-banner-services lg:min-h-[339px] min-h-[21rem] bg-4pblue content-center px-16 lg:max-w-[453px] items-self-end pb-8">
               <p className="text-white font-bold text-[22px] pb-4 lg:mt-12">Transform Your Brand with Our Professional Services.</p>
               <div className="w-[190px] lg:mt-8">
-              <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-white'} iconOption={4} textColor={'text-4pblue'}/>
+              <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-white click_call_body'} iconOption={4} textColor={'text-4pblue'}/>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@ const Services = (props) => {
         <div className="lg:col-span-4 col-span-12">
           <h2 className="font-bold text-[60px] leading-[60px] uppercase mb-12 lg:mb-0">Stationery <span className="block text-4pblue">Printing</span></h2>
           <div className="w-6/12 my-8 mx-auto lg:mx-0 hidden lg:block">
-            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
           </div>
           <div>
             {StationaryPrintingLeft.map((data, index) => {
@@ -278,7 +278,7 @@ const Services = (props) => {
               )
             })}
           <div className="w-6/12 my-8 mx-auto lg:mx-0 md:hidden ">
-            <Button4P buttonText={'Call Us'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
           </div>
         </div>
         
@@ -289,7 +289,7 @@ const Services = (props) => {
         <div className="lg:w-4/12 w-full content-center">
           <h2 className="font-bold lg:text-[60px] lg:leading-[60px] text-[52px] leading-[45px] uppercase mb-8 lg:mb-0">Why Choose <span className="text-4pblue">Our Services</span></h2>
           <div className="w-6/12 my-8 mx-auto lg:mx-0 hidden lg:block">
-            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+            <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
           </div>
         </div>
 
@@ -318,7 +318,7 @@ const Services = (props) => {
             })}
 
             <div className="w-6/12 my-8 mx-auto lg:mx-0 lg:hidden block">
-              <Button4P buttonText={'Call Us'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+              <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
             </div>
           </div>
 

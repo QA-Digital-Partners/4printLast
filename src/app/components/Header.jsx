@@ -50,7 +50,7 @@ const HeaderComponent = () => {
           <div className="w-2/12 hidden lg:block">
             <Button4P
               buttonText={"Call Us"}
-              buttonBgAnimation={"btn-red-to-blue"}
+              buttonBgAnimation={"btn-red-to-blue click_call_header"}
               textColor={"text-white"}
               buttonLink={"tel:+14439981717"}
               iconOption={0}
@@ -83,7 +83,7 @@ const HeaderComponent = () => {
           </div>
 
           <div className="w-2/12 lg:hidden justify-items-center">
-            <a href="tel:+114439981717">
+            <a href="tel:+114439981717" className="click_call_header">
               <Image
                 src="/images/ib-call-resp.svg"
                 alt="Call icon"

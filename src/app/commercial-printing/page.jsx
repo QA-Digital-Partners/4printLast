@@ -148,7 +148,7 @@ const CommercialPrinting = (props) => {
             </div>
 
             <div className="lg:w-6/12 lg:mt-16 my-8 lg:mb-0 mx-auto lg:mx-0 lg:ps-8">
-              <Button4P buttonText={'Start Your Design'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
+              <Button4P buttonText={'Start Your Design'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
              </div>
           </div>
           <div className="lg:w-1/2 w-full lg:mt-[-90px] lg:ps-4 px-6 lg:pe-0">
@@ -189,7 +189,7 @@ const CommercialPrinting = (props) => {
               <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-2xl shadow-usual lg:min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Custom Sizes</p></div>
             </div>
             <div className="lg:w-7/12 w-[370px] mt-12 mx-auto lg:mx-0">
-              <Button4P buttonText={'Order Your Car Magnets'} buttonLink={'/'} buttonBgAnimation={'btn-white-to-red'} iconOption={3} textColor={'text-white'}/>
+              <Button4P buttonText={'Order Your Car Magnets'} buttonLink={'#contact'} buttonBgAnimation={'btn-white-to-red'} iconOption={3} textColor={'text-white'}/>
             </div>
           </div>
         </div>
@@ -256,7 +256,7 @@ const CommercialPrinting = (props) => {
                 </ul>
               </div>
               <div className="lg:w-7/12 w-[370px] mt-8 lg:pe-8 mx-auto lg:mx-0 order-2 lg:order-1">
-                <Button4P buttonText={'Order Your Stickers'} buttonLink={'/'} buttonBgAnimation={'btn-white-to-red'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
+                <Button4P buttonText={'Order Your Stickers'} buttonLink={'#contact'} buttonBgAnimation={'btn-white-to-red'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
               </div>
               <div className="grid lg:grid-cols-3 gap-6 text-4pblack mt-12 order-1 lg:order-2 w-full">
                 <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-xl shadow-usual min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Indoor/ Outdoor Use</p></div>
@@ -535,7 +535,7 @@ const CommercialPrinting = (props) => {
             })}
 
             <div className="w-6/12 my-8 mx-auto lg:mx-0 lg:hidden block">
-              <Button4P buttonText={'Call Us'} buttonLink={'/'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white'}/>
+              <Button4P buttonText={'Call Us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue click_call_body'} iconOption={0} textColor={'text-white'}/>
             </div>
           </div>
 
