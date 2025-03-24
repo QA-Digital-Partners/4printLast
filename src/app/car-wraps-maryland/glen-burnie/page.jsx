@@ -7,6 +7,11 @@ import { CWGBWhyUs, CWMFAQs, CWMServicesOptionsCommercial1, CWMServicesOptionsCo
 import Image from "next/image";
 import React from "react"
 
+export const metadata = {
+  title: "Quality Car Wraps in Glen Burnie, MD - 4Print",
+  description: "Get high-quality car wraps & graphics in Glen Burnie with 4Print. Custom vehicle wraps, fleet graphics, and branding solutions for all businesses!",
+};
+
 const CarWrapsGlenBurnie = (props) => {
   return (
     <>

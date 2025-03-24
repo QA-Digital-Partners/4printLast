@@ -7,6 +7,12 @@ import ContactFormFooter from "../components/ContactFormFooter";
 import ReviewSection from "../components/ReviewSection";
 import FAQs from "../components/FAQS";
 
+export const metadata = {
+  title: "Quality Car Wraps in Maryland - 4Print",
+  description: "Get high-quality car wraps in Maryland with 4Print. Custom vehicle wraps, fleet graphics, and branding solutions for all businesses!",
+};
+
+
 const CarWrapsMarulandSEO = (props) => {
   return (
     <>
