@@ -1,13 +1,11 @@
-export default async function sitemap() {
-    const SITE_URL = "https://4printus.com";
+
+
+  export default async function sitemap() {
+    const SITE_URL = "https://4printus.com"; // 🔹 Reemplaza con tu dominio real
   
-    // Si tienes ciudades dinámicas, agrégalas aquí
     const cities = ["glen-burnie"];
-  
-    // Páginas estáticas
     const staticPages = ["", "about", "services", "custom-car-wraps", "car-wraps-maryland", "commercial-vehicle-wrapping-lettering","commercial-printing"];
   
-    // Generar lista de URLs
     const urls = [
       ...staticPages.map((page) => ({
         loc: `${SITE_URL}/${page}`,
