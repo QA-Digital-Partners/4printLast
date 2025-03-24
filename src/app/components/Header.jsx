@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { dropDownOptions, headerMenu } from "../data/data";
+import { dropDownServices, headerMenu } from "../data/data";
 import Button4P from "./Button";
 import { DropdownMenu } from "./Desplegable";
 
@@ -36,7 +36,7 @@ const HeaderComponent = () => {
             <nav>
               {headerMenu.map((data, index) =>
                 data.name === "Services" ? (
-                  <DropdownMenu key={index} menu={data} options={dropDownOptions} />
+                  <DropdownMenu key={index} menu={data} options={dropDownServices} />
                 ) : (
                   <a key={index} href={data.link} className="mx-4 uppercase text-[15px] hover:text-4pblue hover:font-bold">
                     {data.name}

@@ -264,7 +264,7 @@ const CommercialWrap = (props) => {
           </div>
         </div>
 
-        <div className="flex flex-wrap lg:mt-[-110px]">
+        <div className="flex flex-wrap lg:mt-[-40px]">
           <div className="lg:w-5/12 w-full pb-6 lg:pb-0">
             <div className="lg:mt-[73px]">
               <ImageCarousel imageData={USDOTImages} imageWidth={510} imageHeigh={466} sectionId={'USDOT'}/>

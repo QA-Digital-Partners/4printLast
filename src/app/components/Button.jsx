@@ -4,7 +4,7 @@ import React from "react"
 
 const Button4P = ({buttonText, buttonBgAnimation, textColor, iconOption, buttonLink, self='_self'}) => {
 
-    const iconList = ['ib-white-blue.svg', 'ib-blue-white.svg', 'ir-white-blue.svg', 'ib-link-blue-white.svg', 'ib-white-red.svg', 'ib-blue-white-ar.svg', 'ib-white-blue-call.svg', 'ib-red-white-arrow.svg']
+    const iconList = ['ib-white-blue.svg', 'ib-blue-white.svg', 'ir-white-blue.svg', 'ib-link-blue-white.svg', 'ib-white-red.svg', 'ib-blue-white-ar.svg', 'ib-white-blue-call.svg', 'ib-red-white-arrow.svg', 'ib-red-white-mail.svg']
   return (
     <>
       <a href={buttonLink} target={self} className={`flex rounded-lg items-center font-bold shadow-[0_4px_4px_0px_rgba(0,0,0,0.1)] btn-animation ${buttonBgAnimation} btn-1`}>

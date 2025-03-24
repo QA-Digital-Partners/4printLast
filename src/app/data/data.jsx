@@ -8,10 +8,14 @@ export const headerMenu = [
     {name:'Gallery', link: '/gallery'},
 ]
 
-export const dropDownOptions = [
+export const dropDownServices = [
+    {name:'Car Wrap', link: '/car-wraps-maryland'},
+    {name:'Comercial Printing', link: '/commercial-printing'},
+]
+
+export const dropDownCarWraps = [
     {name:'Commercial Wrap', link: '/commercial-vehicle-wrapping-lettering'},
     {name:'Custom Car Wrap', link: '/custom-car-wraps'},
-    {name:'Comercial Printing', link: '/commercial-printing'}
 ]
 
 // Textos del footer
@@ -133,9 +137,9 @@ export const Review = [
 ]
 
 export const ReviewImages = [
-    './images/review-image-1.svg',
-    './images/review-image-2.svg',
-    './images/review-image-3.svg'
+    '/images/review-image-1.svg',
+    '/images/review-image-2.svg',
+    '/images/review-image-3.svg'
 ]
 
 export const ServicesGridHome = [
@@ -749,4 +753,307 @@ export const GalleryImages = [
     'trailer-move-junk','mistery-van-1','van-espinal-4','truck-fulwrap','star-maids','van-full-wrap-247-2','nicks-truck-2','container-sinaloa','terrence-van-4','van-benchmark','cyber-truck-7','cyber-truck-3',
     'cyber-truck-10','container-sinaloa-3','ISA','ISA-2','pickup-divine-1','van-ricky-ricardo-3','dreamscape-van-3','pickup-george-and-son-2','pickup-george-and-son','mjd-1','mjd-2','mjd-3'
 ]
+
+/****************************************SEO Page - March 2025 - Car Wraps Maryland  ***********************************/
+
+export const CWMBannerImages = [
+    {
+        image: 'kaslo-usdot.webp',
+        title: "Kaslo USDOT Image",
+    },
+    {
+        image: 'alfred-usdot.webp',
+        title: "Alfred USDOT Image",
+    },{
+        image: 'antonio-usdot.webp',
+        title: "Antonio USDOT Image",
+    }
+]
+
+export const CWMWhyChooseBanner = [
+    {
+        bold: "Expert Installation",
+        text: "100% bubble-free application by experienced professionals."
+    },
+    {
+        bold: "High-Quality Vinyl",
+        text: "Premium 3M & Avery Dennison wraps built to last."
+    },
+    {
+        bold: "Custom Designs",
+        text: "Full wraps, partial wraps, fleet graphics, and more."
+    },
+    {
+        bold: "Fast Turnaround",
+        text: "Get your car wrapped in just a few days."
+    },
+    {
+        bold: "Local Maryland Experts",
+        text: "Based in Glen Burnie, MD, serving all of Maryland."
+    },
+]
+
+export const CWMServicesOptionsPersonal1 = [
+    {
+        title: 'Full Color Change Wraps',
+        text: 'Transform your car with a complete vinyl wrap in your choice of color or finish, giving it a brand-new appearance without permanent paint.'
+    },
+    {
+        title: 'Partial Wraps & Accents',
+        text: 'Customize specific sections like the roof, hood, mirrors, or side panels to add a unique touch while keeping costs lower than a full wrap.'
+    },
+    {
+        title: 'Chrome Delete',
+        text: 'Black out or replace chrome trim, grilles, and badges with a matte, gloss, or satin finish, creating a sleek, modern, and uniform aesthetic.'
+    },
+    {
+        title: 'Custom Graphics & Designs',
+        text: ' Add personalized artwork, unique graphics, or custom decals to your car, making it truly one-of-a-kind and tailored to your style.'
+    },
+    {
+        title: 'Matte, Satin, & Gloss Finishes',
+        text: 'Choose from premium vinyl finishes to achieve a bold matte look, a soft satin sheen, or a classic glossy shine for an elegant upgrade.'
+    },
+    {
+        title: 'Metallic & Color-Shifting Wraps ',
+        text: 'Eye-catching pearlescent and iridescent finishes that change color depending on the light and angle, creating a unique visual effect.'
+    },
+]
+
+export const CWMServicesOptionsPersonal2 = [
+    {
+        title: 'Carbon Fiber & Textured Wraps',
+        text: 'Enhance your vehicle’s look with textured vinyl wraps that mimic real carbon fiber, brushed metal, or leather for a high-performance feel.'
+    },
+    {
+        title: 'Paint Protection Film (PPF)',
+        text: 'A clear, durable film that protects your car’s paint from scratches, chips, road debris, and UV rays, keeping it in pristine condition.'
+    },
+    {
+        title: 'Headlight & Taillight Tinting',
+        text: 'Apply smoked or colored films to headlights and taillights for a stylish, aggressive look while maintaining full visibility and safety.'
+    },
+]
+
+export const CWMServicesOptionsCommercial1 = [
+    {
+        title: 'Full Commercial Wraps',
+        text: 'Convert your business vehicle into a mobile billboard with a full wrap design that showcases your brand, logo, and marketing message.'
+    },
+    {
+        title: 'Fleet Wraps & Graphics',
+        text: 'Maintain brand consistency across multiple vehicles with professionally designed fleet graphics for vans, trucks, or service vehicles.'
+    },
+    {
+        title: 'Vinyl Lettering & Decals',
+        text: 'Cost-effective branding solutions that display your company name, logo, phone number, website, and slogans on any vehicle surface.'
+    },
+    {
+        title: 'Service Van & Truck Wraps',
+        text: 'Ideal for contractors, HVAC companies, electricians, and delivery services, providing a professional, branded appearance on the road.'
+    },
+    {
+        title: 'Food Truck Wraps',
+        text: 'Stand out in the food truck industry with a bold, vibrant wrap that attracts customers while displaying your menu, social media, and branding.'
+    },
+    {
+        title: 'Trailer Wraps',
+        text: 'Custom branding for enclosed trailers, utility trailers, and box trucks, helping businesses gain visibility while transporting equipment or products.'
+    },
+]
+
+export const CWMServicesOptionsCommercial2 = [
+    {
+        title: 'Reflective Vinyl Wraps',
+        text: 'Improve safety and advertising effectiveness with high-visibility reflective wraps, making your brand stand out even at night or in low light.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'One-way see-through vinyl graphics for business branding on vehicle windows, maintaining visibility from the inside while displaying designs outside.'
+    },
+    {
+        title: 'Wrap Removal & Replacement',
+        text: 'Professionally remove and replace old or damaged wraps with a fresh, updated design, ensuring your fleet or vehicle looks its best.'
+    },
+]
+
+export const CWMMapCities = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+            {
+                cityName: 'Glen Burnie',
+                citylink: '/car-wraps-maryland/glen-burnie',
+            },
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CWMWhyUs = [
+    {
+        title:'Certified Experts in Vinyl Wrapping:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure your wrap is perfectly applied, with no bubbles, lifting, or peeling.'
+    },
+    {
+        title:'Custom Designs for Every Customer:',
+        text: 'We work with personal vehicle owners and businesses to create stunning, high-impact designs. Whether you need a sleek Tesla wrap or fleet branding, we bring your vision to life.'
+    },
+    {
+        title:'High-Quality Materials & Professional Installation:',
+        text: 'We only use industry-leading vinyl wraps for long-lasting durability. Our installation process includes thorough cleaning, surface prep, and precision application for flawless results.'
+    },
+    {
+        title:'Fast Turnaround & Exceptional Service:',
+        text: 'Our Maryland-based team provides quick service without sacrificing quality. Most wraps are completed in just a few days, so you can get back on the road fast.'
+    },
+]
+
+export const CWMFAQs = [
+    {
+        title: 'How long does installation take?',
+        answer: "Installation time varies based on the complexity of your project. Full vehicle wraps typically take 2-5 business days for proper installation and curing. Partial wraps and lettering can be completed in 1-2 days. Commercial fleet projects are scheduled to minimize your vehicle downtime."
+    },
+    {
+        title: "What's the durability of vehicle wraps?",
+        answer: "Our vehicle wraps, made with premium 3M materials, last 5-7 years with proper care. The durability depends on environmental conditions and maintenance, but you can expect excellent color retention and adhesion throughout the wrap's lifetime. All our installations include UV protection to prevent fading."
+    },
+    {
+        title: "Do you offer warranties?",
+        answer: "Yes! We provide a one-year warranty on our installation workmanship. Additionally, all 3M materials we use come with a manufacturer's warranty covering material defects. Our warranties ensure your investment is protected, giving you peace of mind for years to come."
+    },
+    {
+        title: "Can I wash my wrapped vehicle?",
+        answer: `Absolutely! Your wrapped vehicle can be washed regularly, either by hand or through a touchless car wash. We recommend:
+    .- Handwashing with mild soap and water
+    .- Avoiding pressure washers close to edges and seams
+    .- No brush car washes
+    .- Regular cleaning to maintain appearance
+    .- Waiting 2 weeks after installation before first wash`
+    }
+]
+
+/****************************************SEO Page - March 2025 - Car Wraps Glen Burnie  ***********************************/
+
+export const CWGBWhyUs = [
+    {
+        title:'Certified Experts in Vinyl Wrapping:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure your wrap is perfectly applied, with no bubbles, lifting, or peeling.'
+    },
+    {
+        title:'Custom Designs for Every Customer:',
+        text: 'We work with personal vehicle owners and businesses to create stunning, high-impact designs. Whether you need a sleek Tesla wrap or fleet branding, we bring your vision to life.'
+    },
+    {
+        title:'High-Quality Materials & Professional Installation:',
+        text: 'We only use industry-leading vinyl wraps for long-lasting durability. Our installation process includes thorough cleaning, surface prep, and precision application for flawless results.'
+    },
+    {
+        title:'Fast Turnaround & Exceptional Service:',
+        text: 'Our Glen Burnie-based team provides quick service without sacrificing quality. Most wraps are completed in just a few days, so you can get back on the road fast.'
+    },
+]
+
+
+
+
+
+
+
+
+
+
+
+
 

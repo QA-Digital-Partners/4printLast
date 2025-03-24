@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
     {/******************  Hero Banner Section ****************************/}
-      <div className="bg-4pgrey lg:pt-[200px] lg:mt-[-185px] lg:pb-[300px] pt-[130px] mt-[-110px]">
+      <div className="lg:bg-gradient-to-b bg-gradient-to-b from-[#EFEEEE] from-75% to-whitwe to-75% lg:pt-[200px] lg:mt-[-185px] pt-[130px] mt-[-110px]  mb-[100px]">
         <div className="container px-6 lg:px-0">
           <h1 className="lg:text-[80px] text-[45px] font-bold uppercase lg:leading-[90px] leading-[50px] lg:pb-8">
             {titleHM.titleLineOneHM} <br /> 
@@ -42,29 +42,28 @@ export default function Home() {
 
           <p className="lg:w-[35vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with advertising solutions that deliver thousands of daily impressions.</p>
         </div>
+        <div className="container mb-16">
+          <div className="flex flex-wrap lg:flex-nowrap gap-8">
+            <div className="lg:w-[485px] w-full content-end">
+              <div className="relative w-full overflow-hidden lg:min-h-[488px] min-h-[400px] h-[400px] rounded-xl">
+              <video autoPlay muted loop className="lg:absolute lg:top-1/2 lg:left-1/2 w-auto h-auto lg:-translate-x-1/2 lg:-translate-y-1/2 object-cover">
+              <source src={`/videos/la-choza-del-chef.mp4`} type="video/mp4" />
+                Tu navegador no soporta el formato de video.
+              </video>
+              </div>
+            </div>
+              <Image
+                src="/images/banner-image-hm.webp"
+                alt="Image on banner La Palmirana"
+                sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+                srcSet="/images/banner-image-hm.webp 768w, /images/banner-image-hm.webp 1024w"
+                width={689}
+                height={530}
+              />
+            </div>
+        </div>
       </div>
 
-      {/**************** Image and Foto Section *************************/}
-      <div className="container lg:mt-[-35vh] lg:mb-[170px] mb-16">
-        <div className="flex flex-wrap lg:flex-nowrap lg:mb-[-70px] gap-8">
-          <div className="lg:w-[485px] w-full content-end">
-            <div className="relative w-full overflow-hidden lg:min-h-[488px] min-h-[400px] h-[400px] rounded-xl">
-            <video autoPlay muted loop className="lg:absolute lg:top-1/2 lg:left-1/2 w-auto h-auto lg:-translate-x-1/2 lg:-translate-y-1/2 object-cover">
-            <source src={`/videos/la-choza-del-chef.mp4`} type="video/mp4" />
-              Tu navegador no soporta el formato de video.
-            </video>
-            </div>
-          </div>
-            <Image
-              src="/images/banner-image-hm.webp"
-              alt="Image on banner La Palmirana"
-              sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-              srcSet="/images/banner-image-hm.webp 768w, /images/banner-image-hm.webp 1024w"
-              width={689}
-              height={530}
-            />
-          </div>
-      </div>
 
       {/****************** Trustesd By Section ****************************/}
       <div className="container lg:mb-[100px] mb-12">
