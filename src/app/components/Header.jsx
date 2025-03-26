@@ -1,13 +1,14 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { dropDownServices, headerMenu } from "../data/data";
+import { dropDownCarWraps, dropDownServices, headerMenu } from "../data/data";
 import Button4P from "./Button";
 import { DropdownMenu } from "./Desplegable";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  const [mobileCarWrapsDropdownOpen, setMobileCarWrapsDropdownOpen] = useState(false);
   const [mounted, setMounted] = useState(false); // Estado para verificar si el componente ya está montado
 
   useEffect(() => {
@@ -97,7 +98,7 @@ const HeaderComponent = () => {
           {mounted && (
             <div
               className={`w-full absolute z-30 top-[95px] bg-white right-0 overflow-hidden transition-all duration-300 ease-in-out ${
-                isOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
+                isOpen ? "max-h-100 opacity-100" : "max-h-0 opacity-0"
               } lg:hidden rounded-md`}
             >
               <ul>
@@ -121,9 +122,32 @@ const HeaderComponent = () => {
                     {/* DROPDOWN PARA SERVICES EN RESPONSIVE */}
                     {data.name === "Services" && mobileDropdownOpen && (
                       <ul className="mt-2 pl-4">
-                        {dropDownOptions.map((option, idx) => (
+                        {dropDownServices.map((option, idx) => (
                           <li key={idx} className="py-1 text-gray-700">
-                            <a href={option.link}>{option.name}</a>
+                            {option.name === "Car Wrap" ? (
+                              <div className="flex justify-between items-center">
+                              <a href={data.link} className="w-4/12">{data.name}</a>
+                              {/* FLECHA PARA ABRIR EL DROPDOWN */}
+                              <button
+                                className="ml-2 text-gray-700 w-8/12 text-end"
+                                onClick={() => setMobileCarWrapsDropdownOpen(!mobileCarWrapsDropdownOpen)}
+                              >
+                                {mobileCarWrapsDropdownOpen ? "▲" : "▼"}
+                              </button>
+                            </div>
+                            ) : (
+                              <a href={option.link}>{option.name}</a>
+                            )}
+
+                            {option.name === "Car Wrap" && mobileCarWrapsDropdownOpen && (
+                              <ul className="mt-2 pl-4">
+                                {dropDownCarWraps.map((CWOption, idn) => (
+                                  <li key={idn} className="py-1 text-gray-700">
+                                    <a href={CWOption.link}>{CWOption.name}</a>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
                           </li>
                         ))}
                       </ul>
