@@ -69,7 +69,7 @@ const CarWrapsMarulandSEO = (props) => {
       {/****************** Services & Options  Section ****************************/}
       <div className="lg:mb-8 mb-16 pb-0 lg:pb-0">
         <div className="container lg:pb-16 pt-4 pt-24">
-          <h2 className="lg:text-[70px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Our Glen Burnie Car Wrap 
+          <h2 className="lg:text-[70px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Our Maryland Car Wrap 
           <span className="lg:text-[80px] text-4pblue block">Services & Options</span></h2>
 
           <div className="flex flex-wrap lg:pt-16 px-6 lg:px-0">
@@ -115,18 +115,20 @@ const CarWrapsMarulandSEO = (props) => {
                 />
             </div>
 
-            <div className="w-12/12 pt-4 lg:pt-0 lg:order-3 order-2" >
-              <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 lg:pt-6">
-                {CWMServicesOptionsPersonal2.map((data, index) => {
-                return (
-                  <div key={index} className={`relative`}>
-                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
-                    <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
-                    <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
+            <div className="w-full pt-4 lg:pt-0 pb-8 lg:pb-0 lg:order-3 order-2" >
+              <div className="lg:w-7/12 lg:pe-8">
+                <div className="grid grid-cols-1 gap-6 lg:pt-6">
+                  {CWMServicesOptionsPersonal2.map((data, index) => {
+                  return (
+                    <div key={index} className={`relative`}>
+                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
+                      <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
+                      <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
+                      </div>
                     </div>
-                  </div>
-                )
-                })}
+                  )
+                  })}
+                </div>
               </div>
             </div>
 

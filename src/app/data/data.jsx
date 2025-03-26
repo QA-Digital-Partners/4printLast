@@ -825,6 +825,7 @@ export const CWMServicesOptionsPersonal2 = [
         title: 'Carbon Fiber & Textured Wraps',
         text: 'Enhance your vehicle’s look with textured vinyl wraps that mimic real carbon fiber, brushed metal, or leather for a high-performance feel.'
     },
+    /*
     {
         title: 'Paint Protection Film (PPF)',
         text: 'A clear, durable film that protects your car’s paint from scratches, chips, road debris, and UV rays, keeping it in pristine condition.'
@@ -832,7 +833,7 @@ export const CWMServicesOptionsPersonal2 = [
     {
         title: 'Headlight & Taillight Tinting',
         text: 'Apply smoked or colored films to headlights and taillights for a stylish, aggressive look while maintaining full visibility and safety.'
-    },
+    },*/
 ]
 
 export const CWMServicesOptionsCommercial1 = [
