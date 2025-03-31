@@ -225,7 +225,7 @@ const AboutPage = (props) => {
       {/****************** Certifications Section ****************************/}
       <div className="container lg:mb-[100px] mb-16">
               <div className="bg-cert-ap rounded-lg pt-[100px] pb-[157px] px-16 shadow-usual">
-                <h3 className="text-white text-[40px] text-center leading-[45px]">Our team <span className="font-extrabold italic">doesn't just execute projects</span>; we engage in <span className="italic font-extrabold text-4pred underline">meaningful partnerships</span>, offering personalized guidance and creative input throughout the entire process. From the initial design consultation to the final installation, <span className="font-extrabold italic">we ensure clear communication and attention to detail at every step.</span></h3>
+                <h3 className="text-white lg:text-[40px] text-center lg:leading-[45px] text-[32px] leading-[35px]">Our team <span className="font-extrabold italic">doesn't just execute projects</span>; we engage in <span className="italic font-extrabold text-4pred underline">meaningful partnerships</span>, offering personalized guidance and creative input throughout the entire process. From the initial design consultation to the final installation, <span className="font-extrabold italic">we ensure clear communication and attention to detail at every step.</span></h3>
               </div>
               <div className="bg-4pgrey lg:p-[45px] px-4 py-8 rounded-xl lg:mx-[54px] mx-8 lg:mt-[-90px]">
                 <div className="flex lg:flex-nowrap flex-wrap">

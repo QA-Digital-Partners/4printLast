@@ -64,7 +64,6 @@ export default function Home() {
         </div>
       </div>
 
-
       {/****************** Trustesd By Section ****************************/}
       <div className="container lg:mb-[100px] mb-12">
         <div className="custom-path lg:min-h-[400px] lg:h-[400px]">

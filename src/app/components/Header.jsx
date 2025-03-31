@@ -122,11 +122,11 @@ const HeaderComponent = () => {
                     {/* DROPDOWN PARA SERVICES EN RESPONSIVE */}
                     {data.name === "Services" && mobileDropdownOpen && (
                       <ul className="mt-2 pl-4">
-                        {dropDownServices.map((option, idx) => (
+                        {dropDownServices.map((options, idx) => (
                           <li key={idx} className="py-1 text-gray-700">
-                            {option.name === "Car Wrap" ? (
+                            {options.name === "Car Wrap" ? (
                               <div className="flex justify-between items-center">
-                              <a href={data.link} className="w-4/12">{data.name}</a>
+                              <a href={options.link} className="w-4/12">{options.name}</a>
                               {/* FLECHA PARA ABRIR EL DROPDOWN */}
                               <button
                                 className="ml-2 text-gray-700 w-8/12 text-end"
@@ -136,10 +136,10 @@ const HeaderComponent = () => {
                               </button>
                             </div>
                             ) : (
-                              <a href={option.link}>{option.name}</a>
+                              <a href={options.link}>{options.name}</a>
                             )}
 
-                            {option.name === "Car Wrap" && mobileCarWrapsDropdownOpen && (
+                            {options.name === "Car Wrap" && mobileCarWrapsDropdownOpen && (
                               <ul className="mt-2 pl-4">
                                 {dropDownCarWraps.map((CWOption, idn) => (
                                   <li key={idn} className="py-1 text-gray-700">
