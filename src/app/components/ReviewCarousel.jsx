@@ -70,7 +70,7 @@ const ReviewCarousel = ({ heightMod }) => {
         }}
       >
         {Review.map((slide, index) => (
-          <SwiperSlide key={index} id={index} className="me-[0px]">
+          <SwiperSlide key={index} id={index} className="me-[0px] justify-items-center">
             <ReviewIndividual slide={slide} heightMod={heightMod} />
           </SwiperSlide>
         ))}

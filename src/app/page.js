@@ -34,7 +34,7 @@ export default function Home() {
     {/******************  Hero Banner Section ****************************/}
       <div className="lg:bg-gradient-to-b bg-gradient-to-b from-[#EFEEEE] from-75% to-whitwe to-75% lg:pt-[200px] lg:mt-[-185px] pt-[130px] mt-[-110px]  mb-[100px]">
         <div className="container px-6 lg:px-0">
-          <h1 className="lg:text-[80px] text-[45px] font-bold uppercase lg:leading-[90px] leading-[50px] lg:pb-8">
+          <h1 className="lg:text-[80px] text-[42px] font-bold uppercase lg:leading-[90px] leading-[45px] lg:pb-8">
             {titleHM.titleLineOneHM} <br /> 
             <span className="text-4pblue">{titleHM.titleLineTwoHM} </span> <br /> 
             <span className="text-4pred">{titleHM.titleLineTreeHM} </span>
@@ -228,7 +228,7 @@ export default function Home() {
         <div className="bg-4pgrey lg:p-16 p-8 pb-16 rounded-xl">
           <div className="flex lg:flex-nowrap flex-wrap">
             <div className="lg:w-7/12 w-full pt-4 order-1 lg:order-0">
-            <h2 className="font-bold lg:text-[70px] lg:leading-[68px] text-[40px] leading-[40px]">OUR <span className="lg:block text-4pblue">CERTIFICATIONS</span></h2>
+            <h2 className="font-bold lg:text-[70px] lg:leading-[68px] text-[30px] leading-[40px]">OUR <span className="lg:block text-4pblue">CERTIFICATIONS</span></h2>
             <p className="pt-8 lg:w-[35rem]">When you choose 4Print, you're working with professionally trained and certified installers who understand the importance of proper installation for maximum durability and visual impact. Our certifications aren't just papers on the wall – they're our commitment to delivering excellence on every project.</p>
             </div>
 

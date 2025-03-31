@@ -180,7 +180,7 @@ const CarWrapsGlenBurnie = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel+14439981717" className="underline text-4pred">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
             </div>
 
           </div>
@@ -191,7 +191,7 @@ const CarWrapsGlenBurnie = (props) => {
       <div className="container lg:mb-[100px] mb-16">
         <div className="bg-4pgrey rounded-xl p-12">
           <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Serving Glen Burnie,  
-          <span className="lg:text-[65px] text-4pblue block"> Maryland Since 2001</span></h2>
+          <span className="lg:text-[65px] text-4pblue block"> Maryland Since 2021</span></h2>
           <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps for over two decades. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
@@ -213,7 +213,7 @@ const CarWrapsGlenBurnie = (props) => {
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of Glen Burnie but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of Glen Burnie but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
         </div>
       </div>
 

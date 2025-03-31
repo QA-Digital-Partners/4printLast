@@ -28,7 +28,7 @@ const ServicesCardHome = ({title, video, link, image, index}) => {
               imageWidth={378}
               imagHeigth={672}/>
             <div className="absolute bottom-0 w-full justify-center min-h-[139px] divpath btn-blue-to-red btn-animation p-4">
-              <p className="text-white text-[20px] font-bold pb-4">
+              <p className="text-white lg:text-[20px] text-[15px] font-bold pb-4 max-w-[300px] lg:max-w-[390px]">
               {title}
               </p>
               <Button4PSmall buttonText={'Learn More'} buttonLink={link} iconOption={3} buttonBgAnimation={'transparent'} textColor={'text-white'}/>

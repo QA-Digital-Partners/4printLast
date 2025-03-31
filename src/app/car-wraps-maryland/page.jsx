@@ -25,7 +25,7 @@ const CarWrapsMarulandSEO = (props) => {
                 <span className="lg:text-[72px] text-4pred"> with Vinyl Wraps</span></h1>
             <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0">Looking for high-quality <b>car wraps in Maryland?</b> At <b>4Print</b>, we specialize in custom <b>vehicle wraps</b> that enhance 
             the look of your car, truck, or business fleet. Whether you’re a car enthusiast wanting a fresh new look or a business owner looking to advertise on the road, we provide 
-            <b>top-tier vinyl wraps</b> that are durable, eye-catching, and professionally installed.</p>
+            <b> top-tier vinyl wraps</b> that are durable, eye-catching, and professionally installed.</p>
           </div>
           <div className="lg:w-6/12 mt-8 lg:mt-0 w-full justify-items-end">
           <div className="absolute lg:w-[25vw] bg-4pred top-0 right-0 lg:min-h-[52vh] z-[3]"></div>
@@ -34,16 +34,16 @@ const CarWrapsMarulandSEO = (props) => {
               alt="Banner Image Commercial Wrapping"
               sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
               srcSet="/images/custom-car-wrap-banner.webp 768w, /images/custom-car-wrap-banner.webp 1024w"
-              width={536}
+              width={440}
               height={652}
-              className="z-10 relative"
+              className="z-10 relative mt-12"
             />
           </div>
         </div>
         <div className="container z-[10]">
-        <div className="flex flex-wrap lg:mt-[-40px] z-40 relative mt-[-90px]">
+        <div className="flex flex-wrap lg:mt-[-35px] z-40 relative mt-[-90px]">
           <div className="lg:w-10/12 w-full content-end">
-            <div className="red-frame text-white lg:pt-12 pt-24 lg:ps-12 ps-6 pe-16 lg:pe-0 pb-12 h-fit rounded-xl">
+            <div className="red-frame text-white lg:pt-12 pt-8 lg:ps-12 ps-6 pe-16 lg:pe-0 pb-12 h-fit rounded-xl">
               <p className="font-bold text-[26px] lg:text-[18px] pb-4 lg:px-0">Why Choose Us?</p>
               <ul className="list-disc lg:ms-8 ms-6">
               {CWMWhyChooseBanner.map((data, index) => {
@@ -177,7 +177,7 @@ const CarWrapsMarulandSEO = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel+14439981717" className="underline text-4pred">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
             </div>
 
           </div>
@@ -188,7 +188,7 @@ const CarWrapsMarulandSEO = (props) => {
       <div className="container lg:mb-[100px] mb-16">
         <div className="bg-4pgrey rounded-xl p-12">
           <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Wrapping Vehicles  
-          <span className="lg:text-[65px] text-4pblue block">in Maryland Since 2001</span></h2>
+          <span className="lg:text-[65px] text-4pblue block">in Maryland Since 2021</span></h2>
           <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps for over two decades. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full">
@@ -253,7 +253,7 @@ const CarWrapsMarulandSEO = (props) => {
               />
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of these counties or Maryland but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of these counties or Maryland but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
         </div>
       </div>
 

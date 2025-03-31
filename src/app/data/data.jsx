@@ -777,7 +777,7 @@ export const CWMWhyChooseBanner = [
     },
     {
         bold: "High-Quality Vinyl",
-        text: "Premium 3M & Avery Dennison wraps built to last."
+        text: "Premium 3M, Avery Dennison, Brightline & Arlon wraps built to last."
     },
     {
         bold: "Custom Designs",

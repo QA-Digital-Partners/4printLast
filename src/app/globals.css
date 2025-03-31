@@ -427,6 +427,9 @@ paint-order: stroke fill;
     background-size: cover;
     clip-path: path('M 0 0 L 420 0 L 420 1000 L 0 1150 Z');
   }
+  .red-frame {
+    background-image: url('/images/red-frame-resp.svg');
+  }
 
   .stroke4p {
   writing-mode:horizontal-tb;
