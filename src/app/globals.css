@@ -414,6 +414,14 @@ paint-order: stroke fill;
   paint-order: stroke fill;
 }
 
+.hero-banner-car-wrap-fleet {
+  background: url('/images/bg-banner-services.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
 @media (max-width:767px) {
 
   .custom-path {

@@ -16,6 +16,7 @@ export const dropDownServices = [
 export const dropDownCarWraps = [
     {name:'Commercial Wrap', link: '/commercial-vehicle-wrapping-lettering'},
     {name:'Custom Car Wrap', link: '/custom-car-wraps'},
+    {name:'Fleet Wrap', link: '/car-wraps-maryland/fleet/'},
 ]
 
 // Textos del footer
@@ -800,7 +801,8 @@ export const CWMServicesOptionsPersonal1 = [
     },
     {
         title: 'Partial Wraps & Accents',
-        text: 'Customize specific sections like the roof, hood, mirrors, or side panels to add a unique touch while keeping costs lower than a full wrap.'
+        text: 'Customize specific sections like the roof, hood, mirrors, or side panels to add a unique touch while keeping costs lower than a full wrap.',
+        link: '/car-wraps-maryland/fleet'
     },
     {
         title: 'Chrome Delete',
@@ -885,6 +887,10 @@ export const CWMMapCities = [
             {
                 cityName: 'Glen Burnie',
                 citylink: '/car-wraps-maryland/glen-burnie',
+            },
+            {
+                cityName: 'Severna Park',
+                citylink: '/car-wraps-maryland/severna-park',
             },
         ],
         link: ""
@@ -1046,10 +1052,193 @@ export const CWGBWhyUs = [
     },
 ]
 
+/****************************************SEO Page - April 2025 - Fleet Wraps in Maryland  ***********************************/
 
+export const CWMServicesOptionsFleet1 = [
+    {
+        title: 'Full Fleet Wraps',
+        text: 'Completely transform your commercial vehicles with high-impact branding and custom-designed graphics.'
+    },
+    {
+        title: 'Fleet Graphics & Lettering',
+        text: 'Keep branding consistent across all company vehicles with cohesive vinyl graphics and lettering.'
+    },
+    {
+        title: 'Service Van & Truck Wraps',
+        text: 'Ideal for contractors, HVAC companies, electricians, and logistics providers needing a professional mobile presence.'
+    },
+    {
+        title: 'Food Truck Wraps',
+        text: 'Vibrant, engaging designs that attract customers and showcase menus, branding, and social media details.'
+    },
+]
 
+export const CWMServicesOptionsFleet2 = [
+    {
+        title: 'Trailer Wraps',
+        text: 'Custom branding for enclosed trailers, box trucks, and utility trailers, ensuring maximum visibility on the road.'
+    },
+    {
+        title: 'Reflective Vinyl Wraps',
+        text: 'Enhance safety and visibility with high-contrast reflective graphics for nighttime or low-light conditions.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'See-through vinyl graphics that allow visibility from inside while displaying designs on the outside.'
+    },
+    {
+        title: 'Wrap Removal & Replacement',
+        text: 'Professional removal and reapplication of new wraps to refresh your fleet’s appearance.'
+    },
+    /*
+    {
+        title: 'Headlight & Taillight Tinting',
+        text: 'Apply smoked or colored films to headlights and taillights for a stylish, aggressive look while maintaining full visibility and safety.'
+    },*/
+]
 
+export const CWMMapCitiesFleet = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
 
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CWMWhyUsFleet = [
+    {
+        title:'Certified Experts in Vinyl Wrapping:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every wrap is perfectly applied, with no bubbles, peeling, or lifting.'
+    },
+    {
+        title:'Custom Designs for Every Business:',
+        text: 'We collaborate with businesses and fleet managers to create high-impact branding solutions. Whether you need a service van wrap or fleet-wide branding, we bring your vision to life with professional design and execution.'
+    },
+    {
+        title:'High-Quality Materials & Precision Installation:',
+        text: 'We use industry-leading vinyl wraps to guarantee long-lasting durability. Our thorough preparation and professional installation ensure flawless results and maximum longevity.'
+    },
+    {
+        title:'Fast Turnaround & Exceptional Service:',
+        text: 'Our Maryland-based team delivers quick turnaround times without sacrificing quality. Most wraps are completed in just a few days, so your business vehicles can get back on the road quickly.'
+    },
+]
+
+export const CWMFAQsFleet = [
+    {
+        title: 'How long does installation take?',
+        answer: "Installation time varies depending on the project. Full fleet wraps typically take 2-5 business days, while partial wraps and lettering can be completed in 1-2 days. Fleet projects are scheduled efficiently to minimize downtime."
+    },
+    {
+        title: "How durable are fleet wraps?",
+        answer: "Our premium 3M vinyl wraps last 5-7 years with proper care. Durability depends on environmental conditions and maintenance, but our wraps offer excellent color retention and adhesion throughout their lifespan. UV protection is included to prevent fading."
+    },
+    {
+        title: "Do you offer warranties?",
+        answer: "Yes! We provide a one-year warranty on our installation workmanship. Additionally, all 3M materials come with a manufacturer’s warranty covering material defects, ensuring long-term protection for your investment."
+    },
+    {
+        title: "Can I wash my wrapped fleet vehicles?",
+        answer: `Yes! Wrapped vehicles can be hand washed or cleaned in a touchless car wash. We recommend:
+    .- Handwashing with mild soap and water
+    .- Avoiding high-pressure washers near edges and seams
+    .- Skipping brush car washes to prevent scratches
+    .- Regular cleaning to maintain appearance
+    .- Waiting 2 weeks after installation before the first wash`
+    }
+]
 
 
 

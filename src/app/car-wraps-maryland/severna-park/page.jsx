@@ -8,8 +8,8 @@ import Image from "next/image";
 import React from "react"
 
 export const metadata = {
-  title: "Quality Car Wraps in Glen Burnie, MD - 4Print",
-  description: "Get high-quality car wraps & graphics in Glen Burnie with 4Print. Custom vehicle wraps, fleet graphics, and branding solutions for all businesses!",
+  title: "Quality Car Wraps in Severna Park, MD - 4Print",
+  description: "Get high-quality car wraps & graphics in Severna Park with 4Print. Custom vehicle wraps, fleet graphics, and branding solutions for all businesses!",
 };
 
 const CarWrapsGlenBurnie = (props) => {
@@ -19,16 +19,16 @@ const CarWrapsGlenBurnie = (props) => {
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
         <div className="container flex flex-wrap lg:flex-nowrap z-10">
           <div className="lg:w-7/12 w-full relative lg:z-20 px-6 lg:px-0 lg:pt-20">
-            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-8 lg:me-[-250px]">Car Wraps in Glen Burnie, MD <br /> 
+            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-8 lg:me-[-250px]">Car Wraps in Severna Park, MD <br /> 
                 <span className="lg:text-[80px] text-4pblue">Transform Your Vehicle</span> <br /> 
                 <span className="lg:text-[72px] text-4pred"> with Vinyl Wraps</span></h1>
-            <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0">Looking for high-quality car wraps in Glen Burnie, MD? At 4Print, we specialize in custom vehicle wraps that enhance the look of your car, truck, or business fleet. Whether you’re a car enthusiast wanting a fresh new look or a business owner looking to advertise on the road, we provide top-tier vinyl wraps that are durable, eye-catching, and professionally installed.</p>
+            <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0">Looking for high-quality car wraps in Severna Park, MD? At 4Print, we specialize in custom vehicle wraps that enhance the look of your car, truck, or business fleet. Whether you’re a car enthusiast wanting a fresh new look or a business owner looking to advertise on the road, we provide top-tier vinyl wraps that are durable, eye-catching, and professionally installed.</p>
           </div>
           <div className="lg:w-6/12 mt-8 lg:mt-0 w-full justify-items-end">
           <div className="absolute lg:w-[25vw] bg-4pred top-0 right-0 lg:min-h-[52vh] z-[3]"></div>
             <Image
-              src="/images/custom-car-wrap-banner.webp"
-              alt="Banner Image Commercial Wrapping"
+              src="/images/car-wrap-banner-severna-park.webp"
+              alt="Car Wrap Severna Park"
               sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
               srcSet="/images/custom-car-wrap-banner.webp 768w, /images/custom-car-wrap-banner.webp 1024w"
               width={450}
@@ -71,7 +71,7 @@ const CarWrapsGlenBurnie = (props) => {
       {/****************** Services & Options  Section ****************************/}
       <div className="lg:mb-8 mb-16 pb-0 lg:pb-0">
         <div className="container lg:pb-16 pt-4 pt-24">
-          <h2 className="lg:text-[70px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Our Glen Burnie Car Wrap 
+          <h2 className="lg:text-[70px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Our Severna Park Car Wrap 
           <span className="lg:text-[80px] text-4pblue block">Services & Options</span></h2>
 
           <div className="flex flex-wrap lg:pt-16 px-6 lg:px-0">
@@ -96,7 +96,7 @@ const CarWrapsGlenBurnie = (props) => {
                 {CWMServicesOptionsPersonal1.map((data, index) => {
                 return (
                   <div key={index} className={`relative`}>
-                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4 lg:min-h-[230px] `}>
+                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4 lg:min-h-[230px]`}>
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                     {data.link && (
@@ -110,8 +110,8 @@ const CarWrapsGlenBurnie = (props) => {
             </div>
             <div className="lg:w-5/12 lg:pt-40 lg:order-2 order-3">
                 <Image
-                src="/images/personal-services-cwm.webp"
-                alt="Banner Image Commercial Wrapping"
+                src="/images/personal-services-car-wrap-severna-park.webp"
+                alt="Personal Services Car wrap in Severna Park"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
                 srcSet="/images/personal-services-cwm.webp 768w, /images/personal-services-cwm.webp 1024w"
                 width={536}
@@ -159,17 +159,18 @@ const CarWrapsGlenBurnie = (props) => {
               <p className="leading-[23px] pb-8 lg:pb-0">For businesses, our wraps are designed to increase brand visibility, attract customers, and protect fleet vehicles. Whether you need a single branded car or an entire fleet wrapped, we provide professional, durable solutions for long-lasting results.</p>
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:pt-12">
                 {CWMServicesOptionsCommercial1.map((data, index) => {
-                  return (
-                    <div key={index} className={`relative`}>
-                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4 lo:min-h-[230px]`}>
+                    return (
+                      <div key={index} className={`relative`}>
+                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4`}>
                         <p className="text-center leading-[23px] font-bold px-4 text-4pblack">{data.title}</p>
                         <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                         {data.link && (
                           <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
                         )}
-                    </div>
+                      </div>
                   </div>
-                )})}
+                )
+            })}
               </div>
             </div>
             <div className="w-12/12 lg:order-6 order-5 pb-8 lg:pb-0" >
@@ -177,12 +178,9 @@ const CarWrapsGlenBurnie = (props) => {
                 {CWMServicesOptionsCommercial2.map((data, index) => {
                 return (
                   <div key={index} className={`relative`}>
-                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4 lg:min-h-[230px]`}>
+                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
-                    {data.link && (
-                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
-                    )}
                     </div>
                   </div>
                 )
@@ -201,30 +199,30 @@ const CarWrapsGlenBurnie = (props) => {
       {/****************** Map Section ****************************/}
       <div className="container lg:mb-[100px] mb-16">
         <div className="bg-4pgrey rounded-xl p-12">
-          <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Serving Glen Burnie,  
-          <span className="lg:text-[65px] text-4pblue block"> Maryland Since 2021</span></h2>
+          <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Car Wraps in Severna Park, MD  
+          <span className="lg:text-[65px] text-4pblue block"> High-Quality Vehicle Wraps Since 2021</span></h2>
           <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps for over two decades. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
               <Image
-                src="/images/Map-glen-burnie.webp"
-                alt="Map of Glen Burnie"
+                src="/images/Map-severna-park.webp"
+                alt="Map of Saverna Park"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/Map-glen-burnie.webp 768w, /images/Map-glen-burnie.webp 1024w"
+                srcSet="/images/Map-severna-park.webp 768w, /images/Map-severna-park.webp 1024w"
                 width={552}
                 height={730}
                 className="z-0 relative rounded-xl shadow-usual"
               />
             </div>
             <div className="lg:w-6/12 w-full">
-              <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">We are based in Glen Burnie, MD, and depending on the job, our team can travel to clients within a 50-mile radius for on-site installations. Whether you're a personal vehicle owner or a business with a fleet, we bring our expertise to your location when needed, ensuring convenience and professional results.</p>
+              <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">We are based near Severna Park, MD, and, depending on the job, our team can travel to clients within a 50-mile radius for on-site installations. Whether you're a personal vehicle owner or a business with a fleet, we bring our expertise to your location when needed, ensuring convenience and professional results.</p>
               <div className="px-8 lg:pt-6 lg:pb-8 bg-white lg:mt-6 lg:ms-12 lg:me-0 rounded-xl shadow-usual">
                 <p className="text-[22px] font-semibold pb-4"> Contact us Today!</p>
                 <ContactForm />
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of Glen Burnie but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of Severna Park but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
         </div>
       </div>
 
@@ -233,8 +231,8 @@ const CarWrapsGlenBurnie = (props) => {
         <div className="bg-4pgrey rounded-3xl flex flex-wrap">
           <div className="lg:w-6/12 w-full lg:ps-16 ps-6 pe-6 lg:pe-0 lg:py-16 py-8">
             <h2 className="lg:text-[45px] text-[45px] lg:leading-[55px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why Choose 4Print 
-            <span className="lg:text-[70px] lg:leading-[70px] text-4pblue block">for Car Wraps in Glen Burnie, MD?</span></h2>
-            <p className="lg:pt-8">At 4Print, we specialize in high-quality <b>car wraps in Glen Burnie, MD</b> that turn cars, trucks, and fleets into powerful marketing tools. Since 2021, we’ve helped businesses of all sizes stand out on the road with expert design, precision installation, and durable materials. Whether you need a single wrap or a full fleet transformation, we deliver impactful results with unmatched attention to detail.</p>
+            <span className="lg:text-[70px] lg:leading-[70px] text-4pblue block">for Car Wraps in Severna Park, MD?</span></h2>
+            <p className="lg:pt-8">At 4Print, we specialize in high-quality <b>car wraps in Severna Park, MD</b> that turn cars, trucks, and fleets into powerful marketing tools. Since 2021, we’ve helped businesses of all sizes stand out on the road with expert design, precision installation, and durable materials. Whether you need a single wrap or a full fleet transformation, we deliver impactful results with unmatched attention to detail.</p>
             <div className="lg:w-8/12 w-[380px] ms-auto lg:mx-0 mt-12">
               <Button4P buttonText={'Contact us at (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ms-[-20px] lg:ms-0'}/>
             </div>
@@ -261,8 +259,8 @@ const CarWrapsGlenBurnie = (props) => {
       {/****************** Contact Form  Section ****************************/}
       <ContactFormFooter
         title1={"Ready to Transform Your Vehicle?"}
-        title2={"Get Your Glen Burnie Car Wrap Today!"}
-        text1={"Whether you need a personal car wrap or a fleet wrap for your business, 4Print is Glen Burnie’s trusted vinyl wrap expert."}
+        title2={"Get Your Severna Park Car Wrap Today!"}
+        text1={"Whether you need a personal car wrap or a fleet wrap for your business, 4Print is Severna Park's trusted vinyl wrap expert."}
         text2={'We proudly serve all of Maryland and can assist clients in Washington D.C. and Virginia.'} 
       >
         <div className="flex flex-wrap">

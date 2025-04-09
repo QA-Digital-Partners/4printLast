@@ -94,16 +94,19 @@ const CarWrapsMarulandSEO = (props) => {
                 {CWMServicesOptionsPersonal1.map((data, index) => {
                 return (
                   <div key={index} className={`relative`}>
-                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
+                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual  w-full min-h-[180px] py-4 lg:min-h-[230px]`}>
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
+                    {data.link && (
+                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                    )}
                     </div>
                   </div>
                 )
                 })}
               </div>
             </div>
-            <div className="lg:w-5/12 lg:pt-32 lg:order-2 order-3">
+            <div className="lg:w-5/12 lg:pt-40 lg:order-2 order-3">
                 <Image
                 src="/images/personal-services-cwm.webp"
                 alt="Banner Image Commercial Wrapping"
@@ -121,9 +124,12 @@ const CarWrapsMarulandSEO = (props) => {
                   {CWMServicesOptionsPersonal2.map((data, index) => {
                   return (
                     <div key={index} className={`relative`}>
-                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
+                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4`}>
                       <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                       <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
+                      {data.link && (
+                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                      )}
                       </div>
                     </div>
                   )
@@ -133,7 +139,7 @@ const CarWrapsMarulandSEO = (props) => {
             </div>
 
 
-            <div className="lg:w-5/12 lg:pt-36 lg:order-4 order-6">
+            <div className="lg:w-5/12 lg:pt-44 lg:order-4 order-6">
                 <Image
                 src="/images/commercial-services-crm.webp"
                 alt="Banner Image Commercial Wrapping"
@@ -151,11 +157,14 @@ const CarWrapsMarulandSEO = (props) => {
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:pt-12">
                 {CWMServicesOptionsCommercial1.map((data, index) => {
                     return (
-                        <div key={index} className={`relative`}>
-                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4`}>
-                    <p className="text-center leading-[23px] font-bold px-4 text-4pblack">{data.title}</p>
-                    <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
-                    </div>
+                      <div key={index} className={`relative`}>
+                        <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4 lg:min-h-[230px]`}>
+                          <p className="text-center leading-[23px] font-bold px-4 text-4pblack">{data.title}</p>
+                          <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
+                          {data.link && (
+                            <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                          )}
+                        </div>
                   </div>
                 )
             })}
@@ -166,9 +175,12 @@ const CarWrapsMarulandSEO = (props) => {
                 {CWMServicesOptionsCommercial2.map((data, index) => {
                 return (
                   <div key={index} className={`relative`}>
-                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
+                    <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual w-full min-h-[180px] py-4 lg:min-h-[230px]`}>
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
+                    {data.link && (
+                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                      )}
                     </div>
                   </div>
                 )
@@ -244,7 +256,7 @@ const CarWrapsMarulandSEO = (props) => {
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
               <Image
                 src="/images/Map.webp"
-                alt="Banner Image Commercial Wrapping"
+                alt="Map of Maryland and Counties"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
                 srcSet="/images/Map.webp 768w, /images/Map.webp 1024w"
                 width={552}
