@@ -1,11 +1,12 @@
 import React from "react"
-import ContactFormFooter from "../components/ContactFormFooter";
-import { MiniMenuCommercialPrintingBottom, MiniMenuCommercialPrintingTop, OurProcessPrinting, StationaryCardInfo, WhyChosePrintingPageBottom, WhyChosePrintingPageTop } from "../data/data";
-import Button4P from "../components/Button";
+import ContactFormFooter from "@/app/components/ContactFormFooter";
+import { MiniMenuCommercialPrintingBottom, MiniMenuCommercialPrintingTop, OurProcessPrinting, StationaryCardInfo, WallWrapImages, WhyChosePrintingPageBottom, WhyChosePrintingPageTop } from "@/app/data/data";
+import Button4P from "@/app/components/Button";
 import Image from "next/image";
-import MiniMenu from "../components/MiniMenu";
-import StationaryCardUp from "../components/StationaryCardUp";
-import StationaryCardDown from "../components/StationaryCardDown";
+import MiniMenu from "@/app/components/MiniMenu";
+import StationaryCardUp from "@/app/components/StationaryCardUp";
+import StationaryCardDown from "@/app/components/StationaryCardDown";
+import ImageCarousel from "@/app/components/ImageCarousel";
 
 export const metadata = {
   title: "High-Quality Commercial Printing & Custom Apparel - 4Print",
@@ -54,9 +55,9 @@ const CommercialPrinting = (props) => {
       </div>
 
       {/******************  Minimenu Section ****************************/}
-      <div className="container justify-items-center mb-[100px]">
+      <div className="container justify-items-center mb-[100px]" id="minimenu">
         <div className="border-2 border-4plight-grey w-fit rounded-lg lg:py-4 pt-4">
-          <MiniMenu toMap={MiniMenuCommercialPrintingTop} CP={0}/>
+          <MiniMenu toMap={MiniMenuCommercialPrintingTop} CP={1}/>
           <div className="w-[90%] h-1 bg-4plight-grey rounded-3xl mx-auto hidden lg:block"></div>
           <MiniMenu toMap={MiniMenuCommercialPrintingBottom} CP={1}/>
         </div>
@@ -94,7 +95,33 @@ const CommercialPrinting = (props) => {
         </div>
       </div>
 
-      {/******************  Banners Section ****************************/}
+      {/******************  Wall Wrap Service Section ****************************/}
+      <div className="container lg:mb-[100px] mb-16 pt-16 lg:pt-0" id="wallwrap">
+        <div className="flex flex-wrap px-6 lg:px-0">
+          <div className="lg:w-7/12 w-full">
+            <h2 className="lg:text-[90px] text-[50px] uppercase lg:leading-[80px] leading-[55px] font-bold">Wall <span className="text-4pblue lg:text-[110px] text-[55px]">Wrap</span></h2>
+            <p className="text-4pred lg:text-[28px] text-[22px] py-2 font-bold">Transform Your Walls into Brand Statements!</p>
+            <p className="leading-[23px]">Elevate your interior or exterior walls with custom wall wraps that turn blank spaces into bold, branded visuals. Ideal for offices, retail spaces, gyms, and more, our wall wraps create a professional and engaging environment that communicates your brand identity at a glance.</p>
+            <p className="leading-[23px] pb-8 ">Crafted with high-quality materials and installed by experts, our wall wraps are designed to make a lasting impression while standing up to daily wear and tear.</p>
+            <div className="grid grid-cols-2 gap-6 lg:pe-4">
+              <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-2xl shadow-usual min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Custom Designs</p></div>
+              <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-2xl shadow-usual min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Durable & Long-Lasting</p></div>
+              <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-2xl shadow-usual min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Seamless Installation</p></div>
+              <div className="bg-white p-6 border-[1px] border-4plight-grey rounded-2xl shadow-usual min-h-[99px] content-center w-full justify-items-center text-center font-bold leading-[23px]"><p>Easy to Update or Replace</p></div>
+            </div>
+            <div className="lg:w-6/12 lg:mt-16 my-8 lg:mb-0 mx-auto lg:mx-0 lg:ps-8">
+              <Button4P buttonText={'Start Your Design'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white w-full text-center ms-[-30px]'}/>
+             </div>
+          </div>
+          <div className="lg:w-5/12 w-full lg:ps-4 lg:pt-16">
+            <div className="lg:max-w-[460px] mx-auto pb-8">
+              <ImageCarousel imageData={WallWrapImages} imageWidth={460} imageHeigh={400} sectionId={'fullToSimple'}/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/******************  Banners Service Section ****************************/}
       <div className="container flex flex-wrap lg:flex-nowrap lg:mb-[100px] mb-16" id="banners">
         <div className="lg:w-5/12 w-full justify-items-end content-end z-10 px-8 lg:px-0">
           <Image

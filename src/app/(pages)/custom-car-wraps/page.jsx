@@ -4,13 +4,13 @@ export const metadata = {
   };
 
 import React from "react"
-import { CustomDesignStripesImages, CustomFullChangeImages, CustomFullVehicleFeatures, CustomGraphicStripesFeatures, CustomTextureSpecial, CustomTextureSpecialLeft, CustomWhyUs, FAQsCustomWrap, MiniMenuCustomWrap, OurProcessCustomWrap } from "../data/data";
-import FAQs from "../components/FAQS";
-import Button4P from "../components/Button";
-import ContactFormFooter from "../components/ContactFormFooter";
+import { CustomDesignStripesImages, CustomFullChangeImages, CustomFullVehicleFeatures, CustomGraphicStripesFeatures, CustomTextureSpecial, CustomTextureSpecialLeft, CustomWhyUs, FAQsCustomWrap, MiniMenuCustomWrap, OurProcessCustomWrap } from "@/app/data/data";
+import FAQs from "@/app/components/FAQS";
+import Button4P from "@/app/components/Button";
+import ContactFormFooter from "@/app/components/ContactFormFooter";
 import Image from "next/image";
-import MiniMenu from "../components/MiniMenu";
-import ImageCarousel from "../components/ImageCarousel";
+import MiniMenu from "@/app/components/MiniMenu";
+import ImageCarousel from "@/app/components/ImageCarousel";
 
 const CustomCarWrap = (props) => {
   return (

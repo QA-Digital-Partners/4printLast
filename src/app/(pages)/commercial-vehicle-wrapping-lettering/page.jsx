@@ -1,10 +1,10 @@
 import React from "react"
-import ContactFormFooter from "../components/ContactFormFooter";
-import Button4P from "../components/Button";
-import { Certifications120, FAQsWrap, FeaturesFullWrap, FeaturesMHIC, FeaturesPartialWrap, FeaturesSpecialtyWrap, FeaturesUSDOTS, FeaturesUSDOTSLettering, FullCoverImages, MHICImages, OurProcessWrap, USDOTImages, WhyChoseWrappingPageBottom, WhyChoseWrappingPageTop } from "../data/data";
+import ContactFormFooter from "@/app/components/ContactFormFooter";
+import Button4P from "@/app/components/Button";
+import { Certifications120, FAQsWrap, FeaturesFullWrap, FeaturesMHIC, FeaturesPartialWrap, FeaturesSpecialtyWrap, FeaturesUSDOTS, FeaturesUSDOTSLettering, FullCoverImages, MHICImages, OurProcessWrap, USDOTImages, WhyChoseWrappingPageBottom, WhyChoseWrappingPageTop } from "@/app/data/data";
 import Image from "next/image";
-import ImageCarousel from "../components/ImageCarousel";
-import FAQs from "../components/FAQS";
+import ImageCarousel from "@/app/components/ImageCarousel";
+import FAQs from "@/app/components/FAQS";
 
 export const metadata = {
   title: "4Print - Commercial Vehicle Wraps & Fleet Lettering | 3M Certified Wrapping",

@@ -1,14 +1,16 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { dropDownCarWraps, dropDownServices, headerMenu } from "../data/data";
+import { dropDownCarWraps, dropDownCarWrapsCommercial, dropDownServices, headerMenu } from "../data/data";
 import Button4P from "./Button";
 import { DropdownMenu } from "./Desplegable";
+import MegaMenu from "./MegaMenu";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
   const [mobileCarWrapsDropdownOpen, setMobileCarWrapsDropdownOpen] = useState(false);
+  const [mobileCarWrapsCommercialDropdownOpen, setMobileCarWrapsCommercialDropdownOpen] = useState(false);
   const [mounted, setMounted] = useState(false); // Estado para verificar si el componente ya está montado
 
   useEffect(() => {
@@ -37,7 +39,11 @@ const HeaderComponent = () => {
             <nav>
               {headerMenu.map((data, index) =>
                 data.name === "Services" ? (
-                  <DropdownMenu key={index} menu={data} options={dropDownServices} />
+                  <div key={index} className="inline-block">
+{/*                  <DropdownMenu key={index} menu={data} options={dropDownServices} /> */}
+                    <MegaMenu menu={data}/>
+
+                  </div>
                 ) : (
                   <a key={index} href={data.link} className="mx-4 uppercase text-[15px] hover:text-4pblue hover:font-bold">
                     {data.name}
@@ -140,10 +146,33 @@ const HeaderComponent = () => {
                             )}
 
                             {options.name === "Car Wrap" && mobileCarWrapsDropdownOpen && (
-                              <ul className="mt-2 pl-4">
+                              <ul className="mt-2 ps-4">
                                 {dropDownCarWraps.map((CWOption, idn) => (
                                   <li key={idn} className="py-1 text-gray-700">
-                                    <a href={CWOption.link}>{CWOption.name}</a>
+                                    {CWOption.name === "Commercial Wrap" ? (
+                                      <div className="flex justify-between items-center">
+                                      <a href={CWOption.link} className="w-9/12">{CWOption.name}</a>
+                                      {/* FLECHA PARA ABRIR EL DROPDOWN */}
+                                      <button
+                                        className="ml-2 text-gray-700 w-3/12 text-end"
+                                        onClick={() => setMobileCarWrapsCommercialDropdownOpen(!mobileCarWrapsCommercialDropdownOpen)}
+                                      >
+                                        {mobileCarWrapsCommercialDropdownOpen ? "▲" : "▼"}
+                                      </button>
+                                      </div>
+                                    ) : (
+                                      <a href={CWOption.link}>{CWOption.name}</a>
+                                    )}
+
+                                    {CWOption.name === "Commercial Wrap" && mobileCarWrapsCommercialDropdownOpen && (
+                                      <ul className="mt-2 ps-4">
+                                        {dropDownCarWrapsCommercial.map((CWCom, index) => (
+                                          <li className="py-1 text-gray-700" key={index}>
+                                            <a href={CWCom.link}>{CWCom.name}</a>
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    )}
                                   </li>
                                 ))}
                               </ul>

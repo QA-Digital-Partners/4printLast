@@ -1,10 +1,9 @@
 'use client'
 import React, { useState } from "react"
-import { GalleryImages } from "../data/data";
+import { GalleryImages } from "@/app/data/data";
 import Image from "next/image";
 import { Dialog } from "@headlessui/react";
-import ContactFormFooter from "../components/ContactFormFooter";
-import Button4P from "../components/Button";
+import ContactFormFooter from "@/app/components/ContactFormFooter";
 
 const Gallery = (props) => {
     const [selectedImage, setSelectedImage] = useState(null);

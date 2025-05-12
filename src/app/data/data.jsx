@@ -6,7 +6,7 @@ export const headerMenu = [
     {name:'Services', link: '/services'},
     {name:'Contact', link: '#contact'},
     {name:'Gallery', link: '/gallery'},
-]
+] 
 
 export const dropDownServices = [
     {name:'Car Wrap', link: '/car-wraps-maryland'},
@@ -14,9 +14,13 @@ export const dropDownServices = [
 ]
 
 export const dropDownCarWraps = [
-    {name:'Commercial Wrap', link: '/commercial-vehicle-wrapping-lettering'},
+    {name:'Commercial Wrap', link: '/car-wraps-maryland/commercial'},
     {name:'Custom Car Wrap', link: '/custom-car-wraps'},
-    {name:'Fleet Wrap', link: '/car-wraps-maryland/fleet/'},
+]
+
+export const dropDownCarWrapsCommercial = [
+    {name:'Fleet Wrap', link: '/car-wraps-maryland/commercial/fleet/'},
+    {name:'Food Trucks', link: '/car-wraps-maryland/commercial/food-trucks/'},
 ]
 
 // Textos del footer
@@ -179,6 +183,12 @@ export const ServicesGridHome = [
         video: '',
         image: 'stationary-home-services.webp',
         link: '/services/#stationary'
+    },
+    {
+        title: 'Wall Wraps',
+        video: '',
+        image: 'WALL-WRAP-services.webp',
+        link: '/services/#printing'
     },
 
 ]
@@ -457,6 +467,23 @@ export const FullCoverImages = [
     }
 ]
 
+export const WallWrapImages = [
+    {
+        image: 'wall-wrap-1.webp',
+        title: "Crane Home of the Cougars",
+    },
+    {
+        image: 'wall-wrap-2.webp',
+        title: "We Are All Matadors",
+    },{
+        image: 'wall-wrap-3.webp',
+        title: "Letters wall Wrap",
+    },{
+        image: 'wall-wrap-4.webp',
+        title: "Wing Zig food",
+    }
+]
+
 export const FeaturesMHIC = ['Meets all Maryland state contractor regulations','Weather-resistant premium vinyl materials','Professional installation on any vehicle type','Clean, visible number display','Long-lasting durability']
 
 export const OurProcessWrap = ['Initial Consultation [Free]', 'Design & Mock-up [$50 deposit]', 'Final Design Approval', 'Installation Scheduling', 'Professional Installation', 'Final Inspection & Delivery']
@@ -654,9 +681,12 @@ export const MiniMenuCommercialPrintingTop = [
     },
     {name:'T-shirts',
     link: '#t-shirts'
-    }, 
+    },
     {name:'Brochures',
     link: '#brochures'
+    },
+    {name:'Wall Wraps',
+    link: '#wallwrap'
     },
     {name:'Polo Shirts',
     link: '#poloshirt'
@@ -1240,10 +1270,365 @@ export const CWMFAQsFleet = [
     }
 ]
 
+/****************************************SEO Page - Mayo 2025 - Commercial Wrap  ***********************************/
 
+export const CommercialServices1 = [
+    {
+        title: 'Full Commercial Vehicle Wraps',
+        text: 'Completely revitalize your business vehicles with high-impact branding and professionally designed graphics.'
+    },
+    {
+        title: 'Commercial Fleet Graphics & Lettering',
+        text: 'Maintain consistent branding across all company vehicles with cohesive vinyl graphics and professional lettering.'
+    },
+    {
+        title: 'Commercial Van & Truck Wraps',
+        text: 'Dynamic, attention-grabbing designs that attract customers and showcase menus, branding, and social media information.'
+    },
+    {
+        title: 'Food Truck Wraps',
+        text: 'Vibrant, engaging designs that attract customers and showcase menus, branding, and social media details.'
+    },
+]
 
+export const CommercialServices2 = [
+    {
+        title: 'Commercial Trailer Wraps',
+        text: 'Custom branding solutions for enclosed trailers, box trucks, and utility trailers, ensuring maximum visibility throughout Maryland.'
+    },
+    {
+        title: 'Reflective Commercial Vinyl Wraps',
+        text: 'Enhance safety and visibility with high-contrast reflective graphics ideal for nighttime or low-light conditions.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'See-through vinyl solutions allowing visibility from inside while displaying your branding on the exterior.'
+    },
+    {
+        title: 'Commercial Wrap Removal & Replacement',
+        text: "Professional removal and application of new commercial wraps to refresh your fleet's appearance."
+    },
+]
 
+export const CommercialMapCitiesCommercial = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
 
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
 
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
 
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
 
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CommercialWhyUs = [
+    {
+        title:'Certified Commercial Vehicle Wrap Specialists:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every commercial wrap is flawlessly applied, without bubbles, peeling, or lifting.'
+    },
+    {
+        title:'Custom Designs for Every Maryland Business:',
+        text: 'We collaborate with businesses and fleet managers to create high-impact branding solutions. Whether you need a commercial service van wrap or fleet-wide branding, we bring your vision to reality with professional design and execution.'
+    },
+    {
+        title:'Premium Materials & Expert Installation:',
+        text: 'We utilize industry-leading vinyl wraps to guarantee long-lasting durability for your commercial vehicles. Our thorough preparation and professional installation ensure flawless results and maximum longevity.'
+    },
+    {
+        title:'Rapid Turnaround & Superior Service:',
+        text: 'Our Maryland-based team delivers quick turnaround times without compromising quality. Most commercial vehicle wraps are completed within days, minimizing downtime for your business vehicles.'
+    },
+]
+
+export const CommercialFAQs = [
+    {
+        title: 'How long does commercial vehicle wrap installation take?',
+        answer: "Installation duration varies by project scope. Full commercial fleet wraps typically require 2-5 business days, while partial wraps and lettering can be completed in 1-2 days. Fleet projects are scheduled efficiently to minimize business disruption."
+    },
+    {
+        title: "How durable are commercial vehicle wraps?",
+        answer: "Our premium 3M vinyl commercial wraps last 5-7 years with proper maintenance. Durability depends on environmental factors and care practices, but our commercial wraps provide excellent color retention and adhesion throughout their lifespan. UV protection is included to prevent fading on your commercial vehicles."
+    },
+    {
+        title: "Do you offer warranties on commercial vehicle wraps?",
+        answer: "Yes! We provide a one-year warranty on our installation workmanship for all commercial vehicle wraps. Additionally, all 3M materials include a manufacturer's warranty covering material defects, ensuring long-term protection for your business investment."
+    },
+    {
+        title: "Can I wash my wrapped commercial vehicles?",
+        answer: `Yes! Wrapped commercial vehicles can be hand washed or cleaned in a touchless car wash. We recommend:
+    .- Handwashing with mild soap and water
+    .- Avoiding high-pressure washers near edges and seams
+    .- Skipping brush car washes to prevent scratches
+    .- Regular cleaning to maintain a professional appearance
+    .- Waiting 2 weeks after installation before the first wash`
+    }
+]
+
+/****************************************SEO Page - Mayo 2025 - Food Truck  ***********************************/
+
+export const FoodTruckOptions1 = [
+    {
+        title: 'Full Food Truck Wraps',
+        text: 'Completely transform your mobile kitchen with high-impact culinary branding and custom-designed food graphics.'
+    },
+    {
+        title: 'Menu Graphics & Lettering',
+        text: 'Maintain consistent branding across all food service vehicles with cohesive vinyl graphics and appealing menu displays.'
+    },
+    {
+        title: 'Specialty Food Truck Wraps',
+        text: 'Ideal for gourmet trucks, dessert vendors, coffee carts, and catering providers needing an appetizing mobile presence.'
+    },
+    {
+        title: 'Vibrant Food Imagery',
+        text: 'Enticing, high-resolution food photography and graphics that attract hungry customers and showcase your signature dishes.'
+    },
+]
+
+export const FoodTruckOptions2 = [
+    {
+        title: 'Mobile Kitchen Branding',
+        text: 'Custom wraps for food trailers, concession trucks, and mobile kitchens, ensuring maximum visibility at food festivals and street locations.'
+    },
+    {
+        title: 'Illuminated Vinyl Options',
+        text: 'Enhance nighttime visibility with high-contrast graphics for evening service and food truck rallies.'
+    },
+    {
+        title: 'See-Through Menu Windows',
+        text: 'Perforated window graphics that allow visibility from inside while displaying menus and specials on the outside.'
+    },
+    {
+        title: 'Wrap Refreshes & Updates',
+        text: "Professional removal and replacement of wraps to update seasonal menus or refresh your food truck's appearance."
+    },
+]
+
+export const FoodTruckCities = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const FoodTruckWhyUs = [
+    {
+        title:'Certified Food Truck Wrap Specialists:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every food truck wrap is perfectly applied, with no bubbles, peeling, or lifting, even under the demanding conditions of daily food service.'
+    },
+    {
+        title:'Custom Culinary Designs for Every Food Concept:',
+        text: 'We collaborate with food truck owners and culinary entrepreneurs to create high-impact branding solutions. Whether you need a gourmet truck wrap or branded wraps for multiple mobile kitchens, we bring your culinary vision to life with professional design and flawless execution.'
+    },
+    {
+        title:'Food-Safe Materials & Professional Installation:',
+        text: 'We use industry-leading vinyl wraps specially selected to withstand the heat and cleaning requirements of food service vehicles. Our thorough preparation and expert installation ensure spotless results and maximum durability in food truck environments.'
+    },
+    {
+        title:'Quick Turnaround & Superior Service:',
+        text: 'Our Maryland-based team delivers expedited turnaround times without compromising quality. Most food truck wraps are completed within a few days, so your culinary business can get back to serving customers quickly.'
+    },
+]
+
+export const FoodTruckFAQs = [
+    {
+        title: 'How long does food truck wrap installation take?',
+        answer: "Installation time varies depending on your food truck's size and design complexity. Full food truck wraps typically take 2-4 business days, while partial wraps and menu boards can be completed in 1-2 days. We schedule installations around your service calendar to minimize business interruption."
+    },
+    {
+        title: "How durable are food truck wraps in food service environments?",
+        answer: "Our premium 3M vinyl wraps for food trucks last 4-6 years with proper care, even with daily food service use. Durability depends on cleaning frequency, cooking environments, and maintenance routines, but our specialized wraps offer excellent stain resistance and adhesion throughout their lifespan. Heat-resistant options are available for areas near cooking equipment."
+    },
+    {
+        title: "Do you offer warranties for food truck wraps?",
+        answer: "Yes! We provide a one-year warranty on our food truck installation workmanship. Additionally, all 3M materials come with a manufacturer's warranty covering material defects, ensuring long-term protection for your culinary investment."
+    },
+    {
+        title: "How should I clean my wrapped food truck?",
+        answer: `Yes! Wrapped food trucks can be safely cleaned with proper methods. We recommend:
+                Handwashing with food-safe, mild soap and water Avoiding high-pressure washers near edges and menu areas Using soft cloths to prevent scratching vibrant food imagery Regular cleaning to maintain an appetizing appearance Waiting 48 hours after installation before the first wash
+                For professional food truck wraps in Maryland that capture customer attention, trust 4Print. Contact us today to get your mobile kitchen noticed!`
+    }
+]

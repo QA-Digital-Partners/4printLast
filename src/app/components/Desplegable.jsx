@@ -14,7 +14,7 @@ export const DropdownMenu = ({ menu, options }) => {
         setIsOpen(false);
         setSubMenuOpen(false);
       }}
-    >
+    > 
       <div className="cursor-pointer">
         <a href={menu.link}>
           <span className="uppercase mx-4 text-[15px] hover:text-4pblue hover:font-bold">

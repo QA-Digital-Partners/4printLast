@@ -203,7 +203,7 @@ const CarWrapsGlenBurnie = (props) => {
         <div className="bg-4pgrey rounded-xl p-12">
           <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Serving Glen Burnie,  
           <span className="lg:text-[65px] text-4pblue block"> Maryland Since 2021</span></h2>
-          <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps for over two decades. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
+          <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps for since 2021. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
               <Image

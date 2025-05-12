@@ -3,13 +3,13 @@ import ContactForm from "@/app/components/ContactForm";
 import ContactFormFooter from "@/app/components/ContactFormFooter";
 import FAQs from "@/app/components/FAQS";
 import ReviewSection from "@/app/components/ReviewSection";
-import {  CWMFAQsFleet, CWMMapCitiesFleet, CWMServicesOptionsFleet1, CWMServicesOptionsFleet2, CWMWhyUsFleet } from "@/app/data/data";
+import { FoodTruckCities, FoodTruckFAQs, FoodTruckOptions1, FoodTruckOptions2, FoodTruckWhyUs } from "@/app/data/data";
 import Image from "next/image";
 import React from "react"
 
 export const metadata = {
-  title: "Quality Car Wraps in Severna Park, MD - 4Print",
-  description: "Get high-quality car wraps & graphics in Severna Park with 4Print. Custom vehicle wraps, fleet graphics, and branding solutions for all businesses!",
+  title: "Get Noticed – Professional Food Truck Wraps in Maryland",
+  description: "Turn heads with custom food truck wraps in Maryland. Eye-catching designs, fast service, and professional installation by 4Print.",
 };
 
 
@@ -18,52 +18,64 @@ const FleeWrapMaryland = (props) => {
     <>
       {/******************  Banner Section ****************************/}
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
-        <div className="container flex flex-wrap z-10">
-          <div className="lg:w-6/12 w-full relative lg:z-20 px-6 lg:px-0 lg:pt-4">
-            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-8 lg:me-[-450px]">Fleet Wraps in Maryland <br /> 
-                <span className="lg:text-[80px] text-4pblue">Maximize Your Brand</span> <br /> 
-                <span className="lg:text-[72px] text-4pred"> Visibility on the Road</span></h1>
+        <div className="container flex flex-wrap z-10 gap-8 lg:gap-0">
+          <div className="lg:w-6/12 w-full relative lg:z-20 px-6 lg:px-0 lg:pt-4 lg:pb-8">
+            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-8 lg:me-[-450px]">Food Truck Wraps in Maryland <br /> 
+                <span className="lg:text-[80px] text-4pblue">Drive Your Culinary</span> <br /> 
+                <span className="lg:text-[72px] text-4pred">  Brand Forward</span></h1>
 
-            <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-8">Looking for fleet wraps in Maryland to enhance your business's mobile advertising? At 4Print, we specialize in custom fleet graphics that turn company vehicles into moving billboards. Whether you operate a small business or manage a large commercial fleet, our premium vinyl wraps offer long-lasting durability, vibrant designs, and professional installation.</p>
+            <p className="leading-[23px] lg:pe-2 pt-4 ">Looking for food truck wraps in Maryland to amplify your mobile culinary business? At 4Print, we specialize in custom food truck graphics that transform your vehicle into an attention-grabbing dining destination.</p>
+            <p className="leading-[23px] lg:pe-2 pt-4 ">Whether you operate a single gourmet food truck or manage a fleet of mobile kitchens, our premium vinyl wraps deliver outstanding durability, vibrant food-themed designs, and expert installation.</p>
+            <div className="flex flex-wrap gap-4 justify-center py-4 lg:pt-4">  
+              <div className="lg:w-[30%] w-[45%] items-center border-[1px] border-4plight-grey rounded-lg bg-white justify-items-center content-center shadow-usual py-6 lg:me-0 me-2">
+                <p className="text-center text-[20px] font-bold leading-[23px] pt-2 px-8">Fast turnaround</p>
+              </div>
+              <div className="lg:w-[30%] w-[45%] items-center border-[1px] border-4plight-grey rounded-lg bg-white justify-items-center content-center shadow-usual py-6 lg:me-0 me-2">
+                <p className="text-center text-[20px] font-bold leading-[23px] pt-2"> Expert Installation</p>
+              </div>
+              <div className="lg:w-[30%] w-[48%] items-center border-[1px] border-4plight-grey rounded-lg bg-white justify-items-center content-center shadow-usual py-6">
+                <p className="text-center text-[20px] font-bold leading-[23px] pt-2 px-12">Custom Designs</p>
+              </div>
+            </div>
             <div className="flex flex-wrap">
-              <div className="lg:w-5/12 w-[370px] mx-auto lg:mx-0 mt-4 lg:mt-6 ">
+              <div className="lg:w-5/12 w-[370px] mx-auto lg:mx-0 mt-4 lg:mt-2 ">
                 <Button4P buttonText={'Call (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-blue-to-white me-4'} iconOption={7} textColor={'text-white ps-3'}/>
               </div>
-              <div className="lg:w-7/12 w-[370px] mx-auto lg:mx-0 mt-6 lg:mt-6">
+              <div className="lg:w-7/12 w-[370px] mx-auto lg:mx-0 mt-6 lg:mt-2">
                 <Button4P buttonText={'Email sales@4printus.com'} buttonLink={'mailto:sales@4printus.com'} buttonBgAnimation={'btn-blue-to-white lg:ms-4'} iconOption={7} textColor={'text-white ps-3'}/>
               </div>
             </div>
           </div>
           <div className="lg:w-6/12 w-full lg:pt-56 z-20">
-            <div className="px-8 lg:pt-6 lg:pb-8 bg-white lg:mt-6 lg:ms-12 lg:me-0 rounded-xl shadow-usual">
+            <div className="px-8 lg:pt-6 lg:pb-8 bg-white lg:mt-6 lg:ms-12 lg:me-0 rounded-xl shadow-usual py-8 lg:py-4">
               <p className="text-[22px] font-semibold pb-4"> Contact us Today!</p>
               <ContactForm />
             </div>
           </div>
-        <div className="w-full hero-banner-car-wrap-fleet lg:h-[425px] h-2/6 lg:mt-[-290px]"></div>
+        <div className="w-full hero-carwrap-food-truck lg:h-[425px] h-2/6 lg:mt-[-130px] h-[200px]"></div>
         </div>
       </div>
 
       {/****************** Services & Options  Section ****************************/}
       <div className="lg:mb-8 mb-16 pb-0 lg:pb-0">
         <div className="container lg:pb-4 pt-4 pt-24">
-          <h2 className="lg:text-[65px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Fleet Wrap Services & Custom  
-          <span className="lg:text-[80px] text-4pblue block">Branding Solutions</span></h2>
+          <h2 className="lg:text-[65px] text-[45px] leading-[50px] px-6 lg:px-0 lg:leading-[70px] uppercase font-bold">Food Truck Wrap Services   
+          <span className="lg:text-[80px] text-4pblue block">& Culinary Branding Solutions</span></h2>
 
           <div className="flex flex-wrap lg:pt-4 px-6 lg:px-0">
             <div className="lg:w-5/12"></div>
             <div className="lg:w-7/12 w-full lg:ps-8">
-              <p className="leading-[23px]">At 4Print, we offer tailored <b>fleet wrap solutions</b> to help businesses increase visibility and establish a professional image. From fully wrapped service vehicles to strategically placed decals, we deliver eye-catching results that make a lasting impression.</p>
+              <p className="leading-[23px]">At 4Print, we provide tailored food truck wrap solutions to help culinary businesses increase street visibility and establish a memorable brand image. From fully wrapped gourmet vehicles to strategically placed menu decals, we deliver appetizing visuals that create lasting customer impressions.</p>
             </div>
           </div>
           <div className="flex flex-wrap px-6 lg:px-0 pt-12 lg:pt-0" >
 
             <div className="lg:w-5/12 lg:pt-32 lg:order-1 order-3">
                 <Image
-                src="/images/personal-services-cwm.webp"
-                alt="Banner Image Commercial Wrapping"
+                src="/images/foodtruck-wrap-maryland.webp"
+                alt="Food Truck Wrap in Maryland"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/personal-services-cwm.webp 768w, /images/personal-services-cwm.webp 1024w"
+                srcSet="/images/foodtruck-wrap-maryland.webp 768w, /images/foodtruck-wrap-maryland.webp 1024w"
                 width={536}
                 height={652}
                 className="z-0 relative lg:mt-[-160px] lg:w-[536px] lg:min-w-[400px]"
@@ -71,10 +83,10 @@ const FleeWrapMaryland = (props) => {
             </div>
 
             <div className="lg:w-7/12 w-full pb-2 lg:pb-0 lg:pt-4 lg:ps-8 lg:order-2 order-1" id="personal">
-              <p className="text-4pred font-bold text-[35px] leading-[35px] py-4">Fleet Wraps & Graphics for Businesses</p>
-              <p className="leading-[23px] ">For businesses of all sizes, our <b>fleet wraps</b> provide a cost-effective way to promote services while protecting vehicle surfaces. Whether you need branding for a single work van or an entire fleet, we ensure high-quality graphics that align with your brand identity.</p>
+              <p className="text-4pred font-bold text-[35px] leading-[35px] py-4">Food Truck Wraps & Graphics for Culinary Businesses</p>
+              <p className="leading-[23px] ">For food entrepreneurs of all specialties, our <b>food truck wraps</b> offer a cost-effective way to promote your culinary offerings while protecting your vehicle surfaces. Whether you need branding for a single food truck or an entire mobile dining fleet, we ensure high-quality graphics that perfectly represent your culinary identity.</p>
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:pt-12 pt-8">
-                {CWMServicesOptionsFleet1.map((data, index) => {
+                {FoodTruckOptions1.map((data, index) => {
                 return (
                   <div key={index} className={`relative`}>
                     <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
@@ -90,11 +102,11 @@ const FleeWrapMaryland = (props) => {
             <div className="w-full pt-4 lg:pt-0 pb-8 lg:pb-0 lg:order-3 order-2" >
               <div className="lg:w-12/12 lg:pe-0">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:pt-6">
-                  {CWMServicesOptionsFleet2.map((data, index) => {
+                  {FoodTruckOptions2.map((data, index) => {
                   return (
                     <div key={index} className={`relative`}>
-                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
-                      <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
+                      <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-start w-full min-h-[220px] py-4 lg:pt-6`}>
+                      <p className="text-center leading-[23px] font-bold px-4 lg:px-0 text-4pblack pb-4">{data.title}</p>
                       <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                       </div>
                     </div>
@@ -105,7 +117,7 @@ const FleeWrapMaryland = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to extend their reach with fleet wraps in Maryland, our commercial solutions offer a high-visibility, cost-effective marketing strategy. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your fleet branding needs today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For culinary entrepreneurs looking to expand their customer base with food truck wraps in Maryland, our specialized solutions offer a high-visibility, cost-effective marketing approach. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a>  to discuss your food truck branding vision today!</p>
             </div>
 
           </div>
@@ -114,16 +126,16 @@ const FleeWrapMaryland = (props) => {
 
       {/****************** Map Section ****************************/}
       <div className="container lg:mb-[100px] mb-16">
-        <div className="bg-4pgrey rounded-xl p-12">
-          <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Wrapping Vehicles  
+        <div className="bg-4pgrey rounded-xl lg:p-12 px-6 py-12">
+          <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Wrapping Food Trucks  
           <span className="lg:text-[65px] text-4pblue block">in Maryland Since 2021</span></h2>
-          <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been enhancing vehicles with high-quality vinyl wraps for over two decades. Our team proudly serves Maryland, providing custom car wraps, fleet graphics, and business vehicle wraps that improve aesthetics and branding.</p>
+          <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been enhancing culinary vehicles with premium vinyl wraps since we opened our doors. Our team proudly serves Maryland's growing food truck scene, providing custom wraps, menu graphics, and mobile kitchen branding that improves visibility and customer appeal.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full">
-              <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">Based in Glen Burnie, MD, we offer on-site installations within a 50-mile radius, depending on the project. Whether you're a personal vehicle owner or managing a business fleet, we ensure convenience and professional results by bringing our expertise to your location when needed.</p>
+              <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">Based in Glen Burnie, MD, we offer on-site installations within a 50-mile radius, depending on your food truck's size and location. Whether you're an independent food truck entrepreneur or managing a fleet of mobile kitchens, we ensure convenience and exceptional results by bringing our expertise to your commissary or location when needed.</p>
               <p className="text-[22px] font-semibold pb-6 lg:pt-6">MD Counties We Can Travel To</p>
               <ul className="list-disc ps-8">
-              {CWMMapCitiesFleet.map((data, index) => {
+              {FoodTruckCities.map((data, index) => {
                 return (
                   <li key={index} className="lg:pb-2">
                     {data.link ? (
@@ -181,10 +193,9 @@ const FleeWrapMaryland = (props) => {
               />
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you're outside these counties or in Washington D.C. or Northern Virginia, we may still be able to assist. We welcome all customers from the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck operates outside these counties or in Washington D.C. or Northern Virginia, we may still be able to accommodate your needs. We welcome culinary entrepreneurs from throughout the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a>  to discuss your food truck project and location.</p>
         </div>
       </div>
-
 
       {/******************  Review Section ****************************/}
       <ReviewSection />
@@ -193,17 +204,17 @@ const FleeWrapMaryland = (props) => {
       <div className="container lg:mb-[100px] mb-16" id="whyus">
         <div className="bg-4pgrey rounded-3xl flex flex-wrap">
           <div className="lg:w-6/12 w-full lg:ps-16 ps-6 pe-6 lg:pe-0 lg:py-16 py-8">
-            <h2 className="lg:text-[45px] text-[45px] lg:leading-[55px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why Choose 4Print
-            <span className="lg:text-[70px] lg:leading-[70px] text-4pblue block"> for Fleet Wraps in Maryland?</span></h2>
-            <p className="lg:pt-8">At 4Print, we specialize in high-quality vehicle wraps that turn cars, trucks, and fleets into powerful marketing tools. Since 2021, we’ve helped businesses of all sizes stand out on the road with expert design, precision installation, and durable materials. Whether you need a single wrap or a full fleet transformation, we deliver impactful results with unmatched attention to detail. </p>
-            <div className="lg:w-8/12 w-[380px] ms-auto lg:mx-0 mt-12">
+            <h2 className="lg:text-[45px] text-[42px] lg:leading-[55px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why Choose 4Print
+            <span className="lg:text-[65px] lg:leading-[65px] text-4pblue block"> for Food Truck Wraps in Maryland?</span></h2>
+            <p className="lg:pt-8">At 4Print, we specialize in high-quality food truck wraps that transform ordinary vehicles into memorable culinary destinations. Since 2021, we've helped food entrepreneurs of all specialties stand out with expert designs, precision installations, and food-grade durable materials. Whether you need a single wrap or a full fleet transformation, we deliver appetizing results with meticulous attention to detail.</p>
+            <div className="lg:w-8/12 w-[340px] ms-auto lg:mx-0 mt-12">
               <Button4P buttonText={'Contact us at (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ms-[-20px] lg:ms-0'}/>
             </div>
           </div>
 
           <div className="lg:w-6/12 lg:ps-8 text-white content-end">
-            <div className="ps-12 pe-4 pb-12 rectangle-cuted-red-tl rounded-br-3xl pt-20">
-              {CWMWhyUsFleet.map((data, index) =>{
+            <div className="ps-6 lg:ps-12 pe-4 pb-12 rectangle-cuted-red-tl rounded-br-3xl pt-8 lg:pt-20">
+              {FoodTruckWhyUs.map((data, index) =>{
                 return(
                   <div key={index} className="flex py-3">
                     <img src="/images/ib-link-blue-white.svg" width={30} height={32} className="me-2" />
@@ -218,13 +229,13 @@ const FleeWrapMaryland = (props) => {
 
       {/****************** Contact Form  Section ****************************/}
       <ContactFormFooter
-        title1={"Ready to Transform Your Fleet?"}
+        title1={"Ready to Transform Your Food Truck?"}
         title2={"Get Your Maryland Wrap Today!"}
-        text1={"Whether you need fleet branding or individual vehicle wraps, 4Print is Maryland's trusted expert."}
-        text2={'We proudly serve all of Maryland and can assist clients in Washington D.C. and Virginia.'} 
+        text1={"Whether you need complete food truck branding or menu display graphics, 4Print is Maryland's trusted culinary wrap expert."}
+        text2={'We proudly serve food truck entrepreneurs throughout Maryland and can assist mobile food businesses in Washington D.C. and Virginia.'} 
       >
         <div className="flex flex-wrap">
-          <div className="w-full">Call us today or email to get started!</div>
+          <div className="w-full">Call us today or email to Call us to begin your food truck transformation!</div>
           <div className="lg:w-3/12 w-[370px] mx-auto lg:mx-0 mt-4 lg:mt-6">
             <Button4P buttonText={'Call (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-white me-4'} iconOption={4} textColor={'text-4pred'}/>
           </div>
@@ -243,9 +254,9 @@ const FleeWrapMaryland = (props) => {
           </div>
 
           <div className="lg:w-8/12 w-full lg:pe-24 px-8 py-8 lg:py-0 ">
-          <h3 className="text-white lg:text-[40px] font-semibold">Fleet Wrapping FAQs</h3>
-          <p className="text-white pb-8">Find answers to common questions about fleet wraps in Maryland and learn about durability, cost, maintenance, and more.</p>
-            <FAQs faqsData={CWMFAQsFleet} />
+          <h3 className="text-white lg:text-[40px] font-semibold">Food Truck Wrapping FAQs</h3>
+          <p className="text-white pb-8">Find answers to common questions about food truck wraps in Maryland and learn about durability, cost, maintenance, and considerations specific to mobile food service vehicles.</p>
+            <FAQs faqsData={FoodTruckFAQs} />
           </div>
         </div>
       </div>

@@ -1,7 +1,8 @@
 export default function sitemap() {
     const SITE_URL = "https://4printus.com"; // Reemplaza con tu dominio real
   
-    const cities = ["glen-burnie","severna-park","fleet" ];
+    const cities = ["glen-burnie","severna-park", "commercial" ];
+    const commercial = ["fleet", "food-trucks" ];
     const staticPages = [
       "", 
       "about", 
@@ -20,7 +21,12 @@ export default function sitemap() {
       ...cities.map((city) => ({
         url: `${SITE_URL}/car-wraps-maryland/${city}`,
         lastModified: new Date().toISOString(),
+      })),
+      ...commercial.map((service) => ({
+        url: `${SITE_URL}/car-wraps-maryland/commercial/${service}`,
+        lastModified: new Date().toISOString(),
       }))
+
     ];
   
     return urls; // ✅ Ahora Next.js lo interpretará correctamente

@@ -9,6 +9,8 @@ const ServicesCardHome = ({title, video, link, image, index}) => {
         desfase = 'lg:mt-32'
     }else if (index==1 || index==4) {
         desfase = 'lg:mt-16'
+    }else if (index ==6 ) {
+      desfase = 'lg:mt-0 col-start-2'
     }
 
   return (

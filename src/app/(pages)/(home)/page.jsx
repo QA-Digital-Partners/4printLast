@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react"
-import { ActionList, ActionTitle, AdvanceTrainingCert, BestBrands, ExperienceText, FleetGraphicsCert, GeekWrapsCert, MiniMenuHome, PreferedInstallerCert, ServicesGridHome, titleHM, TrustedBy } from "./data/data";
-import YouTubeVideo from "./components/YoutubeLazyLoad";
-import MiniMenu from "./components/MiniMenu";
-import Button4P from "./components/Button";
-import ReviewSection from "./components/ReviewSection";
-import ServicesCardHome from "./components/ServicesSectionHome";
-import ContactFormFooter from "./components/ContactFormFooter";
+import { ActionList, ActionTitle, AdvanceTrainingCert, BestBrands, ExperienceText, FleetGraphicsCert, GeekWrapsCert, MiniMenuHome, PreferedInstallerCert, ServicesGridHome, titleHM, TrustedBy } from "@/app/data/data";
+import YouTubeVideo from "@/app/components/YoutubeLazyLoad";
+import MiniMenu from "@/app/components/MiniMenu";
+import Button4P from "@/app/components/Button";
+import ReviewSection from "@/app/components/ReviewSection";
+import ServicesCardHome from "@/app/components/ServicesSectionHome";
+import ContactFormFooter from "@/app/components/ContactFormFooter";
 
 export const metadata = {
   title: "4Print",
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+ 
       {/****************** Focus on Quality Section ****************************/}
       <div className="container lg:mb-[100px] mb-12">
         <div className="flex flex-wrap lg:flex-nowrap">

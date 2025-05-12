@@ -1,11 +1,11 @@
 import React from "react"
-import ReviewSection from "../components/ReviewSection";
-import ContactFormFooter from "../components/ContactFormFooter";
-import Button4P from "../components/Button";
-import MiniMenu from "../components/MiniMenu";
-import { ApparelCardsData, CommercialLetering, CustomCarWraps, MiniMenuServices, StationaryPrintingLeft, StationaryPrintingRight, WhyChoseServicePageBottom, WhyChoseServicePageTop } from "../data/data";
+import ReviewSection from "@/app/components/ReviewSection";
+import ContactFormFooter from "@/app/components/ContactFormFooter";
+import Button4P from "@/app/components/Button";
+import MiniMenu from "@/app/components/MiniMenu";
+import { ApparelCardsData, CommercialLetering, CustomCarWraps, MiniMenuServices, StationaryPrintingLeft, StationaryPrintingRight, WhyChoseServicePageBottom, WhyChoseServicePageTop } from "@/app/data/data";
 import Image from "next/image";
-import ApparelCard from "../components/Apparel"; 
+import ApparelCard from "@/app/components/Apparel"; 
 
 export const metadata = {
   title: "Services",
@@ -174,8 +174,8 @@ const Services = (props) => {
         <h2 className="font-bold lg:text-[60px] text-[45px] lg:leading-[60px] leading-[42px] uppercase text-center">Commercial <span className="text-4pblue">Printing</span></h2>
         <div className="grid grid-cols-12 gap-5 mt-7">
           <div className="lg:col-span-5 col-span-12 bg-4pred wall-wrap lg:min-h-[71vh] rounded-lg lg:ps-[50px] lg:pb-[50px] lg:pt-0 ps-8 pe-8 lg:ps-0 pt-20 pb-12 text-white content-end">
-            <h3 className="text-[20px] font-bold pb-4">Commercial Wall Wrap</h3>
-            <p className="lg:w-[18rem]">Transform your business walls into stunning visual displays with custom graphics.</p>
+            <h3 className="text-[20px] font-bold pb-4">Wall Wrap</h3>
+            <p className="lg:w-[18rem]">Transform your walls into captivating visual experiences with custom-designed wraps—perfect for homes, offices, studios, and public spaces.</p>
           </div>
 
           <div className="lg:col-span-7 col-span-12">
@@ -189,9 +189,15 @@ const Services = (props) => {
                 <p className="lg:w-[19rem]">High-impact banners for indoor and outdoor advertising. Portable rollup options for events.</p>
               </div>
             </div>
-            <div className="cut-vinyl lg:min-h-[34.5vh] mt-5 rounded-lg lg:ps-[50px] lg:pb-[50px] ps-8 pe-8 lg:pe-0 pt-24 lg:pt-0 pb-16 text-white content-end">
-              <h3 className="text-[20px] font-bold pb-4 pe-16 leading-[23px]">Cut Vinyl/Lettering</h3>
-              <p className="lg:w-[19rem]">Custom-cut letters and graphics for professional business signage.</p>
+            <div className="grid grid-cols-2 gap-5">
+              <div className="commercial-wall-wrap lg:min-h-[34.5vh] mt-5 rounded-lg lg:ps-[50px] lg:pb-[50px] ps-8 pe-8 lg:pe-0 pt-24 lg:pt-0 pb-16 text-white content-end">
+                <h3 className="text-[20px] font-bold pb-4 pe-16 leading-[23px]">Commercial Wall Wrap</h3>
+                <p className="lg:w-[19rem]">Transform your business walls into stunning visual displays with custom graphics.</p>
+              </div>
+              <div className="cut-vinyl lg:min-h-[34.5vh] mt-5 rounded-lg lg:ps-[50px] lg:pb-[50px] ps-8 pe-8 lg:pe-0 pt-24 lg:pt-0 pb-16 text-white content-end">
+                <h3 className="text-[20px] font-bold pb-4 pe-16 leading-[23px]">Cut Vinyl/Lettering</h3>
+                <p className="lg:w-[19rem]">Custom-cut letters and graphics for professional business signage.</p>
+              </div>
             </div>
           </div>
         </div>
