@@ -8,8 +8,8 @@ import Image from "next/image";
 import React from "react"
 
 export const metadata = {
-  title: "Quality Car Wraps in Severna Park, MD - 4Print",
-  description: "Get high-quality car wraps & graphics in Severna Park with 4Print. Custom vehicle wraps, fleet graphics, and branding solutions for all businesses!",
+  title: "Quality Fleet Wraps in Maryland - 4Print",
+  description: "Get high-quality fleet wraps in Maryland with 4Print. Custom lettering wraps, logo wraps, and branding solutions for all businesses!",
 };
 
 
