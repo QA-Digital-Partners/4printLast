@@ -212,7 +212,7 @@ const Commercial = (props) => {
           <div className="lg:w-6/12 w-full lg:ps-16 ps-6 pe-6 lg:pe-0 lg:py-16 py-8">
             <h2 className="lg:text-[40px] text-[45px] lg:leading-[55px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why Select 4Print for
             <span className="lg:text-[70px] lg:leading-[70px] text-4pblue block"> Commercial Vehicle Wraps in Maryland?</span></h2>
-            <p className="lg:pt-8">At 4Print, we specialize in high-quality commercial vehicle wraps that transform business vehicles into effective marketing tools. Since 2021, we've assisted businesses of all sizes in standing out with expert designs, precision installations, and durable materials. Whether you need a single commercial wrap or complete fleet transformation, we deliver impactful results with unmatched attention to detail.</p>
+            <p className="lg:pt-8">At 4Print, we specialize in high-quality commercial vehicle wraps that transform business vehicles into effective marketing tools. Since 2021, we've assisted businesses of all sizes in standing out with expert designs, precision installations, and durable materials. Whether you need a single commercial wrap or a complete fleet transformation, we deliver impactful results with unmatched attention to detail.</p>
             <div className="lg:w-8/12 w-[380px] ms-auto lg:mx-0 mt-12">
               <Button4P buttonText={'Contact us at (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ms-[-20px] lg:ms-0'}/>
             </div>
