@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import React from "react";
 
 const LocalBusinessSchema = () => {
   const schemaData = {
@@ -114,12 +114,10 @@ const LocalBusinessSchema = () => {
   };
 
   return (
-    <Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-    </Head>
   );
 };
 
