@@ -3,6 +3,8 @@ export default function sitemap() {
   
     const cities = ["glen-burnie","severna-park", "commercial" ];
     const commercial = ["fleet", "food-trucks" ];
+    const foodTrucksCities = ["glen-burnie" ];
+    const fleetCities = ["glen-burnie" ];
     const staticPages = [
       "", 
       "about", 
@@ -24,6 +26,14 @@ export default function sitemap() {
       })),
       ...commercial.map((service) => ({
         url: `${SITE_URL}/car-wraps-maryland/commercial/${service}`,
+        lastModified: new Date().toISOString(),
+      })),
+      ...foodTrucksCities.map((service) => ({
+        url: `${SITE_URL}/car-wraps-maryland/commercial/food-trucks/${service}`,
+        lastModified: new Date().toISOString(),
+      })),
+      ...fleetCities.map((service) => ({
+        url: `${SITE_URL}/car-wraps-maryland/commercial/fleet/${service}`,
         lastModified: new Date().toISOString(),
       }))
 

@@ -7,6 +7,7 @@ import Button4P from "@/app/components/Button";
 import ReviewSection from "@/app/components/ReviewSection";
 import ServicesCardHome from "@/app/components/ServicesSectionHome";
 import ContactFormFooter from "@/app/components/ContactFormFooter";
+import LocalBusinessSchema from "@/app/components/LocalBusinessSchema";
 
 export const metadata = {
   title: "4Print",
@@ -18,7 +19,7 @@ export const metadata = {
     siteName: "4 Print",
     images: [
       {
-        url: "https://www.4printus.com/imagen-og.jpg",
+        url: "https://www.4printus.com/images/car-wraps-in-maryland-and-dmv.webp",
         width: 1200,
         height: 630,
         alt: "Car and Fleet Wraps",
@@ -31,6 +32,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+    <LocalBusinessSchema />
     {/******************  Hero Banner Section ****************************/}
       <div className="lg:bg-gradient-to-b bg-gradient-to-b from-[#EFEEEE] from-75% to-whitwe to-75% lg:pt-[200px] lg:mt-[-185px] pt-[130px] mt-[-110px]  mb-[100px]">
         <div className="container px-6 lg:px-0">

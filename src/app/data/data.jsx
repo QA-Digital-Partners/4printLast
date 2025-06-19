@@ -1131,6 +1131,10 @@ export const CWMMapCitiesFleet = [
     {
         title: "Anne Arundel County",
         cities: [
+            {
+                cityName: 'Glen Burnie',
+                citylink: '/car-wraps-maryland/commercial/fleet/glen-burnie',
+            },
         ],
         link: ""
     },
@@ -1314,6 +1318,10 @@ export const CommercialMapCitiesCommercial = [
     {
         title: "Anne Arundel County",
         cities: [
+            {
+                cityName: 'Glen Burnie',
+                citylink: '/car-wraps-maryland/glen-burnie',
+            }
         ],
         link: ""
     },
@@ -1497,6 +1505,10 @@ export const FoodTruckCities = [
     {
         title: "Anne Arundel County",
         cities: [
+            {
+                cityName: 'Glen Burnie',
+                citylink: '/car-wraps-maryland/commercial/food-trucks/glen-burnie',
+            }
         ],
         link: ""
     },
@@ -1630,5 +1642,172 @@ export const FoodTruckFAQs = [
         answer: `Yes! Wrapped food trucks can be safely cleaned with proper methods. We recommend:
                 Handwashing with food-safe, mild soap and water Avoiding high-pressure washers near edges and menu areas Using soft cloths to prevent scratching vibrant food imagery Regular cleaning to maintain an appetizing appearance Waiting 48 hours after installation before the first wash
                 For professional food truck wraps in Maryland that capture customer attention, trust 4Print. Contact us today to get your mobile kitchen noticed!`
+    }
+]
+
+/****************************************SEO Page - Junio 2025 - Fleet Glen Burnie  *****************************/
+
+export const FleetWrapGlenBurnie1 = [
+    {
+        title: 'Complete Vehicle Wraps',
+        text: 'Transform your commercial vehicles entirely with bold branding elements and professionally crafted graphic designs.'
+    },
+    {
+        title: 'Fleet Decals & Professional Lettering',
+        text: 'Maintain brand consistency across your vehicle fleet with unified vinyl graphics and corporate lettering solutions.'
+    },
+    {
+        title: 'Commercial Van & Truck Graphics',
+        text: 'Perfect for construction contractors, plumbing services, electrical companies, and delivery businesses requiring professional mobile branding.'
+    },
+    {
+        title: 'Mobile Food Service Wraps',
+        text: 'Eye-catching, dynamic designs that draw customers while displaying menu items, company branding, and contact information.'
+    },
+]
+
+export const FleetWrapGlenBurnie2 = [
+    {
+        title: 'Utility Trailer Graphics',
+        text: 'Custom corporate branding for enclosed trailers, delivery trucks, and equipment trailers, maximizing road-side visibility.'
+    },
+    {
+        title: 'High-Visibility Reflective Graphics',
+        text: 'Enhance safety and visibility with high-contrast reflective graphics for nighttime or low-light conditions.'
+    },
+    {
+        title: 'Window Perforation Graphics',
+        text: 'Transparent vinyl solutions that maintain interior visibility while showcasing exterior branding and promotional content.'
+    },
+    {
+        title: 'Professional Wrap Removal & Updates',
+        text: "Expert removal services and fresh wrap installation to update your fleet's visual presentation and branding message."
+    },
+]
+
+export const FleetWrapGlenBurnieWhy = [
+    {
+        title:'Professionally Certified Vinyl Installation Specialists:',
+        text: 'Our 3M & Avery Dennison-certified technicians guarantee flawless wrap application, eliminating bubbles, edge lifting, and adhesion failures.'
+    },
+    {
+        title:'Tailored Designs for Glen Burnie Businesses:',
+        text: 'We partner with local businesses and fleet operators to develop high-impact branding strategies. From service vehicle graphics to company-wide fleet branding, we execute your creative vision through professional design and skilled installation.'
+    },
+    {
+        title:'Superior Materials & Expert Installation Techniques:',
+        text: 'We utilize industry-standard vinyl wrap products to ensure extended durability. Our comprehensive surface preparation and professional application methods deliver perfect results and optimal wrap longevity.'
+    },
+    {
+        title:'Rapid Project Completion & Outstanding Customer Service:',
+        text: 'Our Glen Burnie-based team provides swift project turnaround while maintaining quality standards. Most wrap installations complete within several days, returning your business vehicles to active service quickly.'
+    },
+]
+
+export const FleetWrapGlenBurnieFAQs = [
+    {
+        title: 'What timeframe does installation require?',
+        answer: "Installation duration depends on project complexity. Complete fleet wraps generally require 2-5 business days, while partial wraps and lettering applications finish within 1-2 days. Fleet projects receive efficient scheduling to reduce vehicle downtime."
+    },
+    {
+        title: "How long do fleet wraps maintain their quality?",
+        answer: "Our premium 3M vinyl materials last 5-7 years under proper maintenance conditions. Longevity varies based on weather exposure and care practices, but our wraps maintain excellent color vibrancy and surface adhesion throughout their expected lifespan. UV resistance comes standard to minimize color fading."
+    },
+    {
+        title: "Do you provide installation guarantees?",
+        answer: "Absolutely! We offer a comprehensive one-year warranty covering installation workmanship. Furthermore, all 3M materials include manufacturer warranties addressing material defects, providing extended protection for your wrap investment."
+    },
+    {
+        title: "Can wrapped fleet vehicles be safely washed?",
+        answer: `Yes! Wrapped vehicles accept hand washing or touchless car wash cleaning. We recommend:
+                 Hand washing using gentle soap and water solutions Avoiding high-pressure washing near wrap edges and seams Skipping automated brush washes to prevent surface scratching Regular cleaning to preserve visual appearance Waiting two weeks after installation before initial washing
+                 For professional fleet wraps in Glen Burnie, MD, choose 4Print. Contact us today to start your project!
+                `
+    }
+]
+
+/****************************************SEO Page - Junio 2025 - Food Truck Glen Burnie  *****************************/
+
+export const FoodTruckOptGlenBurnie1 = [
+    {
+        title: 'Complete Food Truck Transformations',
+        text: 'Entirely redesign your mobile restaurant with striking culinary branding and professionally-designed food visuals.'
+    },
+    {
+        title: 'Menu Displays & Vehicle Lettering',
+        text: 'Keep uniform branding across all food service trucks with coordinated vinyl applications and attractive menu presentations.'
+    },
+    {
+        title: 'Custom Specialty Food Truck Wraps',
+        text: 'Perfect for artisan trucks, bakery vehicles, beverage carts, and catering services requiring an enticing mobile appearance.'
+    },
+    {
+        title: 'High-Quality Food Photography',
+        text: 'Appealing, crisp food images and designs that draw potential customers and highlight your featured offerings.'
+    },
+]
+
+export const FoodTruckOptGlenBurnie2 = [
+    {
+        title: 'Mobile Restaurant Identity Solutions',
+        text: 'Professional wraps for food trailers, concession vehicles, and mobile kitchens, guaranteeing optimal exposure at events and urban locations.'
+    },
+    {
+        title: 'Enhanced Visibility Graphics',
+        text: 'Improve after-dark recognition with bold-contrast designs for night operations and food truck gatherings.'
+    },
+    {
+        title: 'Transparent Menu Window Films',
+        text: 'Perforated window applications that maintain interior visibility while showcasing menus and promotions externally.'
+    },
+    {
+        title: 'Wrap Renewals & Modifications',
+        text: "Expert removal and installation of new wraps to update rotating menus or revitalize your food truck's visual appeal."
+    },
+]
+
+export const FoodTruckGlenBurnieWhyUs = [
+    {
+        title:'Qualified Food Truck Wrap Professionals:',
+        text: 'Our 3M & Avery Dennison-certified technicians guarantee that every food truck wrap receives flawless application, without air pockets, separation, or edge lifting, even under the rigorous demands of continuous food service operations.'
+    },
+    {
+        title:'Tailored Culinary Graphics for All Food Concepts:',
+        text: 'We partner with food truck proprietors and mobile food entrepreneurs to develop high-visibility branding strategies. Whether you require an upscale truck wrap or coordinated graphics for several mobile restaurants, we realize your culinary concept through expert design and precise implementation.'
+    },
+    {
+        title:'Commercial-Grade Materials & Expert Application:',
+        text: 'We utilize top-tier vinyl wraps specifically chosen to endure the temperature and sanitation demands of food service vehicles. Our comprehensive surface preparation and skilled installation guarantee flawless results and extended durability in food truck applications.'
+    },
+    {
+        title:'Rapid Completion & Exceptional Service:',
+        text: 'Our Glen Burnie-based team provides accelerated completion schedules while maintaining quality standards. Most food truck wraps finish within several days, allowing your mobile food business to resume customer service promptly.'
+    },
+]
+
+export const FoodTruckGlenBurnieFAQs = [
+    {
+        title: 'What timeframe is required for food truck wrap installation?',
+        answer: "Installation duration depends on your food truck's scale and graphic complexity. Complete food truck wraps generally require 2-4 business days, while limited wraps and menu panels finish in 1-2 days. We coordinate installations with your operating schedule to reduce service disruption."
+    },
+    {
+        title: "How resilient are food truck wraps in commercial food environments?",
+        answer: "Our professional 3M vinyl wraps for food trucks endure 4-6 years with appropriate maintenance, even during daily food service operations. Longevity relies on washing frequency, cooking conditions, and care practices, but our specialized wraps provide superior stain protection and adhesion throughout their service life. Heat-resistant selections are available for zones adjacent to cooking appliances."
+    },
+    {
+        title: "Do you provide guarantees for food truck wraps?",
+        answer: "Absolutely! We supply a one-year guarantee on our food truck installation craftsmanship. Furthermore, all 3M products include manufacturer warranties covering material flaws, providing long-term security for your mobile food investment."
+    },
+    {
+        title: "What's the proper method to clean my wrapped food truck?",
+        answer: `Yes! Wrapped food trucks can be safely maintained using appropriate techniques. We suggest:
+ .- Hand cleaning with food-safe, gentle detergent and water.
+ .- Avoiding high-pressure washing near edges and menu sections.
+ .- Using soft materials to prevent damaging colorful food graphics.
+ .- Routine cleaning to preserve an attractive appearance.
+ .- Allowing 48 hours after installation before initial washing.
+
+ For professional food truck wraps in Glen Burnie, MD that attract customer interest, choose 4Print. Contact us today to make your mobile kitchen stand out!
+                `
     }
 ]

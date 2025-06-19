@@ -2,6 +2,7 @@ import Button4P from "@/app/components/Button";
 import ContactForm from "@/app/components/ContactForm";
 import ContactFormFooter from "@/app/components/ContactFormFooter";
 import FAQs from "@/app/components/FAQS";
+import FAQSchema from "@/app/components/FAQSChema";
 import ReviewSection from "@/app/components/ReviewSection";
 import { CWGBWhyUs, CWMFAQs, CWMServicesOptionsCommercial1, CWMServicesOptionsCommercial2, CWMServicesOptionsPersonal1, CWMServicesOptionsPersonal2 } from "@/app/data/data";
 import Image from "next/image";
@@ -15,6 +16,9 @@ export const metadata = {
 const CarWrapsGlenBurnie = (props) => {
   return (
     <>
+      {/******************  FAQ Schema ****************************/}
+      <FAQSchema faqs={CWMFAQs} />
+
       {/******************  Banner Section ****************************/}
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
         <div className="container flex flex-wrap lg:flex-nowrap z-10">
@@ -204,15 +208,7 @@ const CarWrapsGlenBurnie = (props) => {
           <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps since 2021. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
-              <Image
-                src="/images/Map-severna-park.webp"
-                alt="Map of Saverna Park"
-                sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/Map-severna-park.webp 768w, /images/Map-severna-park.webp 1024w"
-                width={552}
-                height={730}
-                className="z-0 relative rounded-xl shadow-usual"
-              />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus" width="550" height="730" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[710px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="lg:w-6/12 w-full">
               <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">We are based near Severna Park, MD, and, depending on the job, our team can travel to clients within a 50-mile radius for on-site installations. Whether you're a personal vehicle owner or a business with a fleet, we bring our expertise to your location when needed, ensuring convenience and professional results.</p>

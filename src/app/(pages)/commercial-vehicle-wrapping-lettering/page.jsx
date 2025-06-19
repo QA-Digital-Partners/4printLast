@@ -5,6 +5,7 @@ import { Certifications120, FAQsWrap, FeaturesFullWrap, FeaturesMHIC, FeaturesPa
 import Image from "next/image";
 import ImageCarousel from "@/app/components/ImageCarousel";
 import FAQs from "@/app/components/FAQS";
+import FAQSchema from "@/app/components/FAQSChema";
 
 export const metadata = {
   title: "4Print - Commercial Vehicle Wraps & Fleet Lettering | 3M Certified Wrapping",
@@ -14,6 +15,9 @@ export const metadata = {
 const CommercialWrap = (props) => {
   return (
     <>
+      {/******************  FAQ Schema ****************************/}
+      <FAQSchema faqs={FAQsWrap} />
+
       {/******************  Banner Section ****************************/}
       <div className=" lg:bg-gradient-to-r bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] pb-16 mt-[-185px] lg:mb-[180px] mb-6">
         <div className="container flex flex-wrap lg:px-0 lg:pt-0">

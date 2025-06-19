@@ -8,8 +8,8 @@ import Image from "next/image";
 import ApparelCard from "@/app/components/Apparel"; 
 
 export const metadata = {
-  title: "Services",
-  description: "aqui la descripcion",
+  title: "4Print - Commercial Vehicle Wrapping & Printing Services",
+  description: "Transform your fleet into powerful mobile advertising tools with 4Print in Glen Burnie. We specialize in full & partial vehicle wraps, lettering, commercial printing, apparel & stationery — delivered fast, with premium materials and certified installers",
 };
 
 const Services = (props) => {

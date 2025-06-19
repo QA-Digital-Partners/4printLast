@@ -1,8 +1,9 @@
 import Button4P from "@/app/components/Button";
 import ContactFormFooter from "@/app/components/ContactFormFooter";
 import FAQs from "@/app/components/FAQS";
+import FAQSchema from "@/app/components/FAQSChema";
 import ReviewSection from "@/app/components/ReviewSection";
-import { CommercialMapCitiesCommercial, CommercialServices1, CommercialServices2, CommercialWhyUs, CWMFAQsFleet } from "@/app/data/data";
+import { CommercialMapCitiesCommercial, CommercialServices1, CommercialServices2, CommercialWhyUs, CommercialFAQs } from "@/app/data/data";
 import Image from "next/image";
 import React from "react"
 
@@ -15,6 +16,9 @@ export const metadata = {
 const Commercial = (props) => {
   return (
     <>
+      {/******************  FAQ Schema ****************************/}
+      <FAQSchema faqs={CommercialFAQs} />
+
       {/******************  Banner Section ****************************/}
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
         <div className="container flex flex-wrap z-10">
@@ -187,15 +191,7 @@ const Commercial = (props) => {
                 className="lg:justify-self-start justify-self-end lg:mt-[-430px] mt-[-290px] lg:ms-[100px] z-0 lg:w-[544px] w-[90%]" />    
             </div>
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
-              <Image
-                src="/images/Map.webp"
-                alt="Map of Maryland and Counties"
-                sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/Map.webp 768w, /images/Map.webp 1024w"
-                width={552}
-                height={691}
-                className="z-0 relative rounded-xl shadow-usual"
-              />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus" width="550" height="730" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[710px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
           <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your business is located outside these counties or in Washington, D.C., or Northern Virginia, we may still be able to accommodate your commercial vehicle wrap needs. We welcome all clients throughout the DMV region! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your commercial vehicle project and location.</p>
@@ -262,7 +258,7 @@ const Commercial = (props) => {
           <div className="lg:w-8/12 w-full lg:pe-24 px-8 py-8 lg:py-0 ">
           <h3 className="text-white lg:text-[40px] font-semibold">Commercial Vehicle Wrapping FAQs</h3>
           <p className="text-white pb-8">Find answers to common questions about commercial vehicle wraps in Maryland and learn about durability, cost, maintenance, and more.</p>
-            <FAQs faqsData={CWMFAQsFleet} />
+            <FAQs faqsData={CommercialFAQs} />
           </div>
         </div>
       </div>

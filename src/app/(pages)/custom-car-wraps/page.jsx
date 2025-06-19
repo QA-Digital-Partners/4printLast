@@ -11,10 +11,14 @@ import ContactFormFooter from "@/app/components/ContactFormFooter";
 import Image from "next/image";
 import MiniMenu from "@/app/components/MiniMenu";
 import ImageCarousel from "@/app/components/ImageCarousel";
+import FAQSchema from "@/app/components/FAQSChema";
 
 const CustomCarWrap = (props) => {
   return (
     <>
+      {/******************  FAQ Schema ****************************/}
+      <FAQSchema faqs={FAQsCustomWrap} />
+
       {/******************  Banner Section ****************************/}
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
         <div className="container flex flex-wrap lg:flex-nowrap">

@@ -6,7 +6,7 @@ import ContactFormFooter from "@/app/components/ContactFormFooter";
 
 export const metadata = {
     title: "About us - 4Print ",
-    description: "aqui la descripcion",
+    description: "Since 2021, 4Print has helped businesses in the DMV area turn their vehicles into powerful mobile billboards through high-quality wraps and commercial printing solutions. As certified installers, including 3M Preferred, we deliver personalized service and attention to detail to boost your brand visibility on the road.",
   };
 
 const AboutPage = (props) => {
@@ -19,9 +19,6 @@ const AboutPage = (props) => {
           <span className="text-4pred block lg:text-[110px]">Premier Vehicle</span>
           <span className="bg-banner-ap lg:pt-[43px] pt-[80px] lg:pb-[136px] pb-[30px] block rounded-2xl text-white mt-4 lg:text-[80px] text-[55px]">Wrapping & Commercial Printing Specialists</span>
           </h2>
-        <div className="">
-
-        </div>
       </div>
 
       {/******************  Who We Are Section ****************************/}
