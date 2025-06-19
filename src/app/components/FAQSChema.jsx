@@ -1,5 +1,4 @@
 // components/FAQSchema.jsx
-import Head from 'next/head';
 
 const FAQSchema = ({ faqs }) => {
   if (!faqs || faqs.length === 0) return null;
@@ -18,12 +17,10 @@ const FAQSchema = ({ faqs }) => {
   };
 
   return (
-    <Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-    </Head>
   );
 };
 
