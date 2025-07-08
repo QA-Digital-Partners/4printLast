@@ -24,7 +24,7 @@ const FleeWrapGlenBurnie = (props) => {
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
         <div className="container flex flex-wrap z-10">
           <div className="lg:w-6/12 w-full relative lg:z-20 px-6 lg:px-0 lg:pt-4">
-            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-2 lg:me-[-600px]">Fleet Wraps inGlen Burnie, MD<br /> 
+            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-2 lg:me-[-600px]">Fleet Wraps in Glen Burnie, MD<br /> 
                 <span className="lg:text-[80px] text-4pblue">Your Business Visibility </span> <br /> 
                 <span className="lg:text-[72px] text-4pred"> on Maryland Roads</span></h1>
 

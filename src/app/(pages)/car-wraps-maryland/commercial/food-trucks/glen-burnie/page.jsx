@@ -187,7 +187,7 @@ const FoodWrapGlenBuenie = (props) => {
         text2={'We proudly serve mobile food entrepreneurs throughout Glen Burnie and can support food truck businesses in Washington D.C. and Virginia.'} 
       >
         <div className="flex flex-wrap">
-          <div className="w-full">Call us today or email to Call us to start your food truck makeover!</div>
+          <div className="w-full">Call us today or email us to Call us to start your food truck makeover!</div>
           <div className="lg:w-3/12 w-[370px] mx-auto lg:mx-0 mt-4 lg:mt-6">
             <Button4P buttonText={'Call (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-white me-4'} iconOption={4} textColor={'text-4pred'}/>
           </div>
