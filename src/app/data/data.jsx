@@ -1135,6 +1135,10 @@ export const CWMMapCitiesFleet = [
                 cityName: 'Glen Burnie',
                 citylink: '/car-wraps-maryland/commercial/fleet/glen-burnie',
             },
+            {
+                cityName: 'Baltimore',
+                citylink: '/car-wraps-maryland/commercial/fleet/baltimore',
+            },
         ],
         link: ""
     },
@@ -1508,7 +1512,7 @@ export const FoodTruckCities = [
             {
                 cityName: 'Glen Burnie',
                 citylink: '/car-wraps-maryland/commercial/food-trucks/glen-burnie',
-            }
+            },
         ],
         link: ""
     },
@@ -1786,6 +1790,172 @@ export const FoodTruckGlenBurnieWhyUs = [
 ]
 
 export const FoodTruckGlenBurnieFAQs = [
+    {
+        title: 'What timeframe is required for food truck wrap installation?',
+        answer: "Installation duration depends on your food truck's scale and graphic complexity. Complete food truck wraps generally require 2-4 business days, while limited wraps and menu panels finish in 1-2 days. We coordinate installations with your operating schedule to reduce service disruption."
+    },
+    {
+        title: "How resilient are food truck wraps in commercial food environments?",
+        answer: "Our professional 3M vinyl wraps for food trucks endure 4-6 years with appropriate maintenance, even during daily food service operations. Longevity relies on washing frequency, cooking conditions, and care practices, but our specialized wraps provide superior stain protection and adhesion throughout their service life. Heat-resistant selections are available for zones adjacent to cooking appliances."
+    },
+    {
+        title: "Do you provide guarantees for food truck wraps?",
+        answer: "Absolutely! We supply a one-year guarantee on our food truck installation craftsmanship. Furthermore, all 3M products include manufacturer warranties covering material flaws, providing long-term security for your mobile food investment."
+    },
+    {
+        title: "What's the proper method to clean my wrapped food truck?",
+        answer: `Yes! Wrapped food trucks can be safely maintained using appropriate techniques. We suggest:
+ .- Hand cleaning with food-safe, gentle detergent and water.
+ .- Avoiding high-pressure washing near edges and menu sections.
+ .- Using soft materials to prevent damaging colorful food graphics.
+ .- Routine cleaning to preserve an attractive appearance.
+ .- Allowing 48 hours after installation before initial washing.
+
+ For professional food truck wraps in Glen Burnie, MD that attract customer interest, choose 4Print. Contact us today to make your mobile kitchen stand out!
+                `
+    }
+]
+
+/****************************************SEO Page - Julio 2025 - Fleet Baltimore  *****************************/
+
+export const FleetWrapBaltimore1 = [
+    {
+        title: 'Complete Vehicle Wraps',
+        text: 'Revolutionize your commercial vehicles completely with striking branding components and expertly designed graphic elements.'
+    },
+    {
+        title: 'Fleet Decals & Professional Lettering',
+        text: 'Achieve brand uniformity across your vehicle fleet with coordinated vinyl graphics and corporate lettering applications.'
+    },
+    {
+        title: 'Commercial Van & Truck Graphics',
+        text: 'Ideal for construction companies, plumbing businesses, electrical contractors, and delivery services needing professional mobile advertising.'
+    },
+    {
+        title: 'Mobile Food Service Wraps',
+        text: 'Captivating, vibrant designs that attract customers while showcasing menu offerings, company branding, and contact details.'
+    },
+]
+
+export const FleetWrapBaltimore2 = [
+    {
+        title: 'Utility Trailer Graphics',
+        text: 'Custom corporate graphics for enclosed trailers, delivery vehicles, and equipment trailers, maximizing roadside exposure.'
+    },
+    {
+        title: 'High-Visibility Reflective Graphics',
+        text: 'Enhance safety and nighttime recognition with premium reflective vinyl installations for superior low-light visibility.'
+    },
+    {
+        title: 'Window Perforation Graphics',
+        text: 'See-through vinyl options that preserve interior visibility while displaying exterior branding and marketing messages.'
+    },
+    {
+        title: 'Professional Wrap Removal & Updates',
+        text: "Expert removal services and new wrap installation to refresh your fleet's visual identity and marketing message."
+    },
+]
+
+export const FleetWrapBaltimoreWhy = [
+    {
+        title:'Professionally Certified Vinyl Installation Experts:',
+        text: 'Our 3M & Avery Dennison-certified technicians ensure perfect wrap installation, preventing bubbles, edge lifting, and adhesion problems.'
+    },
+    {
+        title:'Custom Designs for Baltimore Businesses:',
+        text: 'We collaborate with local businesses and fleet managers to create powerful branding strategies. From service vehicle graphics to company-wide fleet branding, we bring your creative vision to life through professional design and expert installation.'
+    },
+    {
+        title:'Premium Materials & Expert Installation Methods:',
+        text: 'We use industry-leading vinyl wrap products to guarantee extended performance. Our thorough surface preparation and professional application techniques deliver flawless results and maximum wrap lifespan.'
+    },
+    {
+        title:'Quick Project Completion & Exceptional Customer Service:',
+        text: 'Our Baltimore-based team delivers fast project turnaround while maintaining quality standards. Most wrap installations complete within several days, returning your business vehicles to active operation quickly.'
+    },
+]
+
+export const FleetWrapBaltimoreFAQs = [
+    {
+        title: 'What timeframe does installation require?',
+        answer: "Installation time depends on project scope. Complete fleet wraps typically require 2-5 business days, while partial wraps and lettering applications complete within 1-2 days. Fleet projects receive efficient scheduling to minimize vehicle downtime."
+    },
+    {
+        title: "How long do fleet wraps maintain their quality?",
+        answer: "Our premium 3M vinyl materials last 5-7 years with proper maintenance practices. Durability varies based on weather exposure and care routines, but our wraps maintain excellent color intensity and surface adhesion throughout their anticipated lifespan. UV protection comes standard to reduce color fading."
+    },
+    {
+        title: "Do you provide installation guarantees?",
+        answer: "Certainly! We provide a comprehensive one-year warranty covering installation craftsmanship. Additionally, all 3M materials include manufacturer warranties addressing material defects, offering extended protection for your wrap investment."
+    },
+    {
+        title: "Can wrapped fleet vehicles be safely washed?",
+        answer: `Absolutely! Wrapped vehicles accept hand washing or touchless car wash cleaning. We recommend: Hand washing using mild soap and water solutions Avoiding high-pressure washing near wrap edges and seams Avoiding automated brush washes to prevent surface damage Regular cleaning to maintain visual appearance Waiting two weeks after installation before initial washing
+                For professional fleet wraps in Baltimore, MD, choose 4Print. Contact us today to begin your project!
+                `
+    }
+]
+
+/****************************************SEO Page - Julio 2025 - Food Truck Baltimore  *****************************/
+
+export const FoodTruckOptBaltimore1 = [
+    {
+        title: 'Complete Food Truck Transformations',
+        text: 'Entirely redesign your mobile restaurant with striking culinary branding and professionally-designed food visuals.'
+    },
+    {
+        title: 'Menu Displays & Vehicle Lettering',
+        text: 'Keep uniform branding across all food service trucks with coordinated vinyl applications and attractive menu presentations.'
+    },
+    {
+        title: 'Custom Specialty Food Truck Wraps',
+        text: 'Perfect for artisan trucks, bakery vehicles, beverage carts, and catering services requiring an enticing mobile appearance.'
+    },
+    {
+        title: 'High-Quality Food Photography',
+        text: 'Appealing, crisp food images and designs that draw potential customers and highlight your featured offerings.'
+    },
+]
+
+export const FoodTruckOptBaltimore2 = [
+    {
+        title: 'Mobile Restaurant Identity Solutions',
+        text: 'Professional wraps for food trailers, concession vehicles, and mobile kitchens, guaranteeing optimal exposure at events and urban locations.'
+    },
+    {
+        title: 'Enhanced Visibility Graphics',
+        text: 'Improve after-dark recognition with bold-contrast designs for night operations and food truck gatherings.'
+    },
+    {
+        title: 'Transparent Menu Window Films',
+        text: 'Perforated window applications that maintain interior visibility while showcasing menus and promotions externally.'
+    },
+    {
+        title: 'Wrap Renewals & Modifications',
+        text: "Expert removal and installation of new wraps to update rotating menus or revitalize your food truck's visual appeal."
+    },
+]
+
+export const FoodTruckBaltimoreWhyUs = [
+    {
+        title:'Qualified Food Truck Wrap Professionals:',
+        text: 'Our 3M & Avery Dennison-certified technicians guarantee that every food truck wrap receives flawless application, without air pockets, separation, or edge lifting, even under the rigorous demands of continuous food service operations.'
+    },
+    {
+        title:'Tailored Culinary Graphics for All Food Concepts:',
+        text: 'We partner with food truck proprietors and mobile food entrepreneurs to develop high-visibility branding strategies. Whether you require an upscale truck wrap or coordinated graphics for several mobile restaurants, we realize your culinary concept through expert design and precise implementation.'
+    },
+    {
+        title:'Commercial-Grade Materials & Expert Application:',
+        text: 'We utilize top-tier vinyl wraps specifically chosen to endure the temperature and sanitation demands of food service vehicles. Our comprehensive surface preparation and skilled installation guarantee flawless results and extended durability in food truck applications.'
+    },
+    {
+        title:'Rapid Completion & Exceptional Service:',
+        text: 'Our Glen Burnie-based team provides accelerated completion schedules while maintaining quality standards. Most food truck wraps finish within several days, allowing your mobile food business to resume customer service promptly.'
+    },
+]
+
+export const FoodTruckBaltimoreFAQs = [
     {
         title: 'What timeframe is required for food truck wrap installation?',
         answer: "Installation duration depends on your food truck's scale and graphic complexity. Complete food truck wraps generally require 2-4 business days, while limited wraps and menu panels finish in 1-2 days. We coordinate installations with your operating schedule to reduce service disruption."

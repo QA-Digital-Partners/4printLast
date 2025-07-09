@@ -426,6 +426,13 @@ paint-order: stroke fill;
   transform: scaleX(-1);
 }
 
+.hero-banner-car-wrap-fleet-baltimore {
+  background: url('/images/bg-banner-fleet-wrap.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero-carwrap-food-truck {
   background: url('/images/bg-banner-food-truck.webp');
   background-position: center;

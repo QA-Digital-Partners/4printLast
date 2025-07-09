@@ -9,8 +9,8 @@ import Image from "next/image";
 import React from "react"
 
 export const metadata = {
-  title: "Food Truck Wraps in Glen Burnie, MD - Get Noticed - 4Print",
-  description: "Make people notice your business and want to buy from you and not others. Get high-quality food truck wraps for your box truck or commercial vehicle.",
+  title: "Eye-Catching Food Truck Wraps in Baltimore, MD - 4Print",
+  description: "Get a professional, eye-catching, and irresistible graphic wrap for your food truck in Baltimore, MD. We work fast. Contact us today and get notices on MD roads.",
 };
 
 

@@ -231,7 +231,7 @@ const FleeWrapMaryland = (props) => {
         text2={'We proudly serve food truck entrepreneurs throughout Maryland and can assist mobile food businesses in Washington D.C. and Virginia.'} 
       >
         <div className="flex flex-wrap">
-          <div className="w-full">Call us today or email to Call us to begin your food truck transformation!</div>
+          <div className="w-full">Call us today or email to begin your food truck transformation!</div>
           <div className="lg:w-3/12 w-[370px] mx-auto lg:mx-0 mt-4 lg:mt-6">
             <Button4P buttonText={'Call (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-white me-4'} iconOption={4} textColor={'text-4pred'}/>
           </div>
