@@ -4,7 +4,7 @@ import ContactFormFooter from "@/app/components/ContactFormFooter";
 import FAQs from "@/app/components/FAQS";
 import FAQSchema from "@/app/components/FAQSChema";
 import ReviewSection from "@/app/components/ReviewSection";
-import { FoodTruckGlenBurnieFAQs, FoodTruckGlenBurnieWhyUs, FoodTruckOptGlenBurnie1, FoodTruckOptGlenBurnie2 } from "@/app/data/data";
+import { FoodTruckBaltimoreFAQs, FoodTruckBaltimoreWhyUs, FoodTruckOptBaltimore1, FoodTruckOptBaltimore2 } from "@/app/data/data";
 import Image from "next/image";
 import React from "react"
 
@@ -18,27 +18,27 @@ const FoodWrapGlenBuenie = (props) => {
   return (
     <>
       {/******************  FAQ Schema ****************************/}
-      <FAQSchema faqs={FoodTruckGlenBurnieFAQs} />
+      <FAQSchema faqs={FoodTruckBaltimoreFAQs} />
 
       {/******************  Banner Section ****************************/}
       <div className=" bg-gradient-to-b from-[#EFEEEE] from-85% to-whitwe to-85% pt-[190px] mt-[-185px] lg:mb-[100px] mb-16">
         <div className="container flex flex-wrap z-10 gap-8 lg:gap-0">
           <div className="lg:w-6/12 w-full relative lg:z-20 px-6 lg:px-0 lg:pt-4 lg:pb-8">
-            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-8 lg:me-[-450px]">Food Truck Wraps in Glen Burnie, MD <br /> 
-                <span className="lg:text-[80px] text-4pblue">Elevate Your </span> <br /> 
+            <h1 className="lg:text-[40px] text-[45px] font-bold uppercase lg:leading-[60px] leading-[45px] lg:pb-8 lg:me-[-450px]">Food Truck Wraps in Baltimore, MD <br /> 
+                <span className="lg:text-[80px] text-4pblue">Transform Your </span> <br /> 
                 <span className="lg:text-[72px] text-4pred"> Mobile Food Business</span></h1>
 
-            <p className="leading-[23px] lg:pe-2 pt-4 ">Searching for professional food truck wraps in Glen Burnie, MD to boost your mobile restaurant venture? At 4Print, we create exceptional custom food truck graphics that convert your vehicle into a captivating mobile eatery that draws crowds.</p>
-            <p className="leading-[23px] lg:pe-2 pt-4 ">Whether you run one specialty food truck or oversee multiple mobile restaurants, our high-grade vinyl wrapping provides exceptional longevity, eye-catching culinary designs, and professional application.</p>
+            <p className="leading-[23px] lg:pe-2 pt-4 ">Looking for expert food truck wraps in Baltimore, MD to enhance your mobile restaurant operation? At 4Print, we design outstanding custom food truck graphics that transform your vehicle into an irresistible mobile dining destination that attracts customers.</p>
+            <p className="leading-[23px] lg:pe-2 pt-4 ">Whether you operate a single gourmet food truck or manage several mobile dining establishments, our premium vinyl wrapping delivers outstanding durability, striking culinary visuals, and professional installation.</p>
             <div className="flex flex-wrap gap-4 justify-center py-4 lg:pt-4">  
               <div className="lg:w-[30%] w-[45%] items-center border-[1px] border-4plight-grey rounded-lg bg-white justify-items-center content-center shadow-usual py-6 lg:me-0 me-2">
-                <p className="text-center text-[20px] font-bold leading-[23px] pt-2 px-8">Quick delivery</p>
+                <p className="text-center text-[20px] font-bold leading-[23px] pt-2 px-8">Fast Turnaround</p>
               </div>
               <div className="lg:w-[30%] w-[45%] items-center border-[1px] border-4plight-grey rounded-lg bg-white justify-items-center content-center shadow-usual py-6 lg:me-0 me-2">
-                <p className="text-center text-[20px] font-bold leading-[23px] pt-2">Professional Installation</p>
+                <p className="text-center text-[20px] font-bold leading-[23px] pt-2">Expert Installation</p>
               </div>
               <div className="lg:w-[30%] w-[48%] items-center border-[1px] border-4plight-grey rounded-lg bg-white justify-items-center content-center shadow-usual py-6">
-                <p className="text-center text-[20px] font-bold leading-[23px] pt-2 px-12">Tailored Graphics</p>
+                <p className="text-center text-[20px] font-bold leading-[23px] pt-2 px-12">Custom Graphics</p>
               </div>
             </div>
             <div className="flex flex-wrap">
@@ -69,15 +69,15 @@ const FoodWrapGlenBuenie = (props) => {
           <div className="flex flex-wrap lg:pt-4 px-6 lg:px-0">
             <div className="lg:w-5/12"></div>
             <div className="lg:w-7/12 w-full lg:ps-8">
-              <p className="leading-[23px]">At 4Print, we offer specialized food truck wrap services to help mobile food businesses enhance roadside recognition and build a distinctive brand presence. From complete vehicle transformations to targeted menu displays, we create mouth-watering visuals that generate memorable customer experiences.</p>
+              <p className="leading-[23px]">At 4Print, we deliver comprehensive food truck wrap solutions to help mobile food enterprises increase street visibility and establish a powerful brand identity. From full vehicle makeovers to strategic menu showcases, we develop appetizing graphics that create lasting customer impressions.</p>
             </div>
           </div>
           <div className="flex flex-wrap px-6 lg:px-0 pt-12 lg:pt-0" >
 
             <div className="lg:w-5/12 lg:pt-32 lg:order-1 order-3">
                 <Image
-                src="/images/foodtruck-wrap-glen-burnie.webp"
-                alt="Food Truck Wrap in Maryland"
+                src="/images/foodtruck-wrap-baltimore.webp"
+                alt="Food Truck Wrap in Baltimore Maryland"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
                 srcSet="/images/foodtruck-wrap-maryland.webp 768w, /images/foodtruck-wrap-maryland.webp 1024w"
                 width={536}
@@ -87,10 +87,10 @@ const FoodWrapGlenBuenie = (props) => {
             </div>
 
             <div className="lg:w-7/12 w-full pb-2 lg:pb-0 lg:pt-4 lg:ps-8 lg:order-2 order-1" id="personal">
-              <p className="text-4pred font-bold text-[35px] leading-[35px] py-4">Food Truck Wraps & Graphics for Mobile Food Ventures</p>
-              <p className="leading-[23px] ">For culinary professionals across all niches, our food truck wraps in Glen Burnie, MD provide an affordable method to showcase your menu items while safeguarding your vehicle's exterior. Whether you require graphics for one food truck or multiple mobile dining units, we guarantee superior-quality designs that accurately reflect your culinary brand.</p>
+              <p className="text-4pred font-bold text-[35px] leading-[35px] py-4">Food Truck Wraps & Graphics for Mobile Food Enterprises</p>
+              <p className="leading-[23px] ">For restaurant entrepreneurs across every specialty, our food truck wraps in Baltimore, MD offer a cost-effective approach to display your signature dishes while protecting your vehicle's paint. Whether you need graphics for a single food truck or multiple mobile food operations, we deliver premium-quality designs that perfectly represent your culinary identity.</p>
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:pt-12 pt-8">
-                {FoodTruckOptGlenBurnie1.map((data, index) => {
+                {FoodTruckOptBaltimore1.map((data, index) => {
                 return (
                   <div key={index} className={`relative`}>
                     <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-center w-full min-h-[180px] py-4 `}>
@@ -106,7 +106,7 @@ const FoodWrapGlenBuenie = (props) => {
             <div className="w-full pt-4 lg:pt-0 pb-8 lg:pb-0 lg:order-3 order-2" >
               <div className="lg:w-12/12 lg:pe-0">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:pt-6">
-                  {FoodTruckOptGlenBurnie2.map((data, index) => {
+                  {FoodTruckOptBaltimore2.map((data, index) => {
                   return (
                     <div key={index} className={`relative`}>
                       <div className={`bg-white border-[1px] border-4plight-grey rounded-2xl relative z-10 shadow-usual content-start w-full min-h-[220px] py-4 lg:pt-6`}>
@@ -121,7 +121,7 @@ const FoodWrapGlenBuenie = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For mobile food entrepreneurs seeking to grow their clientele with food truck wraps in Glen Burnie, MD, our targeted solutions provide a prominent, budget-friendly promotional strategy. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to explore your food truck branding concepts today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For mobile food business owners looking to expand their customer base with food truck wraps in Baltimore, MD, our specialized solutions offer a powerful, cost-effective marketing approach. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your food truck branding vision today!</p>
             </div>
           </div>
         </div>
@@ -130,22 +130,23 @@ const FoodWrapGlenBuenie = (props) => {
       {/****************** Map Section ****************************/}
       <div className="container lg:mb-[100px] mb-16">
         <div className="bg-4pgrey rounded-xl lg:p-12 p-6">
-          <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Serving Glen Burnie   
+          <h2 className="lg:text-[60px] text-[45px] leading-[50px] lg:px-0 lg:leading-[60px] uppercase font-bold">Serving Baltimore   
           <span className="lg:text-[65px] text-4pblue block"> Food Trucks Since 2021</span></h2>
-          <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming mobile food vehicles with premium vinyl applications since our establishment. Our crew enthusiastically supports Glen Burnie's thriving food truck community, delivering custom wraps, menu displays, and mobile restaurant branding that enhances recognition and customer attraction.</p>
+          <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been enhancing mobile food businesses with professional vinyl graphics since our founding. Our team proudly supports Baltimore's vibrant food truck scene, providing custom wraps, menu graphics, and mobile restaurant branding that increases visibility and customer engagement.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-8 pb-4 lg:pb-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus" width="550" height="780" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[780px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98821.04184057594!2d-76.70305804370932!3d39.284677240340876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1752157177597!5m2!1ses!2sco" width="550" height="770" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[770px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="lg:w-6/12 w-full">
-              <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8 pb-8 lg:pb-0">Located in Glen Burnie, MD, we provide mobile installations within a 50-mile service area, based on your food truck's dimensions and position. Whether you're a solo food truck operator or coordinating multiple mobile restaurants, we guarantee convenience and outstanding outcomes by delivering our services to your commissary or preferred location as required.</p>
+              <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8 pb-8 lg:pb-0">Based in Glen Burnie, MD, we offer mobile installations throughout a 50-mile service radius, depending on your food truck's size and location. Whether you're an independent food truck owner or managing multiple mobile dining operations, we ensure convenience and exceptional results by bringing our services to your commissary or preferred site as needed.
+</p>
               <div className="px-8 lg:pt-6 lg:pb-8 bg-white lg:mt-6 lg:ms-12 lg:me-0 rounded-xl shadow-usual">
                 <p className="text-[22px] font-semibold pb-4"> Contact us Today!</p>
                 <ContactForm />
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck functions beyond these regions or in Washington D.C. or Northern Virginia, we might still accommodate your requirements. We invite mobile food operators from across the DMV region! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your food truck venture and service area.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck operates outside these areas or in Washington D.C. or Northern Virginia, we may still serve your needs. We welcome mobile food entrepreneurs from throughout the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your food truck business and service location.</p>
         </div>
       </div>
 
@@ -156,9 +157,9 @@ const FoodWrapGlenBuenie = (props) => {
       <div className="container lg:mb-[100px] mb-16" id="whyus">
         <div className="bg-4pgrey rounded-3xl flex flex-wrap">
           <div className="lg:w-6/12 w-full lg:ps-16 ps-6 pe-6 lg:pe-0 lg:py-16 py-8">
-            <h2 className="lg:text-[45px] text-[42px] lg:leading-[55px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why Select 4Print 
-            <span className="lg:text-[65px] lg:leading-[65px] text-4pblue block"> for Food Truck Wraps in Maryland?</span></h2>
-            <p className="lg:pt-8">At 4Print, we focus on premium food truck wraps that convert standard vehicles into unforgettable culinary attractions. Since 2021, we've assisted mobile food operators across all specialties distinguish themselves with professional designs, accurate installations, and commercial-grade durable materials. Whether you require one wrap or complete fleet branding, we provide appetizing outcomes with careful attention to craftsmanship.</p>
+            <h2 className="lg:text-[45px] text-[42px] lg:leading-[55px] leading-[50px] uppercase font-bold pb-4 lg:pb-0">Why Choose 4Print  
+            <span className="lg:text-[65px] lg:leading-[65px] text-4pblue block"> for Food Truck Wraps in Baltimore, MD?</span></h2>
+            <p className="lg:pt-8">At 4Print, we specialize in superior food truck wraps that transform ordinary vehicles into memorable culinary destinations. Since 2021, we've helped mobile food entrepreneurs across every cuisine category stand out with professional designs, precise installations, and commercial-grade lasting materials. Whether you need a single wrap or complete fleet branding, we deliver delicious results with meticulous attention to detail.</p>
             <div className="lg:w-8/12 w-[340px] ms-auto lg:mx-0 mt-12">
               <Button4P buttonText={'Contact us at (443) 998-1717'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ms-[-20px] lg:ms-0'}/>
             </div>
@@ -166,7 +167,7 @@ const FoodWrapGlenBuenie = (props) => {
 
           <div className="lg:w-6/12 lg:ps-8 text-white content-end">
             <div className="ps-6 lg:ps-12 pe-4 pb-12 rectangle-cuted-red-tl rounded-br-3xl pt-8 lg:pt-20">
-              {FoodTruckGlenBurnieWhyUs.map((data, index) =>{
+              {FoodTruckBaltimoreWhyUs.map((data, index) =>{
                 return(
                   <div key={index} className="flex py-3">
                     <img src="/images/ib-link-blue-white.svg" width={30} height={32} className="me-2" />
@@ -181,10 +182,10 @@ const FoodWrapGlenBuenie = (props) => {
 
       {/****************** Contact Form  Section ****************************/}
       <ContactFormFooter
-        title1={"Ready to Upgrade Your Food Truck?"}
-        title2={"Secure Your Glen Burnie Wrap Today!"}
-        text1={"Whether you need comprehensive food truck branding or menu presentation graphics, 4Print represents Glen Burnie's reliable mobile food wrap specialist."}
-        text2={'We proudly serve mobile food entrepreneurs throughout Glen Burnie and can support food truck businesses in Washington D.C. and Virginia.'} 
+        title1={"Ready to Transform Your Food Truck?"}
+        title2={"Get Your Baltimore Wrap Today!"}
+        text1={"Whether you need complete food truck branding or menu display graphics, 4Print is Baltimore's trusted mobile food wrap specialist."}
+        text2={'We proudly serve mobile food entrepreneurs throughout Baltimore and can assist food truck businesses in Washington D.C. and Virginia.'} 
       >
         <div className="flex flex-wrap">
           <div className="w-full">Call us today or email us to start your food truck makeover!</div>
@@ -207,8 +208,8 @@ const FoodWrapGlenBuenie = (props) => {
 
           <div className="lg:w-8/12 w-full lg:pe-24 px-8 py-8 lg:py-0 ">
           <h3 className="text-white lg:text-[40px] font-semibold">Food Truck Wrapping Frequently Asked Questions</h3>
-          <p className="text-white pb-8">Discover answers to typical inquiries about food truck wraps in Glen Burnie, MD and understand longevity, pricing, upkeep, and factors unique to mobile food service operations.</p>
-            <FAQs faqsData={FoodTruckGlenBurnieFAQs} />
+          <p className="text-white pb-8">Find answers to common questions about food truck wraps in Baltimore, MD and learn about durability, costs, maintenance, and considerations specific to mobile food service vehicles.</p>
+            <FAQs faqsData={FoodTruckBaltimoreFAQs} />
           </div>
         </div>
       </div>

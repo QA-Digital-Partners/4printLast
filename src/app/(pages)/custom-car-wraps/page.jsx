@@ -71,7 +71,7 @@ const CustomCarWrap = (props) => {
       {/******************  Classic to Custom Section ****************************/}
       <div className="lg:bg-gradient-to-r bg-gradient-to-t from-white lg:from-30% from-20% to-4pgrey lg:to-30% to-20% lg:mb-[100px] mb-16" id="classic">
         <div className="container flex flex-wrap lg:flex-nowrap">
-          <div className="lg:w-5/12 w-full lg:pt-[83px] pt-4 justify-evenly order-1 lg:order-0">
+          <div className="lg:w-5/12 w-full lg:pt-[140px] pt-4 justify-evenly order-1 lg:order-0">
           <Image 
             src="/images/classic-to-custom.webp"
             alt="Who we are image 1"
@@ -87,6 +87,30 @@ const CustomCarWrap = (props) => {
             <p className="lg:w-[35rem] w-full leading-[23px] pt-8 relative z-10">Whether you're looking for a complete color transformation, eye-catching racing stripes, or premium textured and chrome finishes, our custom car wraps offer endless possibilities for personalizing your vehicle.
               <br /><br />
               Our certified installers ensure a perfect application that looks factory-fresh, with added protection and the flexibility to change your vehicle’s appearance in the future.</p>
+              <div className="flex flex-wrap lg:flex-nowrap pt-6 gap-6 items-center ">
+                <p className="font-bold lg:w-3/12 w-full leading-[16px]">Check Our available colors</p>
+                <a href="https://multimedia.3m.com/mws/media/1783349O/3m-wrap-film-2080-series-color-palette.pdf" className="w-5/12 lg:w-3/12" target="_blank">
+                <Image 
+                  src="/images/3M-179-color.svg"
+                  alt="Who we are image 1"
+                  sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+                  srcSet="/images/classic-to-custom.webp 768w, /images/classic-to-custom.webp 1024w"
+                  width={179}
+                  height={60}
+                  className="self-start lg:w-[179px] w-full grayscale hover:grayscale-0" />
+                </a>
+                <a href="https://graphics.averydennison.com/content/dam/averydennison/graphics/na/en/documents/sell-sheets-and-brochures/color-guide/na-swf-color-card-en.pdf" className="w-5/12 lg:w-3/12" target="_blank">
+                <Image 
+                  src="/images/avery-179-color.svg"
+                  alt="Who we are image 1"
+                  sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+                  srcSet="/images/classic-to-custom.webp 768w, /images/classic-to-custom.webp 1024w"
+                  width={179}
+                  height={60}
+                  className="self-start lg:w-[179px] w-full grayscale hover:grayscale-0" 
+                   />
+                   </a>
+              </div>
               <div className="lg:w-7/12 w-[370px] mc-auto lg:mx-0 my-8">
                 <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
               </div>
@@ -108,7 +132,7 @@ const CustomCarWrap = (props) => {
           <p className="leading-[23px] lg:ps-6 lg:pb-6 py-6 lg:py-0">Transform your vehicle's exterior with our premium solid color wrap service. Unlike paint, our vinyl wraps provide a reversible solution that protects your original paint while allowing you to reinvent your vehicle's appearance completely.
           Whether you're looking for classic solid colors or contemporary shades, our professional installation delivers a factory-quality finish that makes your vehicle stand out.</p>
           <p className="leading-[23px] lg:ps-6"><span className="font-bold">Best for:</span> Vehicle enthusiasts wanting a complete color transformation without permanent paint</p>
-          <p className="text-4pblue lg:text-[35px] text-[26px] font-bold lg:ps-6 pt-6 pb-6 lg:pb-0">Features</p>
+          <p className="text-4pblue lg:text-[35px] text-[26px] font-bold lg:ps-6 pt-6 pb-2 lg:pb-0">Features</p>
           <div className="rectangle-cuted-red-ur rounded-3xl grid lg:grid-cols-3 grid-cols-1 gap-6 px-6 lg:my-16 py-12 lg:py-0">
             {CustomFullVehicleFeatures.map((data, index) => {
               let classes = '';
