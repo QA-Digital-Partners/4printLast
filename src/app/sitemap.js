@@ -4,7 +4,7 @@ export default function sitemap() {
     const cities = ["glen-burnie","severna-park", "commercial" ];
     const commercial = ["fleet", "food-trucks" ];
     const foodTrucksCities = ["glen-burnie", "baltimore" ];
-    const fleetCities = ["glen-burnie" ];
+    const fleetCities = ["glen-burnie", "baltimore" ];
     const staticPages = [
       "", 
       "about", 

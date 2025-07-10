@@ -1513,6 +1513,10 @@ export const FoodTruckCities = [
                 cityName: 'Glen Burnie',
                 citylink: '/car-wraps-maryland/commercial/food-trucks/glen-burnie',
             },
+            {
+                cityName: 'Baltimore',
+                citylink: '/car-wraps-maryland/commercial/food-trucks/baltimore',
+            },
         ],
         link: ""
     },
