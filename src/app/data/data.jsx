@@ -782,7 +782,7 @@ export const GalleryImages = [
     'van-brave-43','tree-services-1','integrity-3','trailer-santirana-2','nicks-truck','zombie-house','cyber-truck-8','tree-services','terrence-van-2','truck-ultra-envios','dr-mario-van','dreamscape-van-2',
     'pickup-divine','avera-1','van-full-wrap-247','dr-mario-van-3','van-layla-gif','trailer-santirana','pickup-tree-2','beautifull-yards','pickup-santis-3','mjd-6','trailer-flavrz','container-sinaloa-2',
     'trailer-move-junk','mistery-van-1','van-espinal-4','truck-fulwrap','star-maids','van-full-wrap-247-2','nicks-truck-2','container-sinaloa','terrence-van-4','van-benchmark','cyber-truck-7','cyber-truck-3',
-    'cyber-truck-10','container-sinaloa-3','ISA','ISA-2','pickup-divine-1','van-ricky-ricardo-3','dreamscape-van-3','pickup-george-and-son-2','pickup-george-and-son','mjd-1','mjd-2','mjd-3'
+    'cyber-truck-10','container-sinaloa-3','pickup-divine-1','van-ricky-ricardo-3','dreamscape-van-3','pickup-george-and-son-2','pickup-george-and-son','mjd-1','mjd-2','mjd-3'
 ]
 
 /****************************************SEO Page - March 2025 - Car Wraps Maryland  ***********************************/
