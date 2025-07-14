@@ -97,7 +97,7 @@ const CustomCarWrap = (props) => {
                   srcSet="/images/classic-to-custom.webp 768w, /images/classic-to-custom.webp 1024w"
                   width={179}
                   height={60}
-                  className="self-start lg:w-[179px] w-full grayscale hover:grayscale-0" />
+                  className="self-start lg:w-[179px] w-full hover:scale-105 ease-is-out transition-all" />
                 </a>
                 <a href="https://graphics.averydennison.com/content/dam/averydennison/graphics/na/en/documents/sell-sheets-and-brochures/color-guide/na-swf-color-card-en.pdf" className="w-5/12 lg:w-3/12" target="_blank">
                 <Image 
@@ -107,7 +107,7 @@ const CustomCarWrap = (props) => {
                   srcSet="/images/classic-to-custom.webp 768w, /images/classic-to-custom.webp 1024w"
                   width={179}
                   height={60}
-                  className="self-start lg:w-[179px] w-full grayscale hover:grayscale-0" 
+                  className="self-start lg:w-[179px] w-full hover:scale-105 ease-is-out transition-all" 
                    />
                    </a>
               </div>
