@@ -24,6 +24,16 @@ export default function RootLayout({ children }) {
       });
     }
   }, [pathname]);
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("config", GA_MEASUREMENT_ID_4PRINT, {
+        page_path: pathname,
+      });
+    }
+  }, [pathname]);
+
+
   return (
     <html lang="en" >
       <head>
@@ -62,6 +72,27 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+
+        {/****************codigo de 4print ********************/}
+
+        <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-KK0B0NHH1C`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KK0B0NHH1C', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       </head>
       <body>
         {/* Google Tag Manager - Body */}
