@@ -1894,9 +1894,12 @@ export const FleetWrapBaltimoreFAQs = [
     },
     {
         title: "Can wrapped fleet vehicles be safely washed?",
-        answer: `Absolutely! Wrapped vehicles accept hand washing or touchless car wash cleaning. We recommend: Hand washing using mild soap and water solutions Avoiding high-pressure washing near wrap edges and seams Avoiding automated brush washes to prevent surface damage Regular cleaning to maintain visual appearance Waiting two weeks after installation before initial washing
-                For professional fleet wraps in Baltimore, MD, choose 4Print. Contact us today to begin your project!
-                `
+        answer: `Absolutely! Wrapped vehicles accept hand washing or touchless car wash cleaning. We recommend: 
+.- Hand washing using mild soap and water solutions 
+.- Avoiding high-pressure washing near wrap edges and seams 
+.- Avoiding automated brush washes to prevent surface damage 
+.- Regular cleaning to maintain visual appearance Waiting two weeks after installation before initial washing
+    For professional fleet wraps in Baltimore, MD, choose 4Print. Contact us today to begin your project!`
     }
 ]
 
