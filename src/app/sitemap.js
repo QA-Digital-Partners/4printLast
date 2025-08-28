@@ -2,7 +2,7 @@ export default function sitemap() {
     const SITE_URL = "https://4printus.com"; // Reemplaza con tu dominio real
   
     const cities = ["glen-burnie","severna-park", "commercial" ];
-    const commercial = ["fleet", "food-trucks" ];
+    const commercial = ["fleet", "food-trucks", "glen-burnie", "baltimore" ];
     const foodTrucksCities = ["glen-burnie", "baltimore" ];
     const fleetCities = ["glen-burnie", "baltimore" ];
     const staticPages = [

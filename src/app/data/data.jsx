@@ -70,7 +70,7 @@ export const titleHM = {
 
 // Section Brands - Home Page
 
-export const TrustedBy =[ 'AC-paving-179.svg', 'expinal-179.svg', 'antonios-179.svg', 'does-179.svg' ]
+export const TrustedBy =[ 'chick-fill-179.svg', 'howard-county-179.svg', 'antonios-179.svg', 'does-179.svg' ]
 export const BestBrands =[ '3M-179.svg', 'avery-179.svg', 'arlon-179.svg', 'brightline-179.svg' ]
 
 // Section MiniMenu - Home Page
@@ -1324,7 +1324,7 @@ export const CommercialMapCitiesCommercial = [
         cities: [
             {
                 cityName: 'Glen Burnie',
-                citylink: '/car-wraps-maryland/glen-burnie',
+                citylink: '/car-wraps-maryland/commercial/glen-burnie',
             }
         ],
         link: ""
@@ -1332,7 +1332,10 @@ export const CommercialMapCitiesCommercial = [
     {
         title: "Baltimore County",
         cities: [
-
+            {
+                cityName: 'Baltimore',
+                citylink: '/car-wraps-maryland/commercial/baltimore',
+            }
         ],
         link: ""
     },
@@ -1986,4 +1989,350 @@ export const FoodTruckBaltimoreFAQs = [
 For professional food truck wraps in Baltimore, MD that drive customer attention, choose 4Print. Contact us today to make your mobile kitchen shine!
 `
     }
+]
+
+
+/****************************************SEO Page - Agosto 2025 - Car Wrap Commercial Glen Burnie *****************************/
+
+export const CommercialGlenBurnieFAQs = [
+    {
+        title: 'How long does commercial vehicle wrap installation take?',
+        answer: "Installation duration varies by project scope. Full commercial fleet wraps typically require 2-5 business days, while partial wraps and lettering can be completed in 1-2 days. Fleet projects are scheduled efficiently to minimize business disruption."
+    },
+    {
+        title: "How durable are commercial vehicle wraps?",
+        answer: "Our premium 3M vinyl commercial wraps last 5-7 years with proper maintenance. Durability depends on environmental factors and care practices, but our commercial wraps provide excellent color retention and adhesion throughout their lifespan. UV protection is included to prevent fading on your commercial vehicles."
+    },
+    {
+        title: "Do you offer warranties on commercial vehicle wraps?",
+        answer: "Yes! We provide a one-year warranty on our installation workmanship for all commercial vehicle wraps. Additionally, all 3M materials include a manufacturer's warranty covering material defects, ensuring long-term protection for your business investment."
+    },
+    {
+        title: "Can I wash my wrapped commercial vehicles?",
+        answer: `Yes! Wrapped commercial vehicles can be hand washed or cleaned in a touchless car wash. We recommend:
+    .- Handwashing with mild soap and water
+    .- Avoiding high-pressure washers near edges and seams
+    .- Skipping brush car washes to prevent scratches
+    .- Regular cleaning to maintain a professional appearance
+    .- Waiting 2 weeks after installation before the first wash`
+    }
+]
+
+export const CommercialGlenBurnieServices1 = [
+    {
+        title: 'Full Commercial Vehicle Wraps',
+        text: 'Completely revitalize your business vehicles with high-impact branding and professionally designed graphics.'
+    },
+    {
+        title: 'Commercial Fleet Graphics & Lettering',
+        text: 'Maintain consistent branding across all company vehicles with cohesive vinyl graphics and professional lettering.'
+    },
+    {
+        title: 'Commercial Van & Truck Wraps',
+        text: 'Perfect for Glen Burnie contractors, HVAC businesses, electrical companies, and delivery services requiring professional mobile presence.'
+    },
+    {
+        title: 'Food Truck Wraps',
+        text: 'Dynamic, attention-grabbing designs that attract customers and showcase menus, branding, and social media information.'
+    },
+]
+
+export const CommercialGlenBurnieServices2 = [
+    {
+        title: 'Commercial Trailer Wraps',
+        text: 'Custom branding solutions for enclosed trailers, box trucks, and utility trailers, ensuring maximum visibility throughout Glen Burnie.'
+    },
+    {
+        title: 'Reflective Commercial Vinyl Wraps',
+        text: 'Enhance safety and visibility with high-contrast reflective graphics ideal for nighttime or low-light conditions.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'See-through vinyl solutions allowing visibility from inside while displaying your branding on the exterior.'
+    },
+    {
+        title: 'Commercial Wrap Removal & Replacement',
+        text: "Professional removal and application of new commercial wraps to refresh your fleet's appearance."
+    },
+]
+
+export const CommercialGlenBurnieMapCities = [
+    {
+        title: "Glen Burnie Central",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Ferndale",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Brooklyn Park ",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Linthicum Heights",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Pasadena",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Severn",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Hanover",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Marley",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Glen Burnie South",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Curtis Bay",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CommercialGlenBurnieWhyUs = [
+    {
+        title:'Certified Commercial Vehicle Wrap Specialists:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every commercial wrap is flawlessly applied, without bubbles, peeling, or lifting.'
+    },
+    {
+        title:'Custom Designs for Every Maryland Business:',
+        text: 'We collaborate with businesses and fleet managers to create high-impact branding solutions. Whether you need a commercial service van wrap or fleet-wide branding, we bring your vision to reality with professional design and execution.'
+    },
+    {
+        title:'Premium Materials & Expert Installation:',
+        text: 'We utilize industry-leading vinyl wraps to guarantee long-lasting durability for your commercial vehicles. Our thorough preparation and professional installation ensure flawless results and maximum longevity.'
+    },
+    {
+        title:'Rapid Turnaround & Superior Service:',
+        text: 'Our Glen Burnie-based team delivers quick turnaround times without compromising quality. Most commercial vehicle wraps are completed within days, minimizing downtime for your business vehicles.'
+    },
+]
+
+/****************************************SEO Page - Agosto 2025 - Car Wrap Commercial Baltimore *****************************/
+
+export const CommercialBaltimoreFAQs = [
+    {
+        title: 'How long does commercial vehicle wrap installation take?',
+        answer: "Installation duration varies by project scope. Full commercial fleet wraps typically require 2-5 business days, while partial wraps and lettering can be completed in 1-2 days. Fleet projects are scheduled efficiently to minimize business disruption."
+    },
+    {
+        title: "How durable are commercial vehicle wraps?",
+        answer: "Our premium 3M vinyl commercial wraps last 5-7 years with proper maintenance. Durability depends on environmental factors and care practices, but our commercial wraps provide excellent color retention and adhesion throughout their lifespan. UV protection is included to prevent fading on your commercial vehicles."
+    },
+    {
+        title: "Do you offer warranties on commercial vehicle wraps?",
+        answer: "Yes! We provide a one-year warranty on our installation workmanship for all commercial vehicle wraps. Additionally, all 3M materials include a manufacturer's warranty covering material defects, ensuring long-term protection for your business investment."
+    },
+    {
+        title: "Can I wash my wrapped commercial vehicles?",
+        answer: `Yes! Wrapped commercial vehicles can be hand washed or cleaned in a touchless car wash. We recommend:
+    .- Handwashing with mild soap and water
+    .- Avoiding high-pressure washers near edges and seams
+    .- Skipping brush car washes to prevent scratches
+    .- Regular cleaning to maintain a professional appearance
+    .- Waiting 2 weeks after installation before the first wash`
+    }
+]
+
+export const CommercialBaltimoreServices1 = [
+    {
+        title: 'Full Commercial Vehicle Wraps',
+        text: 'Completely revitalize your business vehicles with high-impact branding and professionally designed graphics.'
+    },
+    {
+        title: 'Commercial Fleet Graphics & Lettering',
+        text: 'Maintain consistent branding across all company vehicles with cohesive vinyl graphics and professional lettering.'
+    },
+    {
+        title: 'Commercial Van & Truck Wraps',
+        text: 'erfect for Baltimore contractors, HVAC businesses, electrical companies, and delivery services requiring professional mobile presence.'
+    },
+    {
+        title: 'Food Truck Wraps',
+        text: 'Dynamic, attention-grabbing designs that attract customers and showcase menus, branding, and social media information.'
+    },
+]
+
+export const CommercialBaltimoreServices2 = [
+    {
+        title: 'Commercial Trailer Wraps',
+        text: 'Custom branding solutions for enclosed trailers, box trucks, and utility trailers, ensuring maximum visibility throughout Baltimore.'
+    },
+    {
+        title: 'Reflective Commercial Vinyl Wraps',
+        text: 'Enhance safety and visibility with high-contrast reflective graphics ideal for nighttime or low-light conditions.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'See-through vinyl solutions allowing visibility from inside while displaying your branding on the exterior.'
+    },
+    {
+        title: 'Commercial Wrap Removal & Replacement',
+        text: "Professional removal and application of new commercial wraps to refresh your fleet's appearance."
+    },
+]
+
+export const CommercialBaltimoreMapCities = [
+    {
+        title: "Downtown Baltimore",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Inner Harbor",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Federal Hill",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Fells Point",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Canton",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Hampden",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Mount Vernon",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles Village",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Bolton Hill",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Pigtown",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Riverside",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "South Baltimore",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "East Baltimore",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "West Baltimore",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "North Baltimore",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CommercialBaltimoreWhyUs = [
+    {
+        title:'Certified Commercial Vehicle Wrap Specialists:',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every commercial wrap is flawlessly applied, without bubbles, peeling, or lifting.'
+    },
+    {
+        title:'Custom Designs for Every Baltimore Business:',
+        text: 'We collaborate with businesses and fleet managers to create high-impact branding solutions. Whether you need a commercial service van wrap or fleet-wide branding, we bring your vision to reality with professional design and execution.'
+    },
+    {
+        title:'Premium Materials & Expert Installation:',
+        text: 'We utilize industry-leading vinyl wraps to guarantee long-lasting durability for your commercial vehicles. Our thorough preparation and professional installation ensure flawless results and maximum longevity.'
+    },
+    {
+        title:'Rapid Turnaround & Superior Service:',
+        text: 'Our Glen Burnie-based team delivers quick turnaround times without compromising quality. Most commercial vehicle wraps are completed within days, minimizing downtime for your business vehicles.'
+    },
 ]
