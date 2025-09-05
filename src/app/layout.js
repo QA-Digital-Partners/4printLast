@@ -93,6 +93,44 @@ export default function RootLayout({ children }) {
           `,
         }}
       />
+
+      {/************************** GTAG ALfonso - 09/05/25 */}
+
+      {/* Script de Google Tag Manager */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11038475601"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11038475601');
+          `}
+        </Script>
+
+        {/************************ COnversion Wgatsapp - Alfonso - 09/05/25 */}
+
+        {/* Conversión WhatsApp */}
+        <Script id="gtag-whatsapp" strategy="afterInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof url !== 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                send_to: 'AW-11038475601/iWgWCN6soYQYENGKx48p',
+                event_callback: callback
+              });
+              return false;
+            }
+          `}
+        </Script>
+
+        
       </head>
       <body>
         {/* Google Tag Manager - Body */}
