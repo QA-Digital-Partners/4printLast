@@ -126,7 +126,7 @@ const Commercial = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For Glen Burnie businesses seeking to expand their reach with commercial vehicle wraps, our solutions offer a high-visibility, economical marketing approach. Call us at (443) 998-1717 to discuss your commercial fleet branding requirements today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For Glen Burnie businesses seeking to expand their reach with commercial vehicle wraps, our solutions offer a high-visibility, economical marketing approach. Call us at <a href="+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your commercial fleet branding requirements today!</p>
             </div>
 
           </div>
