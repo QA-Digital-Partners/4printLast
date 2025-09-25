@@ -21,6 +21,8 @@ export const dropDownCarWraps = [
 export const dropDownCarWrapsCommercial = [
     {name:'Fleet Wrap', link: '/car-wraps-maryland/commercial/fleet/'},
     {name:'Food Trucks', link: '/car-wraps-maryland/commercial/food-trucks/'},
+    {name:'Vans Wrap', link: '/car-wraps-maryland/commercial/vans/'},
+    {name:'Trailer Wrap', link: '/car-wraps-maryland/commercial/trailers/'},
 ]
 
 // Textos del footer
@@ -775,7 +777,7 @@ export const StationaryCardInfo = [
 ]
 
 export const GalleryImages = [
-    'cuber-truc-1', 'van-terrence','van-green-waste','efficient-moverso-1','van-dreamscape','freshness-van','truck-tree-services','van-jlr','mistery-van','pickup-m-and-d','m-and-d','van-espinal-1',
+    'cuber-truc-1', 'van-terrence','van-green-waste','efficient-moverso-1','van-dreamscape','freshness-van','truck-tree-services','van-jlr','mistery-van','pickup-m-and-d','van-espinal-1',
     'zombie-house-2','cyber-truck-6', 'cyber-truck-9','cuber-truc-1','van-espinal-2','cyber-truc-2','trailer-snow-ball','mercedes-tormasol','van-espinal-3','van-mistery','trailer-santirana-3',
     'pickup-santis-2','van-jlr-2','pickup-santis','mjd-4','camaro-red','pickup-tree','van-integrity','stony-man','freshness-van-2','van-rucky-ricardo','star-maids-3','van-ricky-ricardo','corvette-2',
     'dr-mario-van-2','cyber-truck-5','van-pink','cyber-truck-4','efficient-moverso-2','pickup-depro','corvette','ice-goodies','trailer-snow-ball-2','mjd-5','tias-van','stony-man-2','pickup-home-improvement',
@@ -2336,3 +2338,494 @@ export const CommercialBaltimoreWhyUs = [
         text: 'Our Glen Burnie-based team delivers quick turnaround times without compromising quality. Most commercial vehicle wraps are completed within days, minimizing downtime for your business vehicles.'
     },
 ]
+
+/****************************************SEO Page - Septiembre 2025 - Vans Wrap Commercial Maryland *****************************/
+
+export const VansWrapFAQs = [
+    {
+        title: 'How long does commercial van wrap installation take?',
+        answer: "Installation time varies depending on your commercial van's size and design complexity. Full commercial van wraps typically take 2-4 business days, while partial wraps and service graphics can be completed in 1-2 days. We schedule installations around your service schedule to minimize business interruption."
+    },
+    {
+        title: "How durable are commercial van wraps in service environments?",
+        answer: "Our premium 3M vinyl wraps for commercial vans last 4-6 years with proper care, even with daily service use. Durability depends on cleaning frequency, operating environments, and maintenance routines, but our specialized wraps offer excellent weather resistance and adhesion throughout their lifespan. Heavy-duty options are available for demanding service conditions."
+    },
+    {
+        title: "Do you offer warranties for commercial van wraps?",
+        answer: "Yes! We provide a one-year warranty on our commercial van installation workmanship. Additionally, all 3M materials come with a manufacturer's warranty covering material defects, ensuring long-term protection for your service investment."
+    },
+    {
+        title: "How should I clean my wrapped commercial van?",
+        answer: `Yes! Wrapped commercial vans can be safely cleaned with proper methods. We recommend:
+    .- Handwashing with professional-grade, mild soap and water
+    .- Avoiding high-pressure washers near edges and graphic areas
+    .- Using soft cloths to prevent scratching professional imagery
+    .- Regular cleaning to maintain a polished appearance
+    .- Waiting 48 hours after installation before the first wash
+    
+For professional commercial van wraps in Maryland that capture client attention, trust 4Print. Contact us today to get your mobile service business noticed!`
+    }
+]
+
+export const CWMServicesOptionsVans1 = [
+    {
+        title: 'Full Commercial Van Wraps',
+        text: ' Completely transform your service vehicle with high-impact professional branding and custom-designed commercial graphics.'
+    },
+    {
+        title: 'Service Graphics & Lettering',
+        text: 'Maintain consistent branding across all commercial vans with cohesive vinyl graphics and appealing service displays.'
+    },
+    {
+        title: 'Specialty Commercial Van Wraps',
+        text: 'Ideal for delivery vans, contractor vehicles, service trucks, and professionals needing a polished mobile presence.'
+    },
+    {
+        title: 'Professional Service Imagery',
+        text: 'Compelling, high-resolution photography and graphics that attract potential clients and showcase your expertise.'
+    },
+]
+
+export const CWMServicesOptionsVans2 = [
+    {
+        title: 'Mobile Service Branding',
+        text: 'Custom wraps for cargo vans, work vans, and commercial vehicles, ensuring maximum visibility at client locations and job sites.'
+    },
+    {
+        title: 'High-Contrast Vinyl Options',
+        text: 'Enhance visibility with bold graphics for maximum business exposure during day and evening operations.'
+    },
+    {
+        title: 'Window Graphic Solutions',
+        text: 'Perforated window films that maintain visibility from inside while displaying contact information and services outside.'
+    },
+    {
+        title: 'Wrap Maintenance & Updates',
+        text: "Professional removal and replacement of wraps to update contact information or refresh your commercial van's appearance."
+    },
+]
+
+export const CWMMapCitiesVans = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CWMWhyUsVans = [
+    {
+        title:'Certified Commercial Van Wrap Specialists',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every commercial van wrap is perfectly applied, with no bubbles, peeling, or lifting, even under the demanding conditions of daily service operations.'
+    },
+    {
+        title:'Custom Professional Designs for Every Industry',
+        text: 'We collaborate with service professionals and business operators to create high-impact branding solutions. Whether you need a contractor van wrap or branded wraps for multiple commercial vans, we bring your professional vision to life with expert design and flawless execution.'
+    },
+    {
+        title:'Commercial-Grade Materials & Professional Installation',
+        text: 'We use industry-leading vinyl wraps specially selected to withstand the wear and maintenance requirements of commercial service vehicles. Our thorough preparation and expert installation ensure spotless results and maximum durability in professional environments.'
+    },
+    {
+        title:'Quick Turnaround & Superior Service',
+        text: 'Our Maryland-based team delivers expedited turnaround times without compromising quality. Most commercial van wraps are completed within a few days, so your service business can get back to serving clients quickly.'
+    },
+]
+
+export const OurProcessTrailerWarp = [
+    {
+        title: 'Step 1: Design Consultation',
+        desc: 'We start by learning about your brand, business goals, and target audience. Whether you have a ready-to-go design or need creative direction, our in-house team provides expert guidance. For larger projects, we can create digital mockups so you can visualize how the final wrap will look before production begins'
+    },
+    {
+        title: 'Step 2: Printing with Premium Materials',
+        desc: 'Using state-of-the-art printing technology and industry-leading vinyl materials, we produce graphics with sharp details, vibrant colors, and long-lasting durability. Our team ensures every print meets strict quality standards, so your design looks flawless on installation day.'
+    },
+    {
+        title: 'Step 3: Professional Installation',
+        desc: 'Our certified installers handle the entire installation process with precision and care. We properly prepare the trailer surface, align graphics seamlessly, and finish with techniques that guarantee smooth adhesion — even on textured or curved surfaces. Most projects are completed in just a few days, depending on size and complexity.'
+    },
+    {
+        title: 'Step 4: Quality Inspection',
+        desc: `Before we hand the project over, every commercial trailer wrap goes through a detailed inspection. We check alignment, adhesion, and overall finish to make sure your wrap looks perfect and performs as expected.
+
+        With 4Print, the process is straightforward, collaborative, and designed to deliver results that exceed expectations.`
+    },
+]
+
+/****************************************SEO Page - Septiembre 2025 - Trailers Wrap Commercial Maryland *****************************/
+
+export const TrailerWrapFAQs = [
+    {
+        title: 'How long does commercial trailer wrap installation take?',
+        answer: "Installation time varies depending on your commercial trailer's size and design complexity. Full commercial trailer wraps typically take 2-4 business days, while partial wraps and company graphics can be completed in 1-2 days. We schedule installations around your business operations to minimize operational interruption."
+    },
+    {
+        title: "How durable are commercial trailer wraps in business environments?",
+        answer: "Our premium 3M vinyl wraps for commercial trailers last 4-6 years with proper care, even with daily business use. Durability depends on cleaning frequency, operating environments, and maintenance routines, but our specialized wraps offer excellent weather resistance and adhesion throughout their lifespan. Heavy-duty options are available for harsh operating conditions."
+    },
+    {
+        title: "Do you offer warranties for commercial trailer wraps?",
+        answer: "Yes! We provide a one-year warranty on our commercial trailer installation workmanship. Additionally, all 3M materials come with a manufacturer's warranty covering material defects, ensuring long-term protection for your business investment."
+    },
+    {
+        title: "How should I clean my wrapped commercial trailer?",
+        answer: `Yes! Wrapped commercial trailers can be safely cleaned with proper methods. We recommend:
+
+    .- Handwashing with commercial-grade, mild soap and water
+    .- Avoiding high-pressure washers near edges and graphic areas
+    .- Using soft cloths to prevent scratching business imagery
+    .- Regular cleaning to maintain a professional appearance
+    .- Waiting 48 hours after installation before the first wash
+    
+For professional commercial trailer wraps in Maryland that capture customer attention, trust 4Print. Contact us today to get your mobile business noticed!`
+    }
+]
+
+export const CWMServicesOptionsTrailer1 = [
+    {
+        title: 'Full Commercial Trailer Wraps',
+        text: 'Completely transform your mobile unit with high-impact business branding and custom-designed commercial graphics.'
+    },
+    {
+        title: 'Company Graphics & Lettering',
+        text: 'Maintain consistent branding across all commercial vehicles with cohesive vinyl graphics and appealing business displays.'
+    },
+    {
+        title: 'Specialty Commercial Trailer Wraps',
+        text: 'Ideal for delivery trucks, service trailers, equipment haulers, and contractors needing a professional mobile presence.'
+    },
+    {
+        title: 'Dynamic Business Imagery',
+        text: 'Eye-catching, high-resolution photography and graphics that attract potential customers and showcase your core services.'
+    },
+]
+
+export const CWMServicesOptionsTrailer2 = [
+    {
+        title: 'Mobile Business Branding',
+        text: 'Custom wraps for cargo trailers, utility trailers, and commercial vehicles, ensuring maximum visibility at job sites and business locations.'
+    },
+    {
+        title: 'High-Visibility Vinyl Options',
+        text: 'Enhance daytime and nighttime visibility with high-contrast graphics for round-the-clock business exposure.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'Window films that allow visibility from inside while displaying contact information and services on the outside.'
+    },
+    {
+        title: 'Wrap Updates & Modifications',
+        text: "Professional removal and replacement of wraps to update business information or refresh your commercial trailer's appearance."
+    },
+]
+
+export const CWMMapCitiesTrailer = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CWMWhyUsTrailer = [
+    {
+        title:'Certified Commercial Trailer Wrap Specialists',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every commercial trailer wrap is perfectly applied, with no bubbles, peeling, or lifting, even under the demanding conditions of daily business operations.'
+    },
+    {
+        title:'Custom Business Designs for Every Industry',
+        text: 'We collaborate with business owners and commercial operators to create high-impact branding solutions. Whether you need a delivery truck wrap or branded wraps for multiple commercial trailers, we bring your business vision to life with professional design and flawless execution.'
+    },
+    {
+        title:'Commercial-Grade Materials & Professional Installation',
+        text: 'We use industry-leading vinyl wraps specially selected to withstand the wear and maintenance requirements of commercial vehicles. Our thorough preparation and expert installation ensure spotless results and maximum durability in business environments.'
+    },
+    {
+        title:'Quick Turnaround & Superior Service',
+        text: 'Our Maryland-based team delivers expedited turnaround times without compromising quality. Most commercial trailer wraps are completed within a few days, so your business can get back to operations quickly.'
+    },
+]
+
+export const OurProcessVansWarp = [
+    {
+        title: 'Step 1: Design Consultation',
+        desc: 'We start by learning about your brand, service offerings, and target market. Whether you have a ready-to-go design or need creative direction, our in-house team provides expert guidance. For larger projects, we can create digital mockups so you can visualize how the final wrap will look before production begins.'
+    },
+    {
+        title: 'Step 2: Printing with Premium Materials',
+        desc: 'Using state-of-the-art printing technology and industry-leading vinyl materials, we produce graphics with sharp details, vibrant colors, and long-lasting durability. Our team ensures every print meets strict quality standards, so your design looks flawless on installation day.'
+    },
+    {
+        title: 'Step 3: Professional Installation',
+        desc: 'Our certified installers handle the entire installation process with precision and care. We properly prepare the van surface, align graphics seamlessly, and finish with techniques that guarantee smooth adhesion — even on textured or curved surfaces. Most projects are completed in just a few days, depending on size and complexity.'
+    },
+    {
+        title: 'Step 4: Quality Inspection',
+        desc: `Before we hand the project over, every commercial van wrap goes through a detailed inspection. We check alignment, adhesion, and overall finish to make sure your wrap looks perfect and performs as expected.
+
+        With 4Print, the process is straightforward, collaborative, and designed to deliver results that exceed expectations.
+`
+    },
+]
+
+/****************************************SEO Page - Septiembre 2025 - Wall Wraps Maryland *****************************/
+
+export const MiniMenuWallWrap = [ 
+    {name:'Commercial Wall Wrap Applications', 
+     link: '#commercial'
+    },
+    {name:'Why Businesses Choose Wall Wraps',
+     link: '#whywall'
+    },
+    {name:'Residential and Personal Wall Wraps',
+     link: '#personal'
+    }, 
+    {name:'Our Wall Wrap Process',
+     link: '#process'
+    }, 
+    {name:'Why Choose 4Print for Wall Wrap Services',
+     link: '#why4'
+    }, 
+]
+
+export const WallImpact = [
+    {
+        title: 'Retail Stores and Showrooms:',
+        desc: 'Highlight promotions, display product visuals, or create a branded shopping atmosphere that builds customer loyalty.'
+    },
+    {
+        title: 'Corporate Offices:',
+        desc: 'Inspire employees and impress visitors with graphics that reinforce company culture, values, and professionalism.'
+    },
+    {
+        title: 'Restaurants and Cafés:',
+        desc: 'Use wall wraps to set the tone for your space, from showcasing your menu items to creating an inviting dining environment.'
+    },
+    {
+        title: 'Schools and Universities:',
+        desc: 'Share school spirit with mascots, motivational messages, and custom graphics for athletic facilities, hallways, and classrooms.'
+    },
+    {
+        title: 'Gyms and Fitness Centers:',
+        desc: 'Motivate members with bold, high-energy designs that promote strength, wellness, and community.'
+    },
+    {
+        title: 'Healthcare Facilities:',
+        desc: 'Transform sterile walls into welcoming, calming environments for patients and visitors.'
+    },
+    {
+        title: 'Airports and Transportation Hubs:',
+        desc: 'Take advantage of heavy foot traffic with wraps that showcase advertising campaigns, local culture, or traveler information.'
+    },
+    {
+        title: 'Event Spaces and Trade Shows:',
+        desc: 'Make your brand impossible to miss with high-impact graphics designed for temporary or long-term installations.'
+    },
+]
+
+export const OurProcessWallWarp = [
+    {
+        title: 'Step 1: Design Consultation',
+        desc: 'We start by learning about your brand, space, and goals. Whether you have a ready-to-go design or need creative direction, our in-house team provides expert guidance. For larger projects, we can create digital mockups so you can visualize how the final wrap will look before production begins.'
+    },
+    {
+        title: 'Step 2: Printing with Premium Materials',
+        desc: 'Using state-of-the-art printing technology and industry-leading vinyl materials, we produce graphics with sharp details, vibrant colors, and long-lasting durability. Our team ensures every print meets strict quality standards, so your design looks flawless on installation day.'
+    },
+    {
+        title: 'Step 3: Professional Installation',
+        desc: 'Our certified installers handle the entire installation process with precision and care. We properly prepare the wall surface, align graphics seamlessly, and finish with techniques that guarantee smooth adhesion — even on textured or curved surfaces. Most projects are completed in just a few days, depending on size and complexity.'
+    },
+    {
+        title: 'Step 4: Quality Inspection',
+        desc: `Before we hand the project over, every wall wrap goes through a detailed inspection. We check alignment, adhesion, and overall finish to make sure your wrap looks perfect and performs as expected.
+
+With 4Print, the process is straightforward, collaborative, and designed to deliver results that exceed expectations`
+    },
+]
+

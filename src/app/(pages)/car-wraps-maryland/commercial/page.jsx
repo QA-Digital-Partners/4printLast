@@ -1,4 +1,5 @@
 import Button4P from "@/app/components/Button";
+import CitiesOnMapSEO from "@/app/components/CitiesOnMap";
 import ContactFormFooter from "@/app/components/ContactFormFooter";
 import FAQs from "@/app/components/FAQS";
 import FAQSchema from "@/app/components/FAQSChema";
@@ -126,7 +127,7 @@ const Commercial = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For Maryland businesses seeking to expand their reach with commercial vehicle wraps, our solutions offer a high-visibility, economical marketing approach. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your commercial fleet branding requirements today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For Maryland businesses seeking to expand their reach with commercial vehicle wraps, our solutions offer a high-visibility, economical marketing approach. Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your commercial fleet branding requirements today!</p>
             </div>
 
           </div>
@@ -143,44 +144,8 @@ const Commercial = (props) => {
             <div className="lg:w-6/12 w-full">
               <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">Based in Glen Burnie, MD, we provide on-location installations within a 50-mile radius, depending on project requirements. Whether you're an individual business owner or managing a commercial fleet, we ensure convenience and professional results by bringing our expertise directly to your location when needed.</p>
               <p className="text-[22px] font-semibold pb-6 lg:pt-6">Maryland Counties We Service</p>
-              <ul className="list-disc ps-8">
-              {CommercialMapCitiesCommercial.map((data, index) => {
-                return (
-                  <li key={index} className="lg:pb-2">
-                    {data.link ? (
-                      <>
-                        <a href={data.link} target="_self" rel="noopener noreferrer" className="underline">
-                          {data.text}
-                        </a>
-                        {data.cities && data.cities.length > 0 && (
-                          <ul>
-                            {data.cities.map((city, index) => (
-                              <li key={index}>{city.cityName}</li>
-                            ))}
-                          </ul>
-                        )}
-                      </>
-                    ) : (
-                      <>
-                        <p>{data.title}</p>
-                        {data.cities && data.cities.length > 0 && (
-                          <ul className="list-none ps-6 my-4 grid lg:grid-cols-3 grid-cols-1">
-                            {data.cities.map((city, index) => (
-                              <li className="flex items-center gap-2" key={index}>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-3">
-                                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
-                                </svg>
-                                <a className="underline" href={city.citylink}>{city.cityName}</a>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </>
-                    )}
-                  </li>
-                );
-              })}
-              </ul>
+              <CitiesOnMapSEO cities={CommercialMapCitiesCommercial} />
+              
               <Image 
                 src={"/images/logo-grey.svg"}
                 alt="logo in grey scale"
@@ -194,7 +159,7 @@ const Commercial = (props) => {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus" width="550" height="730" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[710px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your business is located outside these counties or in Washington, D.C., or Northern Virginia, we may still be able to accommodate your commercial vehicle wrap needs. We welcome all clients throughout the DMV region! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your commercial vehicle project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your business is located outside these counties or in Washington, D.C., or Northern Virginia, we may still be able to accommodate your commercial vehicle wrap needs. We welcome all clients throughout the DMV region! Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your commercial vehicle project and location.</p>
         </div>
       </div>
 

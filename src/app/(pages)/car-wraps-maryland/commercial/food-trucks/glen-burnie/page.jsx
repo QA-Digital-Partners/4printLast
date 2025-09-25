@@ -121,7 +121,7 @@ const FoodWrapGlenBuenie = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For mobile food entrepreneurs seeking to grow their clientele with food truck wraps in Glen Burnie, MD, our targeted solutions provide a prominent, budget-friendly promotional strategy. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to explore your food truck branding concepts today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For mobile food entrepreneurs seeking to grow their clientele with food truck wraps in Glen Burnie, MD, our targeted solutions provide a prominent, budget-friendly promotional strategy. Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to explore your food truck branding concepts today!</p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ const FoodWrapGlenBuenie = (props) => {
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck functions beyond these regions or in Washington D.C. or Northern Virginia, we might still accommodate your requirements. We invite mobile food operators from across the DMV region! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your food truck venture and service area.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck functions beyond these regions or in Washington D.C. or Northern Virginia, we might still accommodate your requirements. We invite mobile food operators from across the DMV region! Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your food truck venture and service area.</p>
         </div>
       </div>
 

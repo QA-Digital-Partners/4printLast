@@ -19,7 +19,7 @@ const FAQs = ({faqsData}) => {
                     <p className={`text-[22px] font-semibold leading-[25px] ${expandedResource === data.title ? 'text-4pblack' : 'text-white'}`}>{data.title}</p>
                 </div>
                 <a onClick={() => handleReadMoreClick(data.title)} className="h-fit max-w-[36px] w-full block cursor-pointer">
-                    <div className={`max-w-[36px] min-h-[36px] rounded-xl lg:w-full px-[10px] py-[6px]  ${expandedResource === data.title ? 'bg-4pblue' : 'bg-4pred'}`}>
+                    <div className={`max-w-[36px] min-h-[36px] rounded-xl lg:w-full px-[10px] py-[6px] transition-all ease-in-out duration-300  ${expandedResource === data.title ? 'bg-4pblue hover:bg-4pred' : 'bg-4pred hover:bg-4pblue'}`}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="22" viewBox="0 0 16 22" className={`absolute transition-transform mx-auto ${expandedResource === data.title ? 'rotate-x-90' : 'rotate-0'}`}>
                             <path d="M9.33333 5.10715L13.1793 8.94245C13.6991 9.46073 14.5403 9.46014 15.0593 8.94114C15.5789 8.42163 15.5789 7.57934 15.0593 7.05983L8.70711 0.707594C8.31658 0.31707 7.68342 0.317071 7.29289 0.707595L0.940655 7.05983C0.421145 7.57934 0.421146 8.42163 0.940655 8.94114C1.45965 9.46014 2.30093 9.46073 2.82065 8.94245L6.66667 5.10715V20.0005C6.66667 20.7369 7.26362 21.3338 8 21.3338C8.73638 21.3338 9.33333 20.7369 9.33333 20.0005V5.10715Z" fill="white"/>
                         </svg>

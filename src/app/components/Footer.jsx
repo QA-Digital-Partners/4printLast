@@ -35,6 +35,7 @@ const FooterComponent = (props) => {
                   srcSet={`/images/${data.icon}.svg 768w, /images/${data.icon}.svg 1024w`}
                   width={30}
                   height={30}
+                  className="hover:drop-shadow-[3px_3px_0px_#F23434] duration-300 transition-all ease-in-out"
                 />
                   </a>
                 </li>

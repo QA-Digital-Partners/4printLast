@@ -121,7 +121,7 @@ const FoodWrapGlenBuenie = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For mobile food business owners looking to expand their customer base with food truck wraps in Baltimore, MD, our specialized solutions offer a powerful, cost-effective marketing approach. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your food truck branding vision today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For mobile food business owners looking to expand their customer base with food truck wraps in Baltimore, MD, our specialized solutions offer a powerful, cost-effective marketing approach. Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your food truck branding vision today!</p>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ const FoodWrapGlenBuenie = (props) => {
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck operates outside these areas or in Washington D.C. or Northern Virginia, we may still serve your needs. We welcome mobile food entrepreneurs from throughout the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your food truck business and service location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If your food truck operates outside these areas or in Washington D.C. or Northern Virginia, we may still serve your needs. We welcome mobile food entrepreneurs from throughout the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your food truck business and service location.</p>
         </div>
       </div>
 

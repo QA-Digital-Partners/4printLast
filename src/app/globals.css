@@ -163,6 +163,13 @@
   opacity: 1;
 }
 
+.bg-contact-form-black {
+  background-image: url('/images/contact-form-black-bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /**************************** Classes Certificaciones About Page *************************************/
 /*****************************************************************************************************/
 
@@ -462,6 +469,22 @@ ul.list-menu li::before {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.wall-wrap {
+  background: url('/images/bg-banner-wall-wrap.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.res-wall {
+  background: url('/images/blue-rect-8.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 @media (max-width:767px) {
 

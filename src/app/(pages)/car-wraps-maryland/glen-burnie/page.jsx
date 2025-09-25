@@ -104,7 +104,7 @@ const CarWrapsGlenBurnie = (props) => {
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                     {data.link && (
-                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                     )}
                     </div>
                   </div>
@@ -134,7 +134,7 @@ const CarWrapsGlenBurnie = (props) => {
                       <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                       <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                       {data.link && (
-                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                       )}
                       </div>
                     </div>
@@ -169,7 +169,7 @@ const CarWrapsGlenBurnie = (props) => {
                         <p className="text-center leading-[23px] font-bold px-4 text-4pblack">{data.title}</p>
                         <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                         {data.link && (
-                          <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                          <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                         )}
                     </div>
                   </div>
@@ -185,7 +185,7 @@ const CarWrapsGlenBurnie = (props) => {
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                     {data.link && (
-                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                     )}
                     </div>
                   </div>
@@ -195,7 +195,7 @@ const CarWrapsGlenBurnie = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
             </div>
 
           </div>
@@ -220,7 +220,7 @@ const CarWrapsGlenBurnie = (props) => {
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of Glen Burnie but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of Glen Burnie but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your project and location.</p>
         </div>
       </div>
 

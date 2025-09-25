@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
 
-const ContactForm = (props) => {
+const ContactForm = ({orientation = "vertical", ...props}) => {
 
     
     const servicesOptions = ['Commercial Vehicle Wrapping', 'Commercial Vehicle Lettering', 'Custom Car Wraps', 'Commercial Printing', 'Apparel', 'Stationery Printing']
@@ -77,7 +77,7 @@ const ContactForm = (props) => {
                   )}
                   <div className="lg:w-full">
                       <form className="pt-3 custom-form" ref={form} onSubmit={(e) => handleSubmit(e, form, phone, statusRef)}>
-                      <div className="grid grid-cols-1 gap-8">
+                      <div className={`gap-8 ${ orientation?.trim().toLowerCase() === 'horizontal' ? 'grid grid-cols-6' : 'grid grid-cols-1'}`}>
                       <div>
                               <input  type="text" 
                                   className={`form-control p-2 border rounded-md w-full bg-4pgrey `} 
@@ -112,7 +112,7 @@ const ContactForm = (props) => {
                               <select 
                               name="service"
                               id="service"
-                              className={`form-control p-2 rounded-md w-full bg-4pgrey`}>
+                              className={`form-control p-2 rounded-md w-full bg-4pgrey  min-h-[44px] h-[44px]`}>
                                    <option value="" disabled defaultValue={''}>Choose a service</option>
                                   {servicesOptions.map((data, index) => (
                                       <option key={index} value={data} label={data}>{data}</option>
@@ -120,30 +120,30 @@ const ContactForm = (props) => {
                               </select>
                       </div>
                       <div>
-                              <textarea rows="3" 
+                              <textarea rows={` ${orientation === 'horizontal' ? "1" : "3"}`}
                               type="" 
                               className={`form-control p-2 border rounded-md w-full bg-4pgrey`}
                               id="comment" 
                               placeholder="Tell us about your business!"
                               name="comment"/>
                       </div>
+                        <div className={` ${ orientation === 'horizontal' ? '' : 'col-span lg:pt-4 pt-8'}`} >
+                        <div className="w-full text-center">
+                            <button className={`flex rounded-lg items-center font-bold shadow-[0_4px_4px_0px_rgba(0,0,0,0.1)] btn-animation btn-red-to-blue w-full text-center text-white`}>
+                                    <Image
+                                        src={`/images/ib-link-blue-white.svg`} 
+                                        alt="Button Icon"
+                                        sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+                                        srcSet={`/images/ib-link-blue-white.svg 768w, /images/ib-link-blue-white.svg 1024w`}
+                                        width={44}
+                                        height={46}
+                                    />
+                                    <p className={` w-full text-center`}>SEND</p>            
+                            </button>
+                        </div>
+                        <p ref={statusRef} className={formClass ? "text-green-600 mb-0" : "text-red-700 mb-0"} ></p>
+                        </div>
                       </div>
-                          <div className="col-span-12 lg:pt-4 pt-8" >
-                          <div className="w-full text-center">
-                              <button className={`flex rounded-lg items-center font-bold shadow-[0_4px_4px_0px_rgba(0,0,0,0.1)] btn-animation btn-red-to-blue w-full text-center text-white`}>
-                                      <Image
-                                          src={`/images/ib-link-blue-white.svg`} 
-                                          alt="Button Icon"
-                                          sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                                          srcSet={`/images/ib-link-blue-white.svg 768w, /images/ib-link-blue-white.svg 1024w`}
-                                          width={44}
-                                          height={46}
-                                      />
-                                      <p className={` w-full text-center`}>SEND</p>            
-                              </button>
-                          </div>
-                          <p ref={statusRef} className={formClass ? "text-green-600 mb-0" : "text-red-700 mb-0"} ></p>
-                          </div>
                       </form> 
                   </div>
       

@@ -32,7 +32,7 @@ const Gallery = (props) => {
               layout="intrinsic"
               width={300}
               height={300}
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full hover:scale-105 transition-all duration-300 ease-in-out"
             />
           </div>
         ))}

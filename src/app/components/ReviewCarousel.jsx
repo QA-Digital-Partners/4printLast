@@ -76,7 +76,7 @@ const ReviewCarousel = ({ heightMod }) => {
         ))}
       </Swiper>
       <div className="flex items-center justify-between mt-4">
-        <button ref={prev}>
+        <button ref={prev} className="hover:scale-125 duration-300 transition-all ease-in-out">
           <Image 
               src={"/images/review-arrow-left.svg"}
               alt="review icon left"
@@ -87,7 +87,7 @@ const ReviewCarousel = ({ heightMod }) => {
               className="" />
         </button>
         <div ref={pagination} className="pagination-circles content-center w-auto text-center"></div>
-        <button ref={next}>
+        <button ref={next} className="hover:scale-125 duration-300 transition-all ease-in-out">
         <Image 
               src={"/images/review-arrow-right.svg"}
               alt="review icon left"

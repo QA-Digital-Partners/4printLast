@@ -6,6 +6,7 @@ import ContactFormFooter from "@/app/components/ContactFormFooter";
 import ReviewSection from "@/app/components/ReviewSection";
 import FAQs from "@/app/components/FAQS";
 import FAQSchema from "@/app/components/FAQSChema";
+import CitiesOnMapSEO from "@/app/components/CitiesOnMap";
 
 export const metadata = {
   title: "Quality Car Wraps in Maryland - 4Print",
@@ -102,7 +103,7 @@ const CarWrapsMarulandSEO = (props) => {
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                     {data.link && (
-                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                      <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                     )}
                     </div>
                   </div>
@@ -132,7 +133,7 @@ const CarWrapsMarulandSEO = (props) => {
                       <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                       <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                       {data.link && (
-                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                       )}
                       </div>
                     </div>
@@ -166,7 +167,7 @@ const CarWrapsMarulandSEO = (props) => {
                           <p className="text-center leading-[23px] font-bold px-4 text-4pblack">{data.title}</p>
                           <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                           {data.link && (
-                            <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                            <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                           )}
                         </div>
                   </div>
@@ -183,7 +184,7 @@ const CarWrapsMarulandSEO = (props) => {
                     <p className="text-center leading-[23px] font-bold px-4 text-4pblack pb-4">{data.title}</p>
                     <p className="text-center leading-[23px] px-4 text-4pblack">{data.text}</p>
                     {data.link && (
-                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline">Read more</a>
+                        <a href={data.link} className="text-center w-full justify-self-center block pt-2 underline hover:text-4pblue">Read more</a>
                       )}
                     </div>
                   </div>
@@ -193,7 +194,7 @@ const CarWrapsMarulandSEO = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
+                <p className="leading-[23px] lg:pt-16 text-center">For businesses looking to expand their mobile advertising reach, our commercial wraps provide a cost-effective and high-impact marketing solution. Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> for a consultation on your custom vehicle wrap project.</p>
             </div>
 
           </div>
@@ -210,44 +211,8 @@ const CarWrapsMarulandSEO = (props) => {
             <div className="lg:w-6/12 w-full">
               <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">We are based in Glen Burnie, MD, and depending on the job, our team can travel to clients within a 50-mile radius for on-site installations. Whether you're a personal vehicle owner or a business with a fleet, we bring our expertise to your location when needed, ensuring convenience and professional results.</p>
               <p className="text-[22px] font-semibold pb-6 lg:pt-6">MD Counties We Can Travel To</p>
-              <ul className="list-disc ps-8">
-              {CWMMapCities.map((data, index) => {
-                return (
-                  <li key={index} className="lg:pb-2">
-                    {data.link ? (
-                      <>
-                        <a href={data.link} target="_self" rel="noopener noreferrer" className="underline">
-                          {data.text}
-                        </a>
-                        {data.cities && data.cities.length > 0 && (
-                          <ul>
-                            {data.cities.map((city, index) => (
-                              <li key={index}>{city.cityName}</li>
-                            ))}
-                          </ul>
-                        )}
-                      </>
-                    ) : (
-                      <>
-                        <p>{data.title}</p>
-                        {data.cities && data.cities.length > 0 && (
-                          <ul className="list-none ps-6 my-4 grid lg:grid-cols-3 grid-cols-1">
-                            {data.cities.map((city, index) => (
-                              <li className="flex items-center gap-2" key={index}>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-3">
-                                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
-                                </svg>
-                                <a className="underline" href={city.citylink}>{city.cityName}</a>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </>
-                    )}
-                  </li>
-                );
-              })}
-              </ul>
+              <CitiesOnMapSEO cities={CWMMapCities} />
+              
               <Image 
                 src={"/images/logo-grey.svg"}
                 alt="logo in grey scale"
@@ -261,7 +226,7 @@ const CarWrapsMarulandSEO = (props) => {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus" width="550" height="730" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[710px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of these counties or Maryland but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project and location.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">If you are outside of these counties or Maryland but within Washington D.C. or Northern Virginia, we may still be able to assist you. All customers are welcome to our installations from anywhere in the DMV area! Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your project and location.</p>
         </div>
       </div>
 

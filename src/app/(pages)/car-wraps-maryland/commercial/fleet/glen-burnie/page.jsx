@@ -109,7 +109,7 @@ const FleeWrapGlenBurnie = (props) => {
             </div>
 
             <div className="w-full lg:px-60 lg:order-7 order-7 pt-8 lg:pt-0">
-                <p className="leading-[23px] lg:pt-16 text-center">Glen Burnie businesses seeking expanded market reach through fleet wraps benefit from our commercial solutions offering high-impact, budget-friendly marketing approaches. Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to explore your fleet branding opportunities today!</p>
+                <p className="leading-[23px] lg:pt-16 text-center">Glen Burnie businesses seeking expanded market reach through fleet wraps benefit from our commercial solutions offering high-impact, budget-friendly marketing approaches. Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to explore your fleet branding opportunities today!</p>
             </div>
 
           </div>
@@ -134,7 +134,7 @@ const FleeWrapGlenBurnie = (props) => {
               </div>
             </div>
           </div>
-          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">Customers located beyond these counties or in Washington D.C. and Northern Virginia may still receive our services. We enthusiastically welcome clients throughout the greater DMV region!  Contact us at <a href="tel:+14439981717" className="underline text-4pred">(443) 998-1717</a> to discuss your project requirements and location logistics.</p>
+          <p className="text-center lg:px-24 leading-[23px] lg:pe-2 pt-8 lg:pt-12 lg:pe-8">Customers located beyond these counties or in Washington D.C. and Northern Virginia may still receive our services. We enthusiastically welcome clients throughout the greater DMV region!  Contact us at <a href="tel:+14439981717" className="underline text-4pred hover:text-4pblue">(443) 998-1717</a> to discuss your project requirements and location logistics.</p>
         </div>
       </div>
 

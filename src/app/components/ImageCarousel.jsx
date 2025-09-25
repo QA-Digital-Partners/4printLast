@@ -84,7 +84,7 @@ const ImageCarousel = ({ imageData, imageWidth, imageHeigh, sectionId }) => {
               srcSet="/images/review-arrow-left.svg 768w, /images/review-arrow-left.svg 1024w"
               width={33}
               height={34} 
-              className="" />
+              className="hover:scale-125 duration-300 transition-all ease-in-out" />
         </button>
         <div ref={pagination} id={sectionId} className="content-center text-center mx-6 lg:w-[11rem] lg:max-w-[11rem]"></div>
         <button ref={next}>
@@ -95,7 +95,7 @@ const ImageCarousel = ({ imageData, imageWidth, imageHeigh, sectionId }) => {
               srcSet="/images/review-arrow-right.svg 768w, /images/review-arrow-right.svg 1024w"
               width={33}
               height={34} 
-              className="" />
+              className="hover:scale-125 duration-300 transition-all ease-in-out" />
         </button>
       </div>
       <style jsx global>{`

@@ -27,7 +27,7 @@ const MiniMenu = ({toMap, CP}) => {
           }
             return(
                 <div key={index} className={`flex flex-wrap lg:flex-nowrap ${size} justify-center min-h-[106px] lh:min-h-auto w-1/2`}>
-                <a href={data.link} className="content-center lg:text-[20px] text-[16px] font-semibold text-center lg:leading-6 leading-5 lg:w-[80%] self-end lg:self-center">{data.name}</a>
+                <a href={data.link} className="content-center lg:text-[18px] text-[16px] font-semibold text-center lg:leading-6 leading-5 lg:w-[80%] self-end lg:self-center duration-300 transition-all ease-in-out hover:scale-110 bg-white hover:text-4pblue hover:font-bold lg:h-[90px] hover:shadow-[0px_3px_8px_rgba(0,0,0,0.15)]">{data.name}</a>
                 
                 {divider ? (
                     <>

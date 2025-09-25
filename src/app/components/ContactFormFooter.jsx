@@ -16,9 +16,9 @@ const ContactFormFooter = ({title1, title2, text1, text2, children}) => {
             {children ? children : ''}
         </div>
 
-        <div className="lg:mx-[78px] mx-8 bg-white rounded-lg border-[1px] border-4plight-grey flex flex-wrap lg:flex-nowrap relative mt-[-105px]">
+        <div className="lg:mx-[78px] mx-8 bg-white rounded-lg border-[1px] border-4plight-grey flex flex-wrap lg:flex-nowrap mt-[-105px]">
             <div className="lg:w-[612px] p-8">
-              <ContactForm />
+              <ContactForm orientation=""/>
             </div>
             <div className="w-[432px]">
                 <a href="https://maps.app.goo.gl/dZunpUZZmkJ9DUxS9?g_st=com.google.maps.preview.copy" target="_blank">
