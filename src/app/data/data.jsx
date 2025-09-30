@@ -2769,7 +2769,7 @@ export const MiniMenuWallWrap = [
      link: '#process'
     }, 
     {name:'Why Choose 4Print for Wall Wrap Services',
-     link: '#why4'
+     link: '#why4print'
     }, 
 ]
 
@@ -2826,6 +2826,291 @@ export const OurProcessWallWarp = [
         desc: `Before we hand the project over, every wall wrap goes through a detailed inspection. We check alignment, adhesion, and overall finish to make sure your wrap looks perfect and performs as expected.
 
 With 4Print, the process is straightforward, collaborative, and designed to deliver results that exceed expectations`
+    },
+]
+
+export const WallWrapCountriesLeft = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+            {
+                cityName: 'Glen Burnie',
+                citylink: '/wall-wraps-maryland/glen-burnie'
+            }
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+
+
+]
+
+export const WallWrapCountriesright = [
+        {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+        {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const WallWrapGalery = [
+    {
+        image: 'wall-wrap-service.webp',
+        title: " ",
+    },
+    {
+        image: 'wall-wrap-service-1.webp',
+        title: " ",
+    },{
+        image: 'wall-wrap-service-2.webp',
+        title: " ",
+    }
+]
+
+/****************************************SEO Page - Septiembre 2025 - Wall Wraps Glen Burnie *****************************/
+
+export const MiniMenuWWGlenBurnie = [ 
+    {name:'Business Wall Wrap Solutions', 
+     link: '#business'
+    },
+    {name:'Personal and Home Wall Wrap Options',
+     link: '#options'
+    },
+    {name:'Our Professional Wall Wrap Installation Process',
+     link: '#process'
+    }, 
+    {name:'Why Select 4Print for Wall Wrap Services in Glen Burnie, MD',
+     link: '#why4print'
+    }, 
+]
+
+export const WallWrapImpactGlenBurnie = [
+    {
+        title:'Retail Establishments and Display Areas:',
+        desc: 'Promote special offers, feature product imagery, or establish a cohesive brand environment that encourages customer retention.'
+    },
+    {
+        title:'Business Headquarters:',
+        desc: 'Motivate staff and wow clients with visuals that strengthen organizational culture, core principles, and corporate excellence.'
+    },
+    {
+        title:"Dining Establishments and Coffee Houses:",
+        desc: "Employ wall wraps to establish your venue's ambiance, from featuring signature dishes to developing an inviting culinary atmosphere."
+    },
+    {
+        title:'Educational Institutions:',
+        desc: 'Display institutional pride through mascot imagery, inspirational content, and specialized graphics for sports facilities, corridors, and learning spaces.'
+    },
+    {
+        title:'Health and Wellness Centers:',
+        desc: 'Energize members through striking, dynamic designs that celebrate fitness, health, and community connection.'
+    },
+    {
+        title:'Medical and Dental Practices:',
+        desc: 'Convert clinical walls into welcoming, soothing spaces that comfort patients and guests.'
+    },
+    {
+        title:'Transit Centers and Travel Facilities:',
+        desc: 'Leverage high visitor volume with wraps featuring promotional content, regional highlights, or passenger services.'
+    },
+    {
+        title:'Conference Centers and Exhibition Venues: ',
+        desc: 'Ensure brand visibility with powerful graphics created for both temporary and permanent displays.'
+    },
+]
+
+export const OurProcessWWGlenBurnie = [
+    {
+        title: 'Step 1: Design Planning Session',
+        desc: 'We begin by understanding your brand, facility, and aspirations. Whether you possess completed artwork or require creative development, our internal design team offers professional recommendations. For extensive projects, we develop digital previews enabling you to envision the finished wrap before production commences.'
+    },
+    {
+        title: 'Step 2: Production Using Superior Materials',
+        desc: 'Utilizing advanced printing equipment and premium vinyl products, we create graphics featuring crisp definition, rich coloration, and extended longevity. Our production team ensures every print satisfies rigorous quality benchmarks, delivering flawless appearance upon installation.'
+    },
+    {
+        title: 'Step 3: Expert Installation Service',
+        desc: 'Our certified technicians manage complete installation procedures with accuracy and attention to detail. We thoroughly prepare wall surfaces, position graphics precisely, and complete installations using methods ensuring smooth attachment across textured or curved areas. Most Glen Burnie projects finish within several days, varying by scope and complexity.'
+    },
+    {
+        title: 'Step 4: Final Quality Assessment',
+        desc: `Prior to project completion, every wall wrap undergoes comprehensive evaluation. We verify positioning, adhesion quality, and overall appearance to guarantee your wrap appears perfect and functions as intended. With 4Print, the process remains straightforward, collaborative, and focused on delivering results surpassing expectations.`
+    },
+]
+
+export const WWCitiesLeftGlenBurnie = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+        {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+
+]
+
+export const WWCitiesRightGlenBurnie = [
+
+        {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
     },
 ]
 

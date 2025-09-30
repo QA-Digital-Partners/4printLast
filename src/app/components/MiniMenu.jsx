@@ -19,6 +19,9 @@ const MiniMenu = ({toMap, CP}) => {
           if(CP === 1)  {
             size = "lg:w-[130px] lg:min-w-[120px]"
           }
+          if(CP === 2)  {
+            size = "lg:w-[250px] lg:min-w-[120px]"
+          }
           if(index === toMap.length-1) {
               divider = false;
             }

@@ -2,9 +2,10 @@ export default function sitemap() {
     const SITE_URL = "https://4printus.com"; // Reemplaza con tu dominio real
   
     const cities = ["glen-burnie","severna-park", "commercial" ];
-    const commercial = ["fleet", "food-trucks", "glen-burnie", "baltimore" ];
+    const commercial = ["fleet", "food-trucks", "glen-burnie", "baltimore", "vans", "trailers" ];
     const foodTrucksCities = ["glen-burnie", "baltimore" ];
     const fleetCities = ["glen-burnie", "baltimore" ];
+    const wallcities = ["glen-burnie", ];
     const staticPages = [
       "", 
       "about", 
@@ -12,7 +13,8 @@ export default function sitemap() {
       "custom-car-wraps", 
       "car-wraps-maryland", 
       "commercial-vehicle-wrapping-lettering",
-      "commercial-printing"
+      "commercial-printing",
+      "wall-wraps-maryland",
     ];
   
     const urls = [
@@ -34,6 +36,10 @@ export default function sitemap() {
       })),
       ...fleetCities.map((service) => ({
         url: `${SITE_URL}/car-wraps-maryland/commercial/fleet/${service}`,
+        lastModified: new Date().toISOString(),
+      })),
+      ...wallcities.map((city) => ({
+        url: `${SITE_URL}/wall-wraps-maryland/${city}`,
         lastModified: new Date().toISOString(),
       }))
 

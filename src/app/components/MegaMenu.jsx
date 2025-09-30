@@ -49,7 +49,7 @@ const MegaMenu = ({menu}) => {
                 <span className="mx-auto w-full pt-[2px] border-xl bg-4pred max-h-[1px] my-2"></span>
                 <div className="lg:w-6/12">
                   <ul className="list-menu ">
-                    <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#wallwrap">Wall Wrap</a></li>
+                    <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/wall-wraps-maryland">Wall Wrap</a></li>
                     <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#windowvinyls">Windows Vynils</a></li>
                     <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#banners">Banners</a></li>
                     <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#stickers">Stickers</a></li>

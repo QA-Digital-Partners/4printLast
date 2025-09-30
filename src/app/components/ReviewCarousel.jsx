@@ -86,7 +86,7 @@ const ReviewCarousel = ({ heightMod }) => {
               height={34} 
               className="" />
         </button>
-        <div ref={pagination} className="pagination-circles content-center w-auto text-center"></div>
+        <div ref={pagination} className="pagination-circles content-center w-auto text-center review-crousel"></div>
         <button ref={next} className="hover:scale-125 duration-300 transition-all ease-in-out">
         <Image 
               src={"/images/review-arrow-right.svg"}
@@ -99,7 +99,7 @@ const ReviewCarousel = ({ heightMod }) => {
         </button>
       </div>
       <style jsx global>{`
-        .swiper-pagination-bullet {
+        .review-crousel .swiper-pagination-bullet {
           width: 80px;
           height: 80px;
           background-size: cover;
@@ -109,11 +109,11 @@ const ReviewCarousel = ({ heightMod }) => {
           opacity: 0.5;
           transition: opacity 0.3s, border-color 0.3s;
         }
-        .swiper-pagination-bullet-active {
+        .review-crousel .swiper-pagination-bullet-active {
           opacity: 1;
           border-color: #007bff;
         }
-        .pagination-wrapper {
+        .review-crousel .pagination-wrapper {
           display: flex;
           align-items: center;
           gap: 25px;

@@ -77,7 +77,7 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
                   )}
                   <div className="lg:w-full">
                       <form className="pt-3 custom-form" ref={form} onSubmit={(e) => handleSubmit(e, form, phone, statusRef)}>
-                      <div className={`gap-8 ${ orientation?.trim().toLowerCase() === 'horizontal' ? 'grid grid-cols-6' : 'grid grid-cols-1'}`}>
+                      <div className={`gap-8 ${ orientation?.trim().toLowerCase() === 'horizontal' ? 'grid lg:grid-cols-6 grid-cols-1' : 'grid grid-cols-1'}`}>
                       <div>
                               <input  type="text" 
                                   className={`form-control p-2 border rounded-md w-full bg-4pgrey `} 
@@ -127,7 +127,7 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
                               placeholder="Tell us about your business!"
                               name="comment"/>
                       </div>
-                        <div className={` ${ orientation === 'horizontal' ? '' : 'col-span lg:pt-4 pt-8'}`} >
+                        <div className={` ${ orientation === 'horizontal' ? '' : 'col-span lg:pt-4'}`} >
                         <div className="w-full text-center">
                             <button className={`flex rounded-lg items-center font-bold shadow-[0_4px_4px_0px_rgba(0,0,0,0.1)] btn-animation btn-red-to-blue w-full text-center text-white`}>
                                     <Image

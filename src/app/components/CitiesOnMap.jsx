@@ -1,6 +1,6 @@
 import React from "react"
 
-const CitiesOnMapSEO = ({cities, props}) => {
+const CitiesOnMapSEO = ({cities, className, citiesRow = 3, ...props}) => {
   return (
     <>
     <ul className="list-disc ps-8">
@@ -24,7 +24,7 @@ const CitiesOnMapSEO = ({cities, props}) => {
             <>
                 <p>{data.title}</p>
                 {data.cities && data.cities.length > 0 && (
-                <ul className="list-none ps-6 my-4 grid lg:grid-cols-3 grid-cols-1">
+                <ul className={`list-none ps-6 my-4 grid lg:grid-cols-${citiesRow} grid-cols-1 `}>
                     {data.cities.map((city, index) => (
                     <li className="flex items-center gap-2" key={index}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-3">
