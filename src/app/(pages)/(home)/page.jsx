@@ -10,11 +10,11 @@ import ContactFormFooter from "@/app/components/ContactFormFooter";
 import LocalBusinessSchema from "@/app/components/LocalBusinessSchema";
 
 export const metadata = {
-  title: "4Print",
-  description: "Stand out on the road with 4Print! We specialize in high-quality commercial vehicle wraps, fleet branding, and custom printing in Maryland, Virginia, and DC.",
+  title: "4Print: Commercial Car Wraps in Glen Burnie, Maryland",
+  description: "Get noticed with 4Print! We offer commercial vehicle wraps for fleets, food trucks, vans, cars & more—professional design, fast turnaround, lasting impact.",
   openGraph: {
     title: "4Print",
-    description: "Stand out on the road with 4Print! We specialize in high-quality commercial vehicle wraps, fleet branding, and custom printing in Maryland, Virginia, and DC.",
+    description: "Get noticed with 4Print! We offer commercial vehicle wraps for fleets, food trucks, vans, cars & more—professional design, fast turnaround, lasting impact.",
     url: "https://www.4printus.com",
     siteName: "4 Print",
     images: [
