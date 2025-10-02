@@ -9,6 +9,11 @@ import { MiniMenuWallWrap, OurProcessWallWarp, WallImpact, WallWrapCountriesLeft
 import Image from "next/image";
 import React from "react"
 
+export const metadata = {
+  title: "Wall Wrap Services in Maryland - 4Print",
+  description: "Professional wall wrap services in Maryland. 4Print transforms walls with custom designs, premium materials & expert installation.",
+};
+
 const WallWraps = (props) => {
   return (
     <>

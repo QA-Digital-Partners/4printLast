@@ -1,5 +1,5 @@
 export const metadata = {
-    title: "Custom Car Wraps | Transform Your Vehicle with 3M Vinyl Wraps",
+    title: "Custom Car Wraps | Transform Your Vehicle with 3M Vinyl Wraps in 4Print",
     description: "Custom car wraps with premium 3M vinyl for a flawless, paint-protected finish. Color changes, racing stripes & textured wraps. Get started for $50!",
   };
 

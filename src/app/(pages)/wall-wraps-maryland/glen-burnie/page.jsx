@@ -9,6 +9,11 @@ import { MiniMenuWWGlenBurnie, OurProcessWWGlenBurnie, WallWrapGalery, WallWrapI
 import Image from "next/image";
 import React from "react"
 
+export const metadata = {
+  title: "Wall Wrap Services in Glen Burnie, MD - 4Print",
+  description: "Commercial wall wrap services in Glen Burnie, MD. 4Print transforms walls with premium materials, custom designs, & expert installation.",
+};
+
 const WallWraps = (props) => {
   return (
     <>

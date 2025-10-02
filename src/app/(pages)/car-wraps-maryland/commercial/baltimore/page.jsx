@@ -9,8 +9,8 @@ import Image from "next/image";
 import React from "react"
 
 export const metadata = {
-  title: "Get Noticed - Commercial Vehicle Wraps in Maryland",
-  description: "Get noticed on the road with high-quality commercial vehicle wraps in Maryland. Custom designs, fast turnaround, and expert installation by 4Print.",
+  title: "Get Noticed - Commercial Vehicle Wraps in Baltimore",
+  description: "Get noticed on the road with high-quality commercial vehicle wraps in Baltimore. Custom designs, fast turnaround, and expert installation by 4Print.",
 };
 
 
