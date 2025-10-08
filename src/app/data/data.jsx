@@ -2448,13 +2448,6 @@ export const CWMMapCitiesVans = [
         link: ""
     },
     {
-        title: "Charles County",
-        cities: [
-
-        ],
-        link: ""
-    },
-    {
         title: "Frederick County",
         cities: [
 

@@ -448,11 +448,31 @@ paint-order: stroke fill;
 }
 
 .hero-carwrap-food-truck {
+  background: url('/images/bg-banner-foodtruck-wrap-maryland.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-carwrap-food-truck-glen-burnie {
   background: url('/images/bg-banner-food-truck.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: scaleX(1);
+}
+
+.hero-banner-trailer-wrap {
+  background: url('/images/bg-banner-services-trailer-wrap.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner-van-wrap {
+  background: url('/images/bg-banner-services-van-wrap.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul.list-menu {

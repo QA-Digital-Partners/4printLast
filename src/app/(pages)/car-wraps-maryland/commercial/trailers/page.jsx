@@ -59,7 +59,7 @@ const TrailersWrapMaryland = (props) => {
               <ContactForm />
             </div>
           </div>
-        <div className="w-full hero-banner-car-wrap-fleet lg:h-[425px] h-2/6 lg:mt-[-150px]"></div>
+        <div className="w-full hero-banner-trailer-wrap lg:h-[425px] h-2/6 lg:mt-[-150px]"></div>
         </div>
       </div>
 
@@ -79,10 +79,10 @@ const TrailersWrapMaryland = (props) => {
 
             <div className="lg:w-5/12 lg:pt-32 lg:order-1 order-3">
                 <Image
-                src="/images/commercial-fleet-wrap.webp"
+                src="/images/commercial-trailer-wrap-services.webp"
                 alt="Commercial Trailer wrap in maryland"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/commercial-fleet-wrap.webp 768w, /images/commercial-fleet-wrap.webp 1024w"
+                srcSet="/images/commercial-trailer-wrap-services.webp 768w, /images/commercial-trailer-wrap-services.webp 1024w"
                 width={536}
                 height={652}
                 className="z-0 relative lg:mt-[-160px] lg:w-[536px] lg:min-w-[400px]"

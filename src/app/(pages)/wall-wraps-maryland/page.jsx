@@ -117,7 +117,7 @@ const WallWraps = (props) => {
               <ol className="list-decimal text-[18px]">
                 <li className="ms-6 pe-4 leading-[25px] text-[18px]">Create a professional atmosphere that reflects your brand identity.</li>
                 <li className="ms-6 pe-4 leading-[25px] text-[18px]">Make use of underutilized wall space for advertising and storytelling.</li>
-                <li className="ms-6 pe-4 leading-[25px] text-[18px]">Provide a cost-effective alternative to traditional décor or remodeling.</li>
+                <li className="ms-6 pe-4 leading-[25px] text-[18px]">Provide a cost-effective alternative to traditional decor or remodeling.</li>
                 <li className="ms-6 pe-4 leading-[25px] text-[18px]">Offer durable, long-lasting visuals that can be easily updated when needed</li>
               </ol>
             </div>

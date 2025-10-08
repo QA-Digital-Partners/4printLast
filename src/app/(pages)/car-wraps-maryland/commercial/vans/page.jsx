@@ -59,7 +59,7 @@ const VansWrapMaryland = (props) => {
               <ContactForm />
             </div>
           </div>
-        <div className="w-full hero-banner-car-wrap-fleet lg:h-[425px] h-2/6 lg:mt-[-150px]"></div>
+        <div className="w-full hero-banner-van-wrap lg:h-[425px] h-2/6 lg:mt-[-150px]"></div>
         </div>
       </div>
 
@@ -79,10 +79,10 @@ const VansWrapMaryland = (props) => {
 
             <div className="lg:w-5/12 lg:pt-32 lg:order-1 order-3">
                 <Image
-                src="/images/commercial-fleet-wrap.webp"
-                alt="Commercial fleet wrap in maryland"
+                src="/images/commercial-van-wrap-services.webp"
+                alt="Commercial Van wrap in maryland"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/commercial-fleet-wrap.webp 768w, /images/commercial-fleet-wrap.webp 1024w"
+                srcSet="/images/commercial-van-wrap-services.webp 768w, /images/commercial-van-wrap-services.webp 1024w"
                 width={536}
                 height={652}
                 className="z-0 relative lg:mt-[-160px] lg:w-[536px] lg:min-w-[400px]"
@@ -135,7 +135,7 @@ const VansWrapMaryland = (props) => {
       <section className="">
         <div className="container lg:mb-[100px] mb-16">
           <div className="flex flex-wrap px-4 lg:px-0 pb-12 lg:pb-0">
-            <h2 className="lg:w-7/12 font-bold lg:text-[55px] lg:leading-[80px] text-[65px] leading-[65px] mb-8 lg:mb-0">OUR COMMERCIAL VAN<span className="lg:text-[80px] text-4pblue block">WRAP PROCESS </span></h2>
+            <h2 className="lg:w-7/12 font-bold lg:text-[55px] lg:leading-[80px] text-[55px] leading-[65px] mb-8 lg:mb-0">OUR COMMERCIAL VAN<span className="lg:text-[80px] text-4pblue block">WRAP PROCESS </span></h2>
             <p className="lg:w-5/12">At 4Print, we believe the best results come from a clear, proven process. From the first consultation to the final installation, our team guides you through every step, ensuring your commercial van wrap is customized, durable, and impactful.</p>
           </div>
             <div className="grid lg:grid-cols-12 grid-cols-1 gap-12 lg:px-16 lg:mt-16 px-8">
