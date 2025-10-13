@@ -2836,7 +2836,10 @@ export const WallWrapCountriesLeft = [
     {
         title: "Baltimore County",
         cities: [
-
+            {
+                cityName: 'Baltimore',
+                citylink: '/wall-wraps-maryland/baltimore'
+            }
         ],
         link: ""
     },
@@ -2861,6 +2864,10 @@ export const WallWrapCountriesLeft = [
         ],
         link: ""
     },
+
+]
+
+export const WallWrapCountriesright = [
     {
         title: "Charles County",
         cities: [
@@ -2868,12 +2875,7 @@ export const WallWrapCountriesLeft = [
         ],
         link: ""
     },
-
-
-]
-
-export const WallWrapCountriesright = [
-        {
+    {
         title: "Frederick County",
         cities: [
 
@@ -3107,3 +3109,174 @@ export const WWCitiesRightGlenBurnie = [
     },
 ]
 
+/****************************************SEO Page - Octubre 2025 - Wall Wraps Baltimore *****************************/
+
+export const MiniMenuWallWrapBaltimore = [ 
+    {name:'Commercial Wall Wrap Applications', 
+     link: '#commercial'
+    },
+    {name:'Why Businesses Choose Wall Wraps',
+     link: '#whywall'
+    },
+    {name:'Residential and Personal Wall Wraps',
+     link: '#personal'
+    }, 
+    {name:'Our Wall Wrap Process',
+     link: '#process'
+    }, 
+    {name:'Why Choose 4Print for Wall Wrap Services',
+     link: '#why4print'
+    }, 
+]
+
+export const WallWrapImpactBaltimore = [
+    {
+        title:'Retail Stores and Showrooms:',
+        desc: 'Highlight seasonal promotions, showcase product photography, or create a unified brand experience that enhances customer engagement.'
+    },
+    {
+        title:'Corporate Offices:',
+        desc: 'Inspire employees and impress visitors with imagery that reinforces company culture, mission statements, and professional achievement.'
+    },
+    {
+        title:"Restaurants and Cafes:",
+        desc: "Use wall wraps to define your establishment's character, from showcasing menu favorites to creating an inviting dining atmosphere."
+    },
+    {
+        title:'Schools and Universities:',
+        desc: 'Celebrate school spirit with mascot graphics, motivational messaging, and custom designs for athletic facilities, hallways, and classrooms.'
+    },
+    {
+        title:'Fitness Centers and Gyms:',
+        desc: 'Motivate members with bold, energetic visuals that highlight wellness, strength, and community engagement.'
+    },
+    {
+        title:'Healthcare Facilities and Dental Offices:',
+        desc: 'Transform sterile walls into calming, welcoming environments that ease patients and visitors.'
+    },
+    {
+        title:'Airports and Transportation Hubs:',
+        desc: 'Capitalize on foot traffic with wraps displaying advertising content, local attractions, or traveler information.'
+    },
+    {
+        title:'Event Spaces and Convention Halls: ',
+        desc: 'Maintain brand presence with impactful graphics designed for both short-term and long-term installations.'
+    },
+]
+
+export const OurProcessWWBaltimore = [
+    {
+        title: 'Step 1: Initial Design Consultation',
+        desc: 'We start by learning about your brand, space, and goals. Whether you have ready-made designs or need creative assistance, our in-house design professionals provide expert guidance. For larger installations, we create digital mockups allowing you to preview the completed wrap before manufacturing begins.'
+    },
+    {
+        title: 'Step 2: Manufacturing with Premium Materials',
+        desc: 'Using cutting-edge printing systems and high-grade vinyl materials, we produce graphics with sharp clarity, vivid colors, and lasting durability. Our production specialists ensure each print meets strict quality standards, guaranteeing exceptional appearance at installation.'
+    },
+    {
+        title: 'Step 3: Professional Installation Execution',
+        desc: 'Our certified professionals handle all installation phases with precision and meticulous care. We properly prepare wall surfaces, align graphics accurately, and complete installations using techniques ensuring seamless application across textured or curved surfaces. Most Baltimore installations are completed within a few days, depending on size and intricacy.'
+    },
+    {
+        title: 'Step 4: Comprehensive Quality Review',
+        desc: `Before project finalization, each wall wrap receives thorough inspection. We confirm alignment, adhesion strength, and overall aesthetics to ensure your wrap looks flawless and performs as expected. With 4Print, the experience remains simple, cooperative, and dedicated to delivering outcomes that surpass expectations.`
+    },
+]
+
+export const WWCitiesLeftBaltimore = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+        {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+
+]
+
+export const WWCitiesRightBaltimore = [
+
+        {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]

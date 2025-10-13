@@ -3,7 +3,10 @@
 import Image from "next/image";
 import ContactForm from "./ContactForm";
 
-const ContactFormFooter = ({title1, title2, text1, text2, bgColor="", children}) => {
+const ContactFormFooter = ({title1, title2, text1, text2, bgColor="", 
+                            mapUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus',
+                            mapHeight = 600,  
+                            children}) => {
 
 
   return (
@@ -21,16 +24,14 @@ const ContactFormFooter = ({title1, title2, text1, text2, bgColor="", children})
               <ContactForm orientation=""/>
             </div>
             <div className="w-[432px]">
-                <a href="https://maps.app.goo.gl/dZunpUZZmkJ9DUxS9?g_st=com.google.maps.preview.copy" target="_blank">
-                    <Image
-                        src={`/images/form-map.webp`} 
-                        alt="Map image"
-                        sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                        srcSet={`/images/form-map.webp 768w, /images/form-map.webp 1024w`}
-                        width={435}
-                        height={600}
-                    />
-                </a>
+              <iframe src={mapUrl} 
+                width='400' 
+                height={mapHeight} 
+                style={{border:0, height: mapHeight ? `${mapHeight}px` : '520px'}} 
+                allowFullScreen="" 
+                className={`rounded-xl shadow-usual lg:w-[430px] w-full ${mapHeight ? `lg:h-[${mapHeight}px]` : 'lg:h-[520px]'} h-[500px]`} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade" />
             </div>
 
         </div>

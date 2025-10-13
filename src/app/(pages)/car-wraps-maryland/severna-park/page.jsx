@@ -208,7 +208,7 @@ const CarWrapsGlenBurnie = (props) => {
           <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been transforming vehicles with high-quality vinyl wraps since 2021. Our team has proudly served customers throughout Maryland, providing expert car wraps, fleet graphics, and custom vehicle wraps that enhance aesthetics and branding.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-24">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.081852085099!2d-76.6217046!3d39.1728599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fdc1332cd389%3A0x1dee4584e17b5c5e!2s4%20Print%20Commercial%20Wraps!5e0!3m2!1sen!2sus!4v1749139923049!5m2!1sen!2sus" width="550" height="730" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[710px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49552.21449557754!2d-76.61244693635737!3d39.083392376610234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fa3479eac8c7%3A0xc73bd6458193429f!2sSeverna%20Park%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1760384401758!5m2!1ses!2sco" width="550" height="730" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[710px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="lg:w-6/12 w-full">
               <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8">We are based near Severna Park, MD, and, depending on the job, our team can travel to clients within a 50-mile radius for on-site installations. Whether you're a personal vehicle owner or a business with a fleet, we bring our expertise to your location when needed, ensuring convenience and professional results.</p>
@@ -258,6 +258,7 @@ const CarWrapsGlenBurnie = (props) => {
         title2={"Get Your Severna Park Car Wrap Today!"}
         text1={"Whether you need a personal car wrap or a fleet wrap for your business, 4Print is Severna Park's trusted vinyl wrap expert."}
         text2={'We proudly serve all of Maryland and can assist clients in Washington D.C. and Virginia.'} 
+        mapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49552.21449557754!2d-76.61244693635737!3d39.083392376610234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7fa3479eac8c7%3A0xc73bd6458193429f!2sSeverna%20Park%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1760384401758!5m2!1ses!2sco"
       >
         <div className="flex flex-wrap">
           <div className="w-full">Call us today or email us to get started!</div>

@@ -135,7 +135,7 @@ const FoodWrapGlenBuenie = (props) => {
           <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0 lg:pt-4 lg:w-[50rem]">At 4Print, we have been enhancing mobile food businesses with professional vinyl graphics since our founding. Our team proudly supports Baltimore's vibrant food truck scene, providing custom wraps, menu graphics, and mobile restaurant branding that increases visibility and customer engagement.</p>
           <div className="flex flex-wrap">
             <div className="lg:w-6/12 w-full lg:pt-8 pt-8 pb-4 lg:pb-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98821.04184057594!2d-76.70305804370932!3d39.284677240340876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1752157177597!5m2!1ses!2sco" width="550" height="770" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[770px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98820.85419710519!2d-76.702886524032!3d39.28481023352079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1760384146938!5m2!1ses!2sco" width="550" height="770" style={{border:0}} allowFullScreen="" className="rounded-xl shadow-usual lg:w-[550px] w-[340px] lg:h-[770px] h-[550px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="lg:w-6/12 w-full">
               <p className="leading-[23px] lg:ps-12 lg:pe-0 pt-4 lg:pt-0 lg:pt-6 lg:pe-8 pb-8 lg:pb-0">Based in Glen Burnie, MD, we offer mobile installations throughout a 50-mile service radius, depending on your food truck's size and location. Whether you're an independent food truck owner or managing multiple mobile dining operations, we ensure convenience and exceptional results by bringing our services to your commissary or preferred site as needed.
@@ -186,6 +186,7 @@ const FoodWrapGlenBuenie = (props) => {
         title2={"Get Your Baltimore Wrap Today!"}
         text1={"Whether you need complete food truck branding or menu display graphics, 4Print is Baltimore's trusted mobile food wrap specialist."}
         text2={'We proudly serve mobile food entrepreneurs throughout Baltimore and can assist food truck businesses in Washington D.C. and Virginia.'} 
+        mapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98820.85419710519!2d-76.702886524032!3d39.28481023352079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1760384146938!5m2!1ses!2sco"
       >
         <div className="flex flex-wrap">
           <div className="w-full">Call us today or email us to start your food truck makeover!</div>

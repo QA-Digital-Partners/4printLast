@@ -43,6 +43,12 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
       input.reportValidity();
     } else {
       input.setCustomValidity('');
+
+
+        // ✅ Agregar aquí la URL actual al formulario
+    formRef.current.current_url.value = window.location.href;
+
+
       // Proceed with form submission if needed
       emailjs
       .sendForm('service_iyjzik5', '4print_temp', formRef.current, {
@@ -79,6 +85,7 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
                       <form className="pt-3 custom-form" ref={form} onSubmit={(e) => handleSubmit(e, form, phone, statusRef)}>
                       <div className={`gap-8 ${ orientation?.trim().toLowerCase() === 'horizontal' ? 'grid lg:grid-cols-6 grid-cols-1' : 'grid grid-cols-1'}`}>
                       <div>
+                              <input type="hidden" name="current_url" />
                               <input  type="text" 
                                   className={`form-control p-2 border rounded-md w-full bg-4pgrey `} 
                                   id="name"  
