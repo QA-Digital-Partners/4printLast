@@ -14,7 +14,7 @@ export const metadata = {
   description: "Commercial wall wrap services in Glen Burnie, MD. 4Print transforms walls with premium materials, custom designs, & expert installation.",
 };
 
-const WallWraps = (props) => {
+const WallWrapsGlenBurnie = (props) => {
   return (
     <>
       {/****************** Banner Secion ****************************/}
@@ -360,4 +360,4 @@ const WallWraps = (props) => {
   )
 };
 
-export default WallWraps;
+export default WallWrapsGlenBurnie;

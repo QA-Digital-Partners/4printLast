@@ -5,7 +5,8 @@ export default function sitemap() {
     const commercial = ["fleet", "food-trucks", "glen-burnie", "baltimore", "vans", "trailers" ];
     const foodTrucksCities = ["glen-burnie", "baltimore" ];
     const fleetCities = ["glen-burnie", "baltimore" ];
-    const wallcities = ["glen-burnie", ];
+    const wallcities = ["glen-burnie", "baltimore"];
+    const trailersCities = ["baltimore"];
     const staticPages = [
       "", 
       "about", 
@@ -40,6 +41,10 @@ export default function sitemap() {
       })),
       ...wallcities.map((city) => ({
         url: `${SITE_URL}/wall-wraps-maryland/${city}`,
+        lastModified: new Date().toISOString(),
+      })),
+      ...trailersCities.map((city) => ({
+        url: `${SITE_URL}/car-wraps-maryland/commercial/trailers${city}`,
         lastModified: new Date().toISOString(),
       }))
 

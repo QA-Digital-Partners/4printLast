@@ -14,7 +14,7 @@ export const metadata = {
   description: "Commercial wall wrap services in Baltimore, MD. 4Print transforms walls with premium materials, custom designs, & expert installation",
 };
 
-const WallWraps = (props) => {
+const WallWrapsBaltimore = (props) => {
   return (
     <>
       {/****************** Banner Secion ****************************/}
@@ -360,4 +360,4 @@ const WallWraps = (props) => {
   )
 };
 
-export default WallWraps;
+export default WallWrapsBaltimore;
