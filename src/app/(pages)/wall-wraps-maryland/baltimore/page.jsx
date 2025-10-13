@@ -347,6 +347,7 @@ const WallWraps = (props) => {
         text2={' '}
         bgColor={'-red'}
         mapHeight={600}
+        mapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98820.85419710519!2d-76.702886524032!3d39.28481023352079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20Maryland%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1760384233563!5m2!1ses!2sco"
       >
         <div className="flex flex-wrap">
           <h2 className="text-center font-bold lg:px-0 lg:text-[70px] text-[45px] leading-[45px] lg:leading-[70px] uppercase lg:leading-[80px] pb-6">Transform Your Baltimore Walls Today</h2>
