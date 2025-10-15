@@ -2936,10 +2936,14 @@ export const WallWrapGalery = [
         title: " ",
     },
     {
-        image: 'wall-wrap-service-1.webp',
+        image: 'wall-wrap-service-1-1.webp',
         title: " ",
     },{
-        image: 'wall-wrap-service-2.webp',
+        image: 'wall-wrap-service-2-2.webp',
+        title: " ",
+    },
+    {
+        image: 'wall-wrap-service-3.webp',
         title: " ",
     }
 ]
