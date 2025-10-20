@@ -19,6 +19,7 @@ const HeaderComponent = () => {
 
   return (
     <>
+    <header>
       <div className="container lg:py-8 py-4 z-[999] relative">
         <div className="rounded-xl border-1 border-4plight-grey lg:py-8 py-4 bg-white flex px-8 shadow-usual bg-white flex-wrap lg:flex-nowrap">
           {/* LOGO */}
@@ -188,6 +189,7 @@ const HeaderComponent = () => {
           )}
         </div>
       </div>
+      </header>
     </>
   );
 };

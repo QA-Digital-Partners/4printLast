@@ -8,6 +8,7 @@ const FooterComponent = (props) => {
 
   return (
     <>
+    <footer>
       <div className="bg-4pblack text-white">
         <div className="container flex flex-wrap lg:flex-nowrap px-8 lg:px-0 pt-8 lg:pt-0">
           <div className="lg:w-7/12 w-full content-center">
@@ -130,6 +131,7 @@ const FooterComponent = (props) => {
           </div>
         </div>
       </div>
+      </footer>
     </>
   )
 };

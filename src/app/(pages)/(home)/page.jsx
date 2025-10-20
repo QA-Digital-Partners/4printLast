@@ -33,7 +33,8 @@ export default function Home() {
   return (
     <>
     <LocalBusinessSchema />
-    {/******************  Hero Banner Section ****************************/}
+    <main>
+      {/******************  Hero Banner Section ****************************/}
       <div className="lg:bg-gradient-to-b bg-gradient-to-b from-[#EFEEEE] from-75% to-whitwe to-75% lg:pt-[200px] lg:mt-[-185px] pt-[130px] mt-[-110px]  mb-[100px]">
         <div className="container px-6 lg:px-0">
           <h1 className="lg:text-[80px] text-[42px] font-bold uppercase lg:leading-[90px] leading-[45px] lg:pb-8">
@@ -388,6 +389,7 @@ export default function Home() {
 
       {/******************  Contact Form Section ****************************/}
       <ContactFormFooter />
+      </main>
     </>
   );
 }
