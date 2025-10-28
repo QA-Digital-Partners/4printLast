@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react"
-import { ActionList, ActionTitle, AdvanceTrainingCert, BestBrands, ExperienceText, FleetGraphicsCert, GeekWrapsCert, MiniMenuHome, PreferedInstallerCert, ServicesGridHome, titleHM, TrustedBy } from "@/app/data/data";
+import { ActionList, ActionTitle, AdvanceTrainingCert, BestBrands, ExperienceText, FleetGraphicsCert, GeekWrapsCert, MiniMenuHome, NewServicesHome, PreferedInstallerCert, ServicesGridHome, titleHM, TrustedBy } from "@/app/data/data";
 import YouTubeVideo from "@/app/components/YoutubeLazyLoad";
 import MiniMenu from "@/app/components/MiniMenu";
 import Button4P from "@/app/components/Button";
@@ -8,6 +8,8 @@ import ReviewSection from "@/app/components/ReviewSection";
 import ServicesCardHome from "@/app/components/ServicesSectionHome";
 import ContactFormFooter from "@/app/components/ContactFormFooter";
 import LocalBusinessSchema from "@/app/components/LocalBusinessSchema";
+import NewCaruselHome from "@/app/components/NewHomeSlider";
+import NewServiceCardHome from "@/app/components/NewServiceCardHome";
 
 export const metadata = {
   title: "4Print: Commercial Car Wraps in Glen Burnie, Maryland",
@@ -43,9 +45,13 @@ export default function Home() {
             <span className="text-4pred">{titleHM.titleLineTreeHM} </span>
             <span className="h1-print-HM rounded-[50px] px-8 text-white">{titleHM.titleLineFourHM}</span> </h1>
 
-          <p className="lg:w-[35vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with advertising solutions that deliver thousands of daily impressions.</p>
+          <p className="lg:w-[45vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with commercial vehicle wraps in Maryland. Our advertising solutions help your fleet generate thousands of daily impressions, increasing brand visibility across the state. Whether you’re in Baltimore, Silver Spring, or anywhere in Maryland, we ensure your business stands out on the road.</p>
+
+          <p className="lg:text-[22px] lg:font-bold lg:w-[40vw] lg:leading-[26px]"> From Large Brands and Institutions to Local Businesses and Custom Wraps – Tailored Solutions for Every Need</p>
         </div>
         <div className="container mb-16">
+
+          {/************************************ Seccion vieja 
           <div className="flex flex-wrap lg:flex-nowrap gap-8">
             <div className="lg:w-[485px] w-full content-end">
               <div className="relative w-full overflow-hidden lg:min-h-[488px] min-h-[400px] h-[400px] rounded-xl">
@@ -64,6 +70,11 @@ export default function Home() {
                 height={530}
               />
             </div>
+            */}
+        </div>
+
+        <div className="container">
+          <NewCaruselHome />
         </div>
       </div>
 
@@ -79,7 +90,7 @@ export default function Home() {
                   src={`/images/${data}`}
                   alt="Image on banner La Palmirana"
                   sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                  srcSet="/images/banner-image-hm.webp 768w, /images/banner-image-hm.webp 1024w"
+                  srcSet={`/images/${data} 768w, /images/${data} 1024w`}
                   width={179}
                   height={78}
                   className=""
@@ -108,6 +119,7 @@ export default function Home() {
 
       {/****************** Mini Menu Secion ****************************/}
       <div className="container lg:mb-[100px] px-4 mb-12">
+        <p className="text-center lg:text-[30px] text-[25px] font-bold pb-8">Quick Navigation</p>
         <div className="border-2 border-4plight-grey rounded-lg lg:py-4 pt-4 lg:mx-[-30px]">
           <MiniMenu toMap={MiniMenuHome}/>
         </div>
@@ -181,7 +193,37 @@ export default function Home() {
         </div>
       </div>
  
-      {/****************** Focus on Quality Section ****************************/}
+      {/****************** The 4Print Promise and Warranty ****************************/}
+      <div id="promise" className="relative container lg:mb-[100px]">
+        <div className="promise-path w-full h-full bg-4pred absolute z-10 max-w-[1200px] lg:rounded-tl-xl lg:rounded-bl-xl rounded-xl"></div>
+        <div className="z-20 relative lg:ps-8 pt-8 ps-6">
+          <h2 className="lg:text-[70px] text-[45px] font-bold lg:leading-[65px] leading-[50px] w-full text-white uppercase ">The 4Print <span className="lg:text-[80px] lg:block">Promise & Warranty</span></h2>
+
+          <div className="flex lg:pt-8 pt-6 flex-wrap">
+            <div className="lg:w-6/12 text-white text-[20px] lg:pb-10 pb-12 leading-[24px] pe-4 lg:pe-0 ">
+              <p className="lg:max-w-[93%] pb-8">In short, at 4Print, your satisfaction is our top priority. This means your project isn’t complete until you’re 100% satisfied. From the initial design to final installation, we work diligently to ensure every detail exceeds your expectations.</p>
+              <p className="lg:max-w-[75%] pb-8">That’s why we use only the best materials, continually study industry best practices, and invest in ongoing training so our team is fully certified. We promise a seamless experience and a result you’ll love, and we back it up with a 1-year labor warranty.</p>
+              <div className="lg:w-4/12 w-11/12 content-center">
+                <Button4P buttonText={'Call us'} buttonLink={'tel:+14439981717'} buttonBgAnimation={'btn-white-to-blue click_call_body'} iconOption={1} textColor={'text-4pblue'}/>
+              </div>
+            </div>
+
+            <div className="lg:w-6/12 relative content-end">
+              <Image 
+                src={`/images/promise-and-warranty.webp`}
+                alt="Image on banner La Palmirana"
+                sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+                srcSet={`/images/promise-and-warranty.webp 768w, /images/promise-and-warranty.webp 1024w`}
+                width={704}
+                height={426}
+                className="lg:min-w-[700px] lg:-ms-28"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/****************** Focus on Quality Section ***************************
       <div className="container lg:mb-[100px] mb-12">
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="bg-4pred lg:ps-[80px] ps-8 lg:pt-16 pt-8 text-white lg:w-[833px] w-[95%] lg:me-[-400px] rounded-lg pb-[290px] lg:pb-0">
@@ -200,13 +242,117 @@ export default function Home() {
               className="self-start" />
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/******************  Review Section ****************************/}
-      <ReviewSection />
+      <div id="testimonials">
+        <ReviewSection />
+      </div>
 
       {/******************  Services Section ****************************/}
-      <div className="container lg:mb-[100px] mb-16">
+      <div id="services" className="container lg:mb-[100px] mb-16 px-6 lg:px-0">
+
+        {/**************** Vehicle Wrap */}
+        <h2 className="font-bold lg:text-[60px] text-[40px] lg:leading-[60px] leading-[42px] uppercase text-center">Commercial Vehicle <span className="text-4pblue lg:block">Wraps in Maryland</span></h2>
+        <div className="grid grid-cols-12 gap-5 mt-7">
+          <NewServiceCardHome data={NewServicesHome[0]} />
+
+          <div className="lg:col-span-7 col-span-12">
+            <div className="grid grid-cols-2 gap-5">
+              <NewServiceCardHome data={NewServicesHome[1]} />
+              <NewServiceCardHome data={NewServicesHome[2]} />
+            </div>
+            <div className="grid grid-cols-1 gap-5">
+              <NewServiceCardHome data={NewServicesHome[3]} />
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-12 gap-5 mt-5">
+          <NewServiceCardHome data={NewServicesHome[4]} />
+
+          <div className="lg:col-span-7 col-span-12">
+            <div className="grid grid-cols-2 gap-5">
+              <NewServiceCardHome data={NewServicesHome[5]} />
+              <NewServiceCardHome data={NewServicesHome[6]} />
+            </div>
+          </div>
+
+          <NewServiceCardHome data={NewServicesHome[7]} />
+          <NewServiceCardHome data={NewServicesHome[8]} />
+        </div>
+
+        {/**************** Wall Wrap */}
+        <h2 className="font-bold lg:text-[60px] text-[40px] lg:leading-[60px] leading-[42px] uppercase text-center lg:pt-24 pt-12">Wall Wraps & Storefront <span className="text-4pblue lg:block">Graphics in Maryland</span></h2>
+
+        <div className="grid grid-cols-12 gap-5 mt-7">
+          <NewServiceCardHome data={NewServicesHome[9]} />
+
+          <div className="lg:col-span-7 col-span-12">
+            <div className="grid grid-cols-2 gap-5">
+              <NewServiceCardHome data={NewServicesHome[10]} />
+              <NewServiceCardHome data={NewServicesHome[11]} />
+            </div>
+            <div className="grid grid-cols-1 gap-5">
+              <NewServiceCardHome data={NewServicesHome[12]} />
+            </div>
+          </div>
+
+          <div className="lg:col-span-7 col-span-12">
+            <div className="grid grid-cols-2 gap-5">
+              <NewServiceCardHome data={NewServicesHome[13]} />
+              <NewServiceCardHome data={NewServicesHome[14]} />
+            </div>
+            <div className="grid grid-cols-1 gap-5">
+              <NewServiceCardHome data={NewServicesHome[15]} />
+            </div>
+          </div>
+
+          <NewServiceCardHome data={NewServicesHome[16]} />
+        </div>
+
+        {/**************** custom Car Wrap */}
+        <h2 className="font-bold lg:text-[60px] text-[40px] lg:leading-[60px] leading-[42px] uppercase text-center lg:pt-24 pt-12">Custom Car Wraps <span className="text-4pblue">in Maryland</span></h2>
+
+        <div className="grid grid-cols-12 gap-5 mt-7">
+          <NewServiceCardHome data={NewServicesHome[17]} />
+          <NewServiceCardHome data={NewServicesHome[18]} />
+          <NewServiceCardHome data={NewServicesHome[19]} />
+        </div>
+
+        {/**************** Commercial Vehicle Wrap */}
+        <h2 className="font-bold lg:text-[60px] text-[40px] lg:leading-[60px] leading-[42px] uppercase text-center lg:pt-24 pt-12">Commercial Vehicle <span className="text-4pblue lg:block">Wraps in MarylanD</span></h2>
+
+        <div className="grid grid-cols-12 gap-5 mt-7">
+          <NewServiceCardHome data={NewServicesHome[20]} />
+
+          <div className="lg:col-span-7 col-span-12 gap-5">
+            <div className="grid grid-cols-2 gap-5">
+              <NewServiceCardHome data={NewServicesHome[21]} />
+              <NewServiceCardHome data={NewServicesHome[22]} />
+            </div>
+            <div className="grid grid-cols-1 gap-5">
+              <NewServiceCardHome data={NewServicesHome[23]} />
+            </div>
+          </div>
+
+          <NewServiceCardHome data={NewServicesHome[24]} />
+
+          <div className="lg:col-span-7 col-span-12 gap-5">
+            <div className="grid grid-cols-12 gap-5">
+              <NewServiceCardHome data={NewServicesHome[25]} />
+              <NewServiceCardHome data={NewServicesHome[26]} />
+            </div>
+          </div>
+
+          <NewServiceCardHome data={NewServicesHome[27]} />
+          <NewServiceCardHome data={NewServicesHome[28]} />
+
+        </div>        
+
+      </div>
+
+      {/***<div  className="container lg:mb-[100px] mb-16">
         <div className="flex lg:flex-nowrap flex-wrap px-8 lg:px-0">
           <div className="lg:w-9/12 w-full">
             <h2 className="font-bold lg:text-[70px] lg:leading-[68px] text-[52px] leading-[52px]">OUR <span className="lg:text-[80px] text-[60px] block text-4pblue">SERVICES</span></h2>          
@@ -223,7 +369,7 @@ export default function Home() {
             )
           })}
         </div>
-      </div>
+      </div>***/}
 
       {/****************** Certifications Section ****************************/}
       <div className="container lg:mb-[100px] mb-4" id="certifications">

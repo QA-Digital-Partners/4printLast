@@ -64,10 +64,10 @@ export const footerContact = [
 // Texto del Home 
 
 export const titleHM = {
-    titleLineOneHM : 'Commercial ',
-    titleLineTwoHM : 'Vehicle Wrapping',
-    titleLineTreeHM : '& Commercial',
-    titleLineFourHM : 'Printing'
+    titleLineOneHM : 'Commercial Vehicle Wrap ',
+    titleLineTwoHM : ' in Glen Burnie, MD ',
+    titleLineTreeHM : 'Serving all',
+    titleLineFourHM : 'Maryland'
 }
 
 // Section Brands - Home Page
@@ -78,23 +78,23 @@ export const BestBrands =[ '3M-179.svg', 'avery-179.svg', 'arlon-179.svg', 'brig
 // Section MiniMenu - Home Page
 
 export const MiniMenuHome = [ 
-    {name:'Why Choose Vehicle Wrapping for Your Business?', 
-     link: '/commercial-vehicle-wrapping-lettering'
+    {name:'About Us', 
+     link: '/about'
     },
-    {name:'Why Choose Us?',
-     link: '/custom-car-wraps/#whyus'
+    {name:'Testimonials',
+     link: '#testimonials'
     },
-    {name:'Design & Consultation',
-     link: '/custom-car-wraps/#classic'
+    {name:'Certifications',
+     link: '#certifications'
     }, 
-    {name:'Other Services',
+    {name:'The 4Print Promise & Warranty',
      link: '/services/#printing'
     }, 
-    {name:'Gallery',
-     link: '/gallery'
+    {name:'All Services',
+     link: '#services'
     }, 
-    {name:'Certifications', 
-     link: '#certifications'
+    {name:'Contact Us', 
+     link: '#contact'
     }
 ]
 
@@ -3495,4 +3495,188 @@ export const OurProcessTrailerWarpBaltimore = [
         With 4Print, the experience is simple, cooperative, and engineered to produce results that surpass expectations.
 `
     },
+]
+
+/****************************************SEO Page - Octubre 2025 - Home New Info *****************************/
+
+export const NewServicesHome = [
+    /*********************************************************** Commercial Vehicle Wraps */
+    {
+        title: 'Fleet Wraps & Graphic',
+        desc: 'Professional fleet branding that drives visibility and business growth.',
+        className: 'lg:col-span-5 col-span-12 lg:min-h-[71vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: '/car-wraps-maryland/commercial/fleet'
+    },
+    {
+        title: 'Food Truck Wraps & Graphics',
+        desc: 'Custom food truck wraps that attract customers and boost sales.',
+        className: 'FoodTruck lg:min-h-[34.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: '/car-wraps-maryland/commercial/food-trucks'
+    },
+    {
+        title: 'Van Wraps & Graphics',
+        desc: 'Eye-catching van wraps that showcase your brand on the go.',
+        className: 'VanWrap lg:min-h-[34.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: '/car-wraps-maryland/commercial/vans'
+    },
+    {
+        title: 'Trailer Wraps & Graphics',
+        desc: 'Durable trailer wraps that promote your business wherever you go.',
+        className: 'TrailerWraps lg:min-h-[34.5vh] mt-5 lg:ps-[50px] lg:pb-[50px]',
+        link: '/car-wraps-maryland/commercial/trailers'
+    },
+    {
+        title: 'Truck Wraps & Graphics',
+        desc: 'Bold truck wraps that highlight your brand on every road.',
+        className: 'TruckWraps lg:col-span-5 col-span-12 lg:min-h-[43vh] lg:ps-[50px] lg:pb-[50px] lg:pe-0 pt-24 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Vehicle Lettering & Decals',
+        desc: 'Custom vehicle lettering and decals that enhance your brand visibility.',
+        className: 'VehicleLettering lg:min-h-[43vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-24 lg:pt-0 ',
+        link: ''
+    },
+    {
+        title: 'Partial Vehicle Wraps for Commercial Vehicles',
+        desc: 'Cost-effective partial wraps that transform and promote commercial vehicles.',
+        className: 'PartialVehicle lg:min-h-[43vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: '/services#fleetwrap'
+    },
+    {
+        title: 'Perforated Window Graphics for Vehicles',
+        desc: 'Vibrant window graphics that advertise while maintaining visibility.',
+        className: 'PerforatedWindow lg:min-h-[35vh] col-span-12 lg:col-span-6 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Car Wrap Removal & Replacement',
+        desc: 'Professional car wrap removal and replacement with flawless results.',
+        className: 'CarWrapRemoval lg:min-h-[35vh] col-span-12 lg:col-span-6 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    /*********************************************************** Wall Services */
+    {
+        title: 'Wall Murals',
+        desc: 'Creative wall murals that transform spaces and showcase your brand.',
+        className: 'WallMurals lg:col-span-5 col-span-12 lg:min-h-[71vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: '/wall-wraps-maryland'
+    },
+    {
+        title: 'Wall Decals',
+        desc: 'Custom wall decals that add style and brand personality.',
+        className: 'WallDecals lg:min-h-[34.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Wallpaper Installation',
+        desc: 'Professional wallpaper installation that enhances interiors with precision.',
+        className: 'WallpaperInstallation lg:min-h-[34.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Window Vinyls & Decals for Storefronts',
+        desc: 'Attractive storefront window vinyls that draw attention and customers.',
+        className: 'WindowVinyls lg:min-h-[34.5vh] mt-5 lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Wall Wrap Removal',
+        desc: 'Efficient wall wrap removal leaving surfaces clean and ready.',
+        className: 'WallWrapRemoval lg:min-h-[38.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Aluminum Signs',
+        desc: 'Durable aluminum signs designed for lasting outdoor visibility.',
+        className: 'AluminumSigns lg:min-h-[38.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Custom Wall Design Consultation',
+        desc: 'Personalized wall design consultation tailored to your brand vision.',
+        className: 'WallDesignConsultation lg:min-h-[30.5vh] mt-5 lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Wall Wrap Replacement or Repair',
+        desc: 'Expert wall wrap repair and replacement for a flawless finish.',
+        className: 'WallWrapReplacement lg:col-span-5 col-span-12 lg:min-h-[71vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    /*********************************************************** Custom Car Wrap */
+    {
+        title: 'Full Color Change Car Wraps',
+        desc: 'Transform your vehicle’s look with vibrant full color wraps.',
+        className: 'FullColorChangeCarWraps lg:col-span-4 col-span-12 lg:min-h-[54vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: '/custom-car-wraps#coloChange'
+    },
+    {
+        title: 'Partial Car Wraps & Accents',
+        desc: 'Stylish partial wraps and accents that elevate your car’s appearance.',
+        className: 'PartialCarWraps lg:col-span-4 col-span-12 lg:min-h-[54vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Custom Car Wrap Graphics & Designs',
+        desc: 'Unique custom car wrap designs that reflect your brand style.',
+        className: 'CarWrapGraphics lg:col-span-4 col-span-12 lg:min-h-[54vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    /*********************************************************** Vehicle Wrap **************/
+    {
+        title: 'Banners',
+        desc: 'High-quality banners that capture attention and promote your brand.',
+        className: 'Banners lg:col-span-5 col-span-12 lg:min-h-[71vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Door Hangers',
+        desc: 'Custom door hangers designed to engage and attract customers.',
+        className: 'DoorHangers lg:min-h-[34.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Apparel',
+        desc: "Branded apparel that elevates your team’s professional image.",
+        className: 'Apparel lg:min-h-[34.5vh] col-span-2 lg:col-span-1 lg:ps-[22px] lg:pb-8 lg:pe-0 pt-20 lg:pt-0',
+        link: ''
+    },
+    {
+        title: 'Business Cards',
+        desc: 'Professional business cards that leave a lasting first impression.',
+        className: 'BusinessCards lg:min-h-[34.5vh] mt-5 lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Flyers',
+        desc: 'Eye-catching flyers that effectively promote your business services.',
+        className: 'Flyers lg:col-span-5 col-span-12 lg:min-h-[43vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Stickers',
+        desc: 'Custom stickers that showcase your brand with bold, lasting designs.',
+        className: 'Stickers lg:col-span-6 col-span-12 lg:min-h-[43vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Car Magnets',
+        desc: 'Magnetic car signs that promote your business on the go.',
+        className: 'CarMagnets lg:col-span-6 col-span-12 lg:min-h-[43vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'Yard Signs',
+        desc: 'Durable yard signs that showcase your message with impact.',
+        className: 'YardSigns lg:col-span-6 col-span-12 lg:min-h-[35vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: ''
+    },
+    {
+        title: 'See all printing services',
+        desc: 'Explore all our professional printing services for your business.',
+        className: 'SeeAllPrinting lg:col-span-6 col-span-12 lg:min-h-[35vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
+        link: '/services'
+    },
+    /*********************************************************** W **************/
 ]

@@ -8,7 +8,7 @@ const ReviewSection = (props) => {
     <>
       <div className="container shadow-usual lg:mb-[100px] mb-16 border-4plight-grey border-[1px] rounded-md">
         <div className="flex flex-wrap lg:flex-nowrap">
-          <div className="lg:w-[52%] w-full lg:ps-[5rem] pt-[2rem] bg-4pgrey rounded-br-[70px] rounded-tl-md lg:mb-16 lg:pb-8 pb-12 px-4">
+          <div className="lg:w-[52%] w-full lg:ps-[4rem] pt-[2rem] bg-4pgrey rounded-br-[70px] rounded-tl-md lg:mb-16 lg:pb-8 pb-12 px-4">
             <Image 
                 src={"/images/quote-icon.svg"}
                 alt="Quotation icon"
@@ -17,8 +17,7 @@ const ReviewSection = (props) => {
                 width={112}
                 height={112}
                 className="self-start lg:ms-[-45px] lg:mb-[-27px] w-[4rem] lg:w-[112px] mb-[-20px]" />
-            <h4 className="lg:text-[70px] font-bold lg:leading-[64px] text-[50px] leading-[47px] ps-8 lg:ps-0">WHAT OUR <span className="block text-4pblue lg:text-[80px]">CUSTOMERS</span> ARE SAYING</h4>
-            <p className="lg:text-[20px] font-semibold py-4 lg:ps-0 ps-8 ">Visit our Google REVIEWS</p>
+            <h4 className="lg:text-[70px] font-bold lg:leading-[64px] text-[50px] leading-[47px] ps-8 lg:ps-0 lg:pb-6 pb-0 uppercase">See all our <span className="block text-4pblue lg:text-[120px] lg:leading-[90px]"> 180+ </span> excellent reviews</h4>
             <div className="lg:max-w-[284px] ps-8 lg:ps-0 pe-8 lg:pe-0">
               <Button4P buttonText={'View all reviews'} buttonLink={'https://www.google.com/search?q=4Printus&rlz=1C1ONGR_enCO1098CO1098&oq=4Printus&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQABgKGBMYgAQyCggCEAAYgAQYogQyBwgDEAAY7wUyBwgEEAAY7wUyBwgFEAAY7wXSAQg5NjBqMGoxNagCCLACAfEFP8YL_WB37ME&sourceid=chrome&ie=UTF-8&sei=oaDRZ5_-DdORwbkP6u6iwQ8#lrd=0x89b7fdc1332cd389:0x1dee4584e17b5c5e,1,,,,'} self="_blank" textColor={'text-white'} iconOption={2} buttonBgAnimation={'btn-red-to-blue'}/>
             </div>

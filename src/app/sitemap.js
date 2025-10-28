@@ -44,7 +44,7 @@ export default function sitemap() {
         lastModified: new Date().toISOString(),
       })),
       ...trailersCities.map((city) => ({
-        url: `${SITE_URL}/car-wraps-maryland/commercial/trailers${city}`,
+        url: `${SITE_URL}/car-wraps-maryland/commercial/trailers/${city}`,
         lastModified: new Date().toISOString(),
       }))
 

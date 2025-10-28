@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { pageview, GA_MEASUREMENT_ID } from "./utils/analitics";
 import dynamic from "next/dynamic";
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 
 
 // Cargar Script dinámicamente solo en cliente
@@ -142,6 +143,15 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+
+        <GoogleReCaptchaProvider
+          reCaptchaKey="TU_SITE_KEY_AQUI"
+          scriptProps={{
+            async: true,
+            defer: true,
+            appendTo: 'head',
+          }}
+        ></GoogleReCaptchaProvider>
         <HeaderComponent />
         {children}
         <FooterComponent />

@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 const ContactForm = ({orientation = "vertical", ...props}) => {
 
     
-    const servicesOptions = ['Commercial Vehicle Wrapping', 'Commercial Vehicle Lettering', 'Custom Car Wraps', 'Commercial Printing', 'Apparel', 'Stationery Printing']
+    const servicesOptions = ['Commercial Vehicle Wrapping', 'Commercial Vehicle Lettering', 'Custom Car Wraps', 'Wall Wraps', 'Commercial Printing', 'Apparel', 'Stationery Printing']
 
     let formClass = false;
     const form = useRef();
@@ -14,6 +14,7 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
     const [loading, setLoading] = useState(false);
     const statusRef = useRef(null);
     const pattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+    
 
     const [token, setToken] = useState("");
     const [refreshReCaptcha, setRefreshReCaptcha] = useState(false);

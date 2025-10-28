@@ -15,7 +15,7 @@
     "next": "15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-grecaptcha-v3": "^0.4.5",
+    "react-google-recaptcha-v3": "^1.11.0",
     "swiper": "^11.2.1"
   },
   "devDependencies": {

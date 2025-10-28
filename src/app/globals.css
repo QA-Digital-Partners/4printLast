@@ -518,6 +518,137 @@ ul.list-menu li::before {
   background-repeat: no-repeat;
 }
 
+/**************************** New Classes Home 2025 ************************************/
+
+.FleetWraps {
+  background: url('/images/fleet-wraps-and-graphic-home.webp');
+}
+
+.FoodTruck {
+  background: url('/images/food-truck-wraps-and-graphics-home.webp');
+}
+
+.VanWrap {
+  background: url('/images/van-wraps-and-graphics-home.webp');
+}
+
+.TrailerWraps {
+  background: url('/images/trailer-wraps-and-graphics-home.webp');
+}
+
+.TruckWraps {
+  background: url('/images/truck-wraps-and-graphics-home.webp');
+}
+
+.VehicleLettering {
+  background: url('/images/vehicle-lettering-and-decals-home.webp');
+}
+
+.PartialVehicle {
+  background: url('/images/partial-vehicle-wraps-for-commercial-vehicles-home.webp');
+}
+
+.PerforatedWindow {
+  background: url('/images/perforated-window-graphics-for-vehicles-home.webp');
+}
+
+.CarWrapRemoval {
+  background: url('/images/car-wrap-removal-and-replacement-home.webp');
+}
+
+.WallMurals {
+  background: url('/images/wall-murals-home.webp');
+}
+
+.WallDecals {
+  background: url('/images/wall-decals-home.webp');
+}
+
+.WallpaperInstallation {
+  background: url('/images/wallpaper-installation-home.webp');
+}
+
+.WindowVinyls {
+  background: url('/images/window-vinylsand-decals-for-storefronts-home.webp');
+}
+
+.WallWrapRemoval {
+  background: url('/images/wall-wrap-removal-home.webp');
+}
+
+.AluminumSigns {
+  background: url('/images/aluminum-signs-home.webp');
+}
+
+.WallDesignConsultation {
+  background: url('/images/custom-wall-design-consultation-home.webp');
+}
+
+.WallWrapReplacement {
+  background: url('/images/wall-wrap-replacement-or-repair-home.webp');
+}
+
+.FullColorChangeCarWraps {
+  background: url('/images/full-color-change-car-wraps-home.webp');
+}
+
+.PartialCarWraps {
+  background: url('/images/partial-car-wraps-and-accents-home.webp');
+}
+
+.CarWrapGraphics {
+  background: url('/images/custom-car-wrap-graphics-and-designs-home.webp');
+}
+
+.Banners {
+  background: url('/images/banners-home.webp');
+}
+
+.DoorHangers {
+  background: url('/images/door-hangers-home.webp');
+}
+
+.Apparel {
+  background: url('/images/apparel-home.webp');
+}
+
+.BusinessCards {
+  background: url('/images/business-cards-home.webp');
+}
+
+.Flyers {
+  background: url('/images/flyers-home.webp');
+}
+
+.Stickers {
+  background: url('/images/stickers-home.webp');
+}
+
+.CarMagnets {
+  background: url('/images/car-magnets-home.webp');
+}
+
+.YardSigns {
+  background: url('/images/yard-signs-home.webp');
+}
+
+.SeeAllPrinting {
+  background: url('/images/see-all-printing-services-home.webp');
+}
+
+.FleetWraps, .FoodTruck, .VanWrap, .TrailerWraps, .TruckWraps, .VehicleLettering, 
+  .PartialVehicle, .PerforatedWindow, .CarWrapRemoval, .WallMurals, .WallDecals, .WallpaperInstallation, .WindowVinyls, .WallWrapRemoval,
+  .AluminumSigns, .WallDesignConsultation, .WallWrapReplacement, .FullColorChangeCarWraps, .PartialCarWraps, .CarWrapGraphics,
+  .Banners, .DoorHangers, .Apparel, .BusinessCards, .Flyers, .Stickers, .CarMagnets, .YardSigns, .SeeAllPrinting  {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promise-path {
+  clip-path: path( 'M 0 0 L 1080 0 L 910 675 L 0 675 Z');
+}
+
 
 @media (max-width:767px) {
 
@@ -559,5 +690,9 @@ ul.list-menu li::before {
   .res-wall {
   background: url('/images/blue-rect-8.svg');
   background-color: #3149BC;
+  }
+
+  .promise-path {
+  clip-path: none;
   }
 }

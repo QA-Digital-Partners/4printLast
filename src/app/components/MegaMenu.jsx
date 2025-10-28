@@ -50,7 +50,7 @@ const MegaMenu = ({menu}) => {
                 <div className="lg:w-6/12">
                   <ul className="list-menu ">
                     <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/wall-wraps-maryland">Wall Wrap</a></li>
-                    <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#windowvinyls">Windows Vynils</a></li>
+                    <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#windowvinyls">Windows Vinyls</a></li>
                     <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#banners">Banners</a></li>
                     <li className="py-1 hover:text-4pred hover:font-semibold"><a href="/commercial-printing#stickers">Stickers</a></li>
                   </ul>
