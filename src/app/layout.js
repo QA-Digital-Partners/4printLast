@@ -145,7 +145,7 @@ export default function RootLayout({ children }) {
         </noscript>
 
         <GoogleReCaptchaProvider
-          reCaptchaKey="TU_SITE_KEY_AQUI"
+          reCaptchaKey="6LfAh_orAAAAAHMSC7XO874uFMvtd7aLI37mXfVB"
           scriptProps={{
             async: true,
             defer: true,

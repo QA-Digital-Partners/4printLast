@@ -5,6 +5,10 @@ import emailjs from "@emailjs/browser";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const ContactForm = ({ orientation = "vertical" }) => {
+
+  const recapchaSitekey = "6LfAh_orAAAAAOw9vg4ucPXfgAzq27z_KxtT8TR5"
+  const recaptchaSecretKey = "6LfAh_orAAAAAHMSC7XO874uFMvtd7aLI37mXfVB"
+
   const { executeRecaptcha } = useGoogleReCaptcha();
   const form = useRef();
   const phone = useRef();
