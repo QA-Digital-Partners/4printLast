@@ -1,4 +1,4 @@
-/*'use client'
+'use client'
 import FooterComponent from "./components/Footer";
 import HeaderComponent from "./components/Header";
 import "./globals.css";
@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
         }}
       />
 
-      {/************************** GTAG ALfonso - 09/05/25 *}
+      {/************************** GTAG ALfonso - 09/05/25 */}
 
         <Script
           async
@@ -107,9 +107,9 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        {/************************ COnversion Wgatsapp - Alfonso - 09/05/25 *}
+        {/************************ COnversion Wgatsapp - Alfonso - 09/05/25 */}
 
-        {/* Conversión WhatsApp *}
+        {/* Conversión WhatsApp */}
         <Script id="gtag-whatsapp" strategy="afterInteractive">
           {`
             function gtag_report_conversion(url) {
@@ -130,7 +130,7 @@ export default function RootLayout({ children }) {
         
       </head>
       <body>
-        {/* Google Tag Manager - Body *}
+        {/* Google Tag Manager - Body */}
         <noscript>
           <iframe
             src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
@@ -154,40 +154,5 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-} */
-
-  import "./globals.css";
-import "../../public/fuentes/fonts.css";
-import FooterComponent from "./components/Footer";
-import HeaderComponent from "./components/Header";
-import AnalyticsScripts from "./components/AnalyticsScripts";
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
-
-export const metadata = {
-  title: "4Print | Vehicle Wraps in Maryland",
-  description:
-    "Professional vehicle wraps and fleet branding solutions in Maryland.",
-};
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        <AnalyticsScripts />
-        <GoogleReCaptchaProvider
-          reCaptchaKey="6LfAh_orAAAAAHMSC7XO874uFMvtd7aLI37mXfVB"
-          scriptProps={{
-            async: true,
-            defer: true,
-            appendTo: "head",
-          }}
-        />
-        <HeaderComponent />
-        {children}
-        <FooterComponent />
-      </body>
-    </html>
-  );
 }
-
 
