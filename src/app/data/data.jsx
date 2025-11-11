@@ -88,7 +88,7 @@ export const MiniMenuHome = [
      link: '#certifications'
     }, 
     {name:'The 4Print Promise & Warranty',
-     link: '/services/#printing'
+     link: '#promise'
     }, 
     {name:'All Services',
      link: '#services'
@@ -3678,5 +3678,403 @@ export const NewServicesHome = [
         className: 'SeeAllPrinting lg:col-span-6 col-span-12 lg:min-h-[35vh] FleetWraps lg:ps-[50px] lg:pb-[50px]',
         link: '/services'
     },
-    /*********************************************************** W **************/
 ]
+
+/****************************************SEO Page - Noviembre 2025 - Trucks Wrap *****************************/
+
+export const TrucksWrapFAQs = [
+    {
+        title: 'How long does commercial truck wrap installation take?',
+        answer: "Installation duration fluctuates depending on your commercial truck's dimensions and artwork complexity. Complete commercial truck wraps generally require 2-4 business days, while partial wraps and corporate graphics finish in 1-2 days. We arrange installations around your business schedule to reduce operational disruption."
+    },
+    {
+        title: "How durable are commercial truck wraps in business environments?",
+        answer: "Our premium 3M vinyl wraps for commercial trucks endure 4-6 years with appropriate maintenance, even with continuous business use. Longevity depends on washing frequency, operational conditions, and upkeep practices, but our specialized wraps deliver excellent weather resistance and adhesion throughout their service life. Heavy-duty alternatives are available for demanding operational conditions."
+    },
+    {
+        title: "Do you offer warranties for commercial truck wraps?",
+        answer: "Absolutely! We supply a one-year warranty on our commercial truck installation craftsmanship. Furthermore, all 3M materials include a manufacturer's warranty covering material imperfections, providing long-term security for your business investment."
+    },
+    {
+        title: "How should I clean my wrapped commercial truck?",
+        answer: `Yes! Wrapped commercial trucks can be safely maintained with appropriate methods. We suggest:
+    .- Manual washing with commercial-grade, gentle soap and water
+    .- Preventing high-pressure systems near edges and graphic sections
+    .- Employing soft materials to avoid scratching business imagery
+    .- Frequent cleaning to preserve a professional appearance
+    .- Allowing 48 hours post-installation before initial wash
+    For professional commercial truck wraps in Maryland that attract customer interest, rely on 4Print. Contact us today to get your mobile business recognized!`
+    }
+]
+
+export const CWMServicesOptionsTrucks1 = [
+    {
+        title: 'Full Commercial Truck Wraps',
+        text: 'Entirely redesign your vehicle with bold corporate messaging and professionally crafted commercial imagery.'
+    },
+    {
+        title: 'Corporate Graphics & Signage',
+        text: 'Keep uniform branding throughout your commercial fleet with matching vinyl designs and attractive business presentations.'
+    },
+    {
+        title: 'Specialized Commercial Truck Wraps',
+        text: 'Perfect for distribution vehicles, work trucks, cargo haulers, and tradespeople requiring a polished mobile appearance.'
+    },
+    {
+        title: 'Engaging Business Visuals',
+        text: 'Captivating, premium-resolution images and designs that draw prospective clients and highlight your primary offerings.'
+    },
+]
+
+export const CWMServicesOptionsTrucks2 = [
+    {
+        title: 'Mobile Corporate Branding',
+        text: 'Personalized wraps for box trucks, pickup trucks, and commercial vehicles, guaranteeing optimal exposure at work locations and business sites.'
+    },
+    {
+        title: 'High-Contrast Vinyl Solutions',
+        text: 'Boost daytime and evening recognition with bold graphics for continuous business promotion.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'Window applications that permit interior visibility while presenting contact details and offerings on the exterior.'
+    },
+    {
+        title: 'Wrap Refreshes & Alterations',
+        text: "Expert removal and reinstallation of graphics to update company details or revitalize your commercial truck's look."
+    },
+]
+
+export const OurProcessTrucksWarp = [
+    {
+        title: 'Step 1: Design Consultation',
+        desc: 'We begin by understanding your company, marketing objectives, and customer demographics. Whether you arrive with completed artwork or require creative assistance, our internal design team offers professional recommendations. For extensive projects, we develop digital previews allowing you to envision the completed wrap before manufacturing starts.'
+    },
+    {
+        title: 'Step 2: Printing with Premium Materials',
+        desc: 'Utilizing advanced printing equipment and top-tier vinyl products, we manufacture graphics with crisp imagery, bold colors, and extended durability. Our specialists verify every print satisfies rigorous quality benchmarks, ensuring your artwork appears flawless upon installation day.'
+    },
+    {
+        title: 'Step 3: Professional Installation',
+        desc: 'Our qualified technicians manage the complete application procedure with accuracy and attention. We thoroughly prep the truck surface, position graphics perfectly, and complete with methods that ensure smooth bonding — even on textured or contoured surfaces. Most jobs finish within several days, based on scope and intricacy.'
+    },
+    {
+        title: 'Step 4: Quality Inspection',
+        desc: `Prior to project handover, every commercial truck wrap undergoes thorough examination. We verify positioning, bonding, and complete finish to confirm your wrap appears perfect and functions as anticipated.
+
+        With 4Print, the methodology is clear, cooperative, and structured to produce outcomes that surpass expectations.`
+    },
+]
+
+export const CWMMapCitiesTrucks = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CWMWhyUsTrucks = [
+    {
+        title:'Certified Commercial Truck Wrap Specialists',
+        text: 'Our 3M & Avery Dennison-certified technicians guarantee that every commercial truck wrap is flawlessly installed, with zero bubbles, separation, or detachment, even under the rigorous demands of daily business usage.'
+    },
+    {
+        title:'Custom Business Designs for Every Industry',
+        text: 'We partner with entrepreneurs and commercial managers to develop high-visibility branding programs. Whether you require a delivery vehicle wrap or branded graphics for numerous commercial trucks, we realize your company vision through professional design and perfect execution.'
+    },
+    {
+        title:'Commercial-Grade Materials & Professional Installation',
+        text: 'We utilize industry-leading vinyl wraps specifically chosen to endure the wear and upkeep demands of commercial vehicles. Our comprehensive preparation and skilled application guarantee pristine outcomes and maximum longevity in business settings.'
+    },
+    {
+        title:'Quick Turnaround & Superior Service',
+        text: 'Our Maryland-based crew provides accelerated completion schedules without sacrificing quality. Most commercial truck wraps finish within several days, allowing your business to resume operations promptly.'
+    },
+]
+
+/****************************************SEO Page - Noviembre 2025 - Decals Wrap *****************************/
+
+export const DecalsWrapFAQs = [
+    {
+        title: 'How long does commercial truck wrap installation take?',
+        answer: "Installation duration fluctuates depending on your commercial truck's dimensions and artwork complexity. Complete commercial truck wraps generally require 2-4 business days, while partial wraps and corporate graphics finish in 1-2 days. We arrange installations around your business schedule to reduce operational disruption."
+    },
+    {
+        title: "How durable are commercial truck wraps in business environments?",
+        answer: "Our premium 3M vinyl wraps for commercial trucks endure 4-6 years with appropriate maintenance, even with continuous business use. Longevity depends on washing frequency, operational conditions, and upkeep practices, but our specialized wraps deliver excellent weather resistance and adhesion throughout their service life. Heavy-duty alternatives are available for demanding operational conditions."
+    },
+    {
+        title: "Do you offer warranties for commercial truck wraps?",
+        answer: "Absolutely! We supply a one-year warranty on our commercial truck installation craftsmanship. Furthermore, all 3M materials include a manufacturer's warranty covering material imperfections, providing long-term security for your business investment."
+    },
+    {
+        title: "How should I clean my wrapped commercial truck?",
+        answer: `Yes! Wrapped commercial trucks can be safely maintained with appropriate methods. We suggest:
+    .- Manual washing with commercial-grade, gentle soap and water
+    .- Preventing high-pressure systems near edges and graphic sections
+    .- Employing soft materials to avoid scratching business imagery
+    .- Frequent cleaning to preserve a professional appearance
+    .- Allowing 48 hours post-installation before initial wash
+    For professional commercial truck wraps in Maryland that attract customer interest, rely on 4Print. Contact us today to get your mobile business recognized!`
+    }
+]
+
+export const CWMServicesOptionsDecals1 = [
+    {
+        title: 'Full Commercial Truck Wraps',
+        text: 'Entirely redesign your vehicle with bold corporate messaging and professionally crafted commercial imagery.'
+    },
+    {
+        title: 'Corporate Graphics & Signage',
+        text: 'Keep uniform branding throughout your commercial fleet with matching vinyl designs and attractive business presentations.'
+    },
+    {
+        title: 'Specialized Commercial Truck Wraps',
+        text: 'Perfect for distribution vehicles, work trucks, cargo haulers, and tradespeople requiring a polished mobile appearance.'
+    },
+    {
+        title: 'Engaging Business Visuals',
+        text: 'Captivating, premium-resolution images and designs that draw prospective clients and highlight your primary offerings.'
+    },
+]
+
+export const CWMServicesOptionsDecals2 = [
+    {
+        title: 'Mobile Corporate Branding',
+        text: 'Personalized wraps for box trucks, pickup trucks, and commercial vehicles, guaranteeing optimal exposure at work locations and business sites.'
+    },
+    {
+        title: 'High-Contrast Vinyl Solutions',
+        text: 'Boost daytime and evening recognition with bold graphics for continuous business promotion.'
+    },
+    {
+        title: 'Perforated Window Graphics',
+        text: 'Window applications that permit interior visibility while presenting contact details and offerings on the exterior.'
+    },
+    {
+        title: 'Wrap Refreshes & Alterations',
+        text: "Expert removal and reinstallation of graphics to update company details or revitalize your commercial truck's look."
+    },
+]
+
+export const OurProcessDecalsWarp = [
+    {
+        title: 'Step 1: Design Consultation',
+        desc: 'We begin by understanding your company, marketing objectives, and customer demographics. Whether you arrive with completed artwork or require creative assistance, our internal design team offers professional recommendations. For extensive projects, we develop digital previews allowing you to envision the completed wrap before manufacturing starts.'
+    },
+    {
+        title: 'Step 2: Printing with Premium Materials',
+        desc: 'Utilizing advanced printing equipment and top-tier vinyl products, we manufacture graphics with crisp imagery, bold colors, and extended durability. Our specialists verify every print satisfies rigorous quality benchmarks, ensuring your artwork appears flawless upon installation day.'
+    },
+    {
+        title: 'Step 3: Professional Installation',
+        desc: 'Our qualified technicians manage the complete application procedure with accuracy and attention. We thoroughly prep the truck surface, position graphics perfectly, and complete with methods that ensure smooth bonding — even on textured or contoured surfaces. Most jobs finish within several days, based on scope and intricacy.'
+    },
+    {
+        title: 'Step 4: Quality Inspection',
+        desc: `Prior to project handover, every commercial truck wrap undergoes thorough examination. We verify positioning, bonding, and complete finish to confirm your wrap appears perfect and functions as anticipated.
+
+        With 4Print, the methodology is clear, cooperative, and structured to produce outcomes that surpass expectations.`
+    },
+]
+
+export const CWMMapCitiesDecals = [
+    {
+        title: "Anne Arundel County",
+        cities: [
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Baltimore City",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Carroll County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Cecil County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Charles County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Frederick County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Harford County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Howard County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Montgomery County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Prince George’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "Queen Anne’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+    {
+        title: "St. Mary’s County",
+        cities: [
+
+        ],
+        link: ""
+    },
+]
+
+export const CWMWhyUsDecals = [
+    {
+        title:'Certified Commercial Truck Wrap Specialists',
+        text: 'Our 3M & Avery Dennison-certified technicians guarantee that every commercial truck wrap is flawlessly installed, with zero bubbles, separation, or detachment, even under the rigorous demands of daily business usage.'
+    },
+    {
+        title:'Custom Business Designs for Every Industry',
+        text: 'We partner with entrepreneurs and commercial managers to develop high-visibility branding programs. Whether you require a delivery vehicle wrap or branded graphics for numerous commercial trucks, we realize your company vision through professional design and perfect execution.'
+    },
+    {
+        title:'Commercial-Grade Materials & Professional Installation',
+        text: 'We utilize industry-leading vinyl wraps specifically chosen to endure the wear and upkeep demands of commercial vehicles. Our comprehensive preparation and skilled application guarantee pristine outcomes and maximum longevity in business settings.'
+    },
+    {
+        title:'Quick Turnaround & Superior Service',
+        text: 'Our Maryland-based crew provides accelerated completion schedules without sacrificing quality. Most commercial truck wraps finish within several days, allowing your business to resume operations promptly.'
+    },
+]
+
+
+

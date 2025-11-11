@@ -2,13 +2,15 @@ import React from "react";
 
 const LocalBusinessSchema = () => {
   const schemaData = {
- "@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://4printus.com/#localbusiness",
-  "name": "4Print",
+  "name": "4 Print Commercial Car Wraps Maryland",
   "image": "https://4printus.com/images/Logo-no-lined.svg",
   "url": "https://4printus.com/",
-  "telephone": "+1-443-998-1717",
+  "telephone": "+14439981717",
+  "email": "sales@4printus.com",
+  "priceRange": "$$",
+  "description": "4 Print Commercial Car Wraps Maryland specializes in high-quality vehicle wraps, wall graphics, and commercial printing services. We help businesses across Maryland stand out through expert design, certified installation, and premium materials — all backed by our 4Print Promise of complete customer satisfaction and a 1-year labor warranty.",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "512 Crain Hwy N Unit 6",
@@ -20,139 +22,100 @@ const LocalBusinessSchema = () => {
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 39.1728599,
-    "longitude": -76.6242849
+    "longitude": -76.6217046
   },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
       ],
       "opens": "09:00",
       "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Saturday", "Sunday"],
-      "opens": "00:00",
-      "closes": "00:00"
     }
   ],
-  "priceRange": "$$",
-  "description": "Since 2021, 4Print has specialized in commercial vehicle wrapping, fleet and custom car wraps, plus commercial printing, apparel & stationery across Maryland, Virginia and DC.",
-  "areaServed": {
-    "@type": "GeoCircle",
-    "geoMidpoint": {
-      "@type": "GeoCoordinates",
-      "latitude": 39.1728599,
-      "longitude": -76.6242849
-    },
-    "geoRadius": 80000
-  },
+  "areaServed": [
+    "Anne Arundel County, Maryland",
+    "Baltimore County, Maryland",
+    "Baltimore City, Maryland",
+    "Carroll County, Maryland",
+    "Cecil County, Maryland",
+    "Charles County, Maryland",
+    "Frederick County, Maryland",
+    "Harford County, Maryland",
+    "Howard County, Maryland",
+    "Montgomery County, Maryland",
+    "Prince George’s County, Maryland",
+    "Queen Anne’s County, Maryland",
+    "St. Mary’s County, Maryland",
+    "Jessup, Maryland",
+    "Glen Burnie, Maryland"
+  ],
   "sameAs": [
-    "https://www.facebook.com/4printus/",
+    "https://www.google.com/maps/place/4+Print+Commercial+Wraps+Maryland/",
+    "https://www.facebook.com/4printus",
     "https://www.instagram.com/4printus/"
   ],
-  "hasMap": "https://www.google.com/maps?q=39.1728599,-76.6242849",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Our Services",
+    "name": "4 Print Services",
     "itemListElement": [
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Fleet Wrap",
-          "description": "Custom vehicle wraps for company fleets to enhance brand visibility and protect paint."
-        }
+        "@type": "OfferCatalog",
+        "name": "Commercial Vehicle Wraps in Maryland",
+        "itemListElement": [
+          { "@type": "Service", "name": "Fleet Wraps & Graphics" },
+          { "@type": "Service", "name": "Food Truck Wraps & Graphics" },
+          { "@type": "Service", "name": "Van Wraps & Graphics" },
+          { "@type": "Service", "name": "Trailer Wraps & Graphics" },
+          { "@type": "Service", "name": "Truck Wraps & Graphics" },
+          { "@type": "Service", "name": "Partial Vehicle Wraps for Commercial Vehicles" },
+          { "@type": "Service", "name": "Vehicle Lettering & Decals" },
+          { "@type": "Service", "name": "Perforated Window Graphics for Vehicles" },
+          { "@type": "Service", "name": "Car Wrap Removal & Replacement" }
+        ]
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Food Truck Wrap",
-          "description": "Full-color, high-impact food truck wraps to attract attention and customers."
-        }
+        "@type": "OfferCatalog",
+        "name": "Wall Wraps & Storefront Graphics in Maryland",
+        "itemListElement": [
+          { "@type": "Service", "name": "Wall Murals" },
+          { "@type": "Service", "name": "Wall Decals" },
+          { "@type": "Service", "name": "Wallpaper Installation" },
+          { "@type": "Service", "name": "Window Vinyls & Decals for Storefronts" },
+          { "@type": "Service", "name": "Wall Wrap Removal" },
+          { "@type": "Service", "name": "Wall Wrap Replacement or Repair" },
+          { "@type": "Service", "name": "Custom Wall Design Consultation" },
+          { "@type": "Service", "name": "Aluminum Signs" }
+        ]
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Graphic Design Wraps",
-          "description": "Design and installation of unique vinyl wraps with custom graphics."
-        }
+        "@type": "OfferCatalog",
+        "name": "Custom Car Wraps in Maryland",
+        "itemListElement": [
+          { "@type": "Service", "name": "Full Color Change Car Wraps" },
+          { "@type": "Service", "name": "Partial Car Wraps & Accents" },
+          { "@type": "Service", "name": "Custom Car Wrap Graphics & Designs" }
+        ]
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Color Change Wraps",
-          "description": "Transform your vehicle’s appearance with high-quality vinyl color wraps."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Textured Wraps",
-          "description": "Add a distinctive look with specialty vinyl finishes like matte, carbon fiber, or brushed metal."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Wall Wrap Printing",
-          "description": "Large-format wall graphics and decals for offices, retail, or event spaces."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Window Vinyl Printing",
-          "description": "Custom printed vinyl for business windows, including see-through and opaque styles."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Banner Printing",
-          "description": "Durable indoor and outdoor banners for promotions, events, and business signage."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Sticker Printing",
-          "description": "High-quality custom stickers in various sizes, shapes, and finishes."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Car Magnets",
-          "description": "Removable magnetic signage for vehicles, ideal for mobile advertising."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Stationery Printing",
-          "description": "Branded business stationery including letterheads, envelopes, and notepads."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Yard Signs",
-          "description": "Custom yard signs for real estate, events, political campaigns, and local promotions."
-        }
+        "@type": "OfferCatalog",
+        "name": "Commercial Printing Services in Maryland",
+        "itemListElement": [
+          { "@type": "Service", "name": "Business Cards" },
+          { "@type": "Service", "name": "Door Hangers" },
+          { "@type": "Service", "name": "Apparel" },
+          { "@type": "Service", "name": "Flyers" },
+          { "@type": "Service", "name": "Banners" },
+          { "@type": "Service", "name": "Stickers" },
+          { "@type": "Service", "name": "Car Magnets" },
+          { "@type": "Service", "name": "Yard Signs" },
+          { "@type": "Service", "name": "See all printing services" }
+        ]
       }
     ]
   }
