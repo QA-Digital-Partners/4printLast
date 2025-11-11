@@ -2,13 +2,13 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import dynamic from "next/dynamic";
-import { GA_MEASUREMENT_ID } from "../utils/analitics";
+import Script from "next/script";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import { GA_MEASUREMENT_ID, GA_TRACKING_ID_4PRINT } from "../utils/analitics";
 
-const Script = dynamic(() => import("next/script"), { ssr: false });
-const GTM_ID = "GTM-PWNCFBPN";
+const GTM_ID = "GTM-PWNCFBPN"; 
 
-export default function AnalyticsScripts() {
+export default function ClientScripts() {
   const pathname = usePathname();
 
   useEffect(() => {
@@ -19,9 +19,16 @@ export default function AnalyticsScripts() {
     }
   }, [pathname]);
 
+    useEffect(() => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("config", GA_TRACKING_ID_4PRINT, {
+        page_path: pathname,
+      });
+    }
+  }, [pathname]);
+
   return (
     <>
-      {/* Google Analytics */}
       <Script
         id="google-analytics"
         strategy="afterInteractive"
@@ -41,8 +48,6 @@ export default function AnalyticsScripts() {
           `,
         }}
       />
-
-      {/* Google Tag Manager */}
       <Script
         id="google-tag-manager"
         strategy="afterInteractive"
@@ -56,14 +61,12 @@ export default function AnalyticsScripts() {
           `,
         }}
       />
-
-      {/* Código adicional de 4Print */}
-      <Script
+    <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-KK0B0NHH1C"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-KK0B0NHH1C`}
       />
       <Script
-        id="gtag-init-4print"
+        id="gtag-init"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
@@ -77,47 +80,48 @@ export default function AnalyticsScripts() {
         }}
       />
 
-      {/* GTAG adicional */}
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-11038475601"
+      {/************************** GTAG ALfonso - 09/05/25 */}
+
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11038475601"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11038475601');
+          `}
+        </Script>
+
+        {/************************ COnversion Wgatsapp - Alfonso - 09/05/25 */}
+
+        {/* Conversión WhatsApp */}
+        <Script id="gtag-whatsapp" strategy="afterInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof url !== 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                send_to: 'AW-11038475601/iWgWCN6soYQYENGKx48p',
+                event_callback: callback
+              });
+              return false;
+            }
+          `}
+        </Script>
+      <GoogleReCaptchaProvider
+        reCaptchaKey="6LfAh_orAAAAAHMSC7XO874uFMvtd7aLI37mXfVB"
+        scriptProps={{
+          async: true,
+          defer: true,
+          appendTo: "head",
+        }}
       />
-      <Script id="gtag-init-adwords" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-11038475601');
-        `}
-      </Script>
-
-      {/* Conversión WhatsApp */}
-      <Script id="gtag-whatsapp" strategy="afterInteractive">
-        {`
-          function gtag_report_conversion(url) {
-            var callback = function () {
-              if (typeof url !== 'undefined') {
-                window.location = url;
-              }
-            };
-            gtag('event', 'conversion', {
-              send_to: 'AW-11038475601/iWgWCN6soYQYENGKx48p',
-              event_callback: callback
-            });
-            return false;
-          }
-        `}
-      </Script>
-
-      {/* Google Tag Manager (noscript fallback) */}
-      <noscript>
-        <iframe
-          src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-          height="0"
-          width="0"
-          style={{ display: "none", visibility: "hidden" }}
-        ></iframe>
-      </noscript>
     </>
   );
 }
