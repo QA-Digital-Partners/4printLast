@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Custom Car Wraps | Transform Your Vehicle with 3M Vinyl Wraps in 4Print",
-    description: "Custom car wraps with premium 3M vinyl for a flawless, paint-protected finish. Color changes, racing stripes & textured wraps. Get started for $50!",
+    description: "Custom car wraps with premium 3M vinyl for a flawless, paint-protected finish. Color changes, racing stripes & textured wraps. Get started for $100!",
   };
 
 import React from "react"
@@ -28,7 +28,7 @@ const CustomCarWrap = (props) => {
                 <span className="lg:text-[72px] text-4pred">Look Without Paint</span></h1>
             <p className="leading-[23px] lg:pe-2 pt-4 lg:pt-0">Give your vehicle a stunning new appearance with our premium car wrap services. From complete color transformations to racing stripes and textured finishes, our expert installation using advanced premium materials delivers flawless results that protect your original paint while bringing your vision to life.</p>
             <div className="lg:w-7/12 w-[370px] mx-auto lg:mx-0 my-8">
-              <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
+              <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
             </div>
 
             <div className="flex flex-wrap">
@@ -112,7 +112,7 @@ const CustomCarWrap = (props) => {
                    </a>
               </div>
               <div className="lg:w-7/12 w-[370px] mc-auto lg:mx-0 my-8">
-                <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
+                <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
               </div>
           </div>
         </div>
@@ -154,7 +154,7 @@ const CustomCarWrap = (props) => {
             })}
           </div>
           <div className="lg:w-7/12 w-[370px] mx-auto lg:mx-0 lg:mt-20 mt-8 mb-8">
-            <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-red'} iconOption={7} textColor={'text-white ps-3'}/>
+            <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-red'} iconOption={7} textColor={'text-white ps-3'}/>
           </div>
         </div>
       </div>
@@ -203,7 +203,7 @@ const CustomCarWrap = (props) => {
                 })}
               </div>
               <div className="lg:w-7/12 mt-12 mx-auto">
-                <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
+                <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
               </div>
             </div>
 
@@ -253,7 +253,7 @@ const CustomCarWrap = (props) => {
               })}
             </div>
             <div className="lg:w-full w-[370px] mx-auto lg:mx-0 mt-12 lg:ps-8">
-              <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white lg:ms-[-20px]'}/>
+              <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white lg:ms-[-20px]'}/>
             </div>
           </div>
         </div>
@@ -324,7 +324,7 @@ const CustomCarWrap = (props) => {
         <div className="custom-path lg:min-h-[400px] lg:h-[400px]">
           <div className="back-red-wrapping-page min-h-[400px] lg:rounded-r-xl lg:ps-[389px] pe-8 ps-8 content-center text-white py-8 lg:py-0">
             <h2 className="lg:text-start text-center font-bold text-[60px] leading-[60px] uppercase">Take The <span className="text-4pblack">First Step</span></h2>
-            <h3 className="lg:text-start text-center text-[30px] uppercase font-bold lg:w-[35rem] leading-[35px]">Transform Your Business Today, Get Started for Just $50.</h3>
+            <h3 className="lg:text-start text-center text-[30px] uppercase font-bold lg:w-[35rem] leading-[35px]">Transform Your Business Today, Get Started for Just $100.</h3>
             <p className="lg:text-start text-center leading-[23px] lg:w-[36rem] py-5">Schedule Your Free Consultation Connect with our wrap experts to discuss your project and receive a personalized quote. Serving Maryland, Virginia, and DC area.</p>
             <div className="lg:w-4/12 w-8/12 mx-auto lg:mx-0 content-center">
               <Button4P buttonText={'Schedule Now'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-white'} iconOption={6} textColor={'text-white'}/>

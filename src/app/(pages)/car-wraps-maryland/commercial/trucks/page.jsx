@@ -5,7 +5,7 @@ import ContactFormFooter from "@/app/components/ContactFormFooter";
 import FAQs from "@/app/components/FAQS";
 import FAQSchema from "@/app/components/FAQSChema";
 import ReviewSection from "@/app/components/ReviewSection";
-import { CWMMapCitiesTrucks, CWMServicesOptionsTrucks1, CWMServicesOptionsTrucks2, CWMWhyUsVans, OurProcessTrucksWarp, TrucksWrapFAQs} from "@/app/data/data";
+import { CWMMapCitiesTrucks, CWMServicesOptionsTrucks1, CWMServicesOptionsTrucks2, CWMWhyUsTrucks, OurProcessTrucksWarp, TrucksWrapFAQs} from "@/app/data/data";
 import Image from "next/image";
 import React from "react"
 
@@ -15,7 +15,7 @@ export const metadata = {
 };
 
 
-const VansWrapMaryland = (props) => {
+const TrucksWrapMaryland = (props) => {
   return (
     <>
 
@@ -59,7 +59,7 @@ const VansWrapMaryland = (props) => {
               <ContactForm />
             </div>
           </div>
-        <div className="w-full hero-banner-van-wrap lg:h-[425px] h-2/6 lg:mt-[-150px]"></div>
+        <div className="w-full hero-banner-truck-wrap lg:h-[425px] h-2/6 lg:mt-[-150px]"></div>
         </div>
       </div>
 
@@ -79,10 +79,10 @@ const VansWrapMaryland = (props) => {
 
             <div className="lg:w-5/12 lg:pt-32 lg:order-1 order-3">
                 <Image
-                src="/images/commercial-van-wrap-services.webp"
+                src="/images/commercial-truck-wrap.webp"
                 alt="Commercial Trucks wrap in maryland"
                 sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-                srcSet="/images/commercial-van-wrap-services.webp 768w, /images/commercial-van-wrap-services.webp 1024w"
+                srcSet="/images/commercial-truck-wrap.webp 768w, /images/commercial-truck-wrap.webp 1024w"
                 width={536}
                 height={652}
                 className="z-0 relative lg:mt-[-160px] lg:w-[536px] lg:min-w-[400px]"
@@ -201,7 +201,7 @@ const VansWrapMaryland = (props) => {
 
           <div className="lg:w-6/12 lg:ps-8 text-white content-end">
             <div className="lg:ps-12 ps-6 pe-4 pb-12 rectangle-cuted-red-tl rounded-br-3xl lg:pt-20 pt-8">
-              {CWMWhyUsVans.map((data, index) =>{
+              {CWMWhyUsTrucks.map((data, index) =>{
                 return(
                   <div key={index} className="flex py-3">
                     <img src="/images/ib-link-blue-white.svg" width={30} height={32} className="me-2" />
@@ -241,8 +241,8 @@ const VansWrapMaryland = (props) => {
           </div>
 
           <div className="lg:w-8/12 w-full lg:pe-24 px-8 py-8 lg:py-0 ">
-          <h3 className="text-white lg:text-[40px] font-semibold">Commercial Van Wrapping FAQs</h3>
-          <p className="text-white pb-8">Find answers to common questions about commercial van wraps in Maryland and learn about durability, cost, maintenance, and considerations specific to service vehicle applications.</p>
+          <h3 className="text-white lg:text-[40px] font-semibold">Commercial Truck Wrapping FAQs</h3>
+          <p className="text-white pb-8">Discover answers to frequently asked questions about commercial truck wraps in Maryland and understand durability, pricing, upkeep, and factors specific to commercial vehicle applications.</p>
             <FAQs faqsData={TrucksWrapFAQs} />
           </div>
         </div>
@@ -251,4 +251,4 @@ const VansWrapMaryland = (props) => {
   )
 };
 
-export default VansWrapMaryland;
+export default TrucksWrapMaryland;

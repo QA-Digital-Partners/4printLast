@@ -475,6 +475,20 @@ paint-order: stroke fill;
   background-size: cover;
 }
 
+.hero-banner-truck-wrap {
+  background: url('/images/bg-banner-commercial-truck-wrap.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner-lettering-decals-wrap {
+  background: url('/images/bg-banner-lettering-decals-wrap.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 ul.list-menu {
   list-style: none;
   padding-left: 0;

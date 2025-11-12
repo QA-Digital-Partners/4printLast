@@ -159,7 +159,7 @@ const WallWrapsBaltimore = (props) => {
       <ReviewSection />
 
       {/****************** Residencial and Personal Secion ****************************/}
-      <section className="lg:mb-[100px] mb-[60px]" id="options">
+      <section className="lg:mb-[100px] mb-[60px]" id="personal">
         <div className="flex flex-wrap container relative px-6 lg:px-0">
           <h2 className="lg:text-[70px] text-[40px] leading-[40px] lg:leading-[70px] font-bold uppercase lg:pb-8 pb-4 text-center w-full">Residential and Personal
               <span className="text-4pblue block lg:text-[80px] "> Wall Wrap Services</span></h2>

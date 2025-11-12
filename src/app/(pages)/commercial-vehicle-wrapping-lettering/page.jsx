@@ -9,7 +9,7 @@ import FAQSchema from "@/app/components/FAQSChema";
 
 export const metadata = {
   title: "4Print - Commercial Vehicle Wraps & Fleet Lettering | 3M Certified Wrapping",
-  description: "Custom commercial vehicle wraps & lettering with premium 3M materials. Full wraps, USDOT & MHIC compliance. Fast installation from $50! Serving MD, VA, DC.",
+  description: "Custom commercial vehicle wraps & lettering with premium 3M materials. Full wraps, USDOT & MHIC compliance. Fast installation from $100! Serving MD, VA, DC.",
 };
 
 const CommercialWrap = (props) => {
@@ -49,7 +49,7 @@ const CommercialWrap = (props) => {
           <div className="lg:w-5/12 w-full pe-8 order-2 px-6 lg:px-0">
             <p className="leading-[23px]">Turn your vehicles into powerful mobile advertising with professional vehicle wraps. Our expert team uses premium materials to create high-impact designs that capture attention and drive results</p>
             <div className="lg:w-9/12 w-full my-8">
-            <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white ps-3'}/>
+            <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={0} textColor={'text-white ps-3'}/>
           </div>
           </div>
         </div>
@@ -127,7 +127,7 @@ const CommercialWrap = (props) => {
               ))}
             </div>
             <div className="lg:w-8/12 w-[370px] mx-auto lg:mx-0 mt-8">
-            <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
+            <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={3} textColor={'text-white ps-3'}/>
             </div>
           </div>
 
@@ -174,7 +174,7 @@ const CommercialWrap = (props) => {
               ))}
             </div>
             <div className="lg:w-8/12 w-[370px] mx-auto lg:mx-0 mt-8">
-            <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-red'} iconOption={7} textColor={'text-white ps-3'}/>
+            <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-red'} iconOption={7} textColor={'text-white ps-3'}/>
             </div>
           </div>
         </div>
@@ -196,7 +196,7 @@ const CommercialWrap = (props) => {
               ))}
             </div>
             <div className="lg:w-8/12 w-[370px] mx-auto lg:mx-0 mt-8">
-            <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-black-to-red'} iconOption={7} textColor={'text-white ps-3'}/>
+            <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-black-to-red'} iconOption={7} textColor={'text-white ps-3'}/>
             </div>
           </div>
 
@@ -286,7 +286,7 @@ const CommercialWrap = (props) => {
               })}
               </ul>
               <div className="lg:w-7/12 w-[370px] mx-auto lg:mx-0 mt-12">
-              <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-white'} iconOption={7} textColor={'text-white ps-3'}/>
+              <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-white'} iconOption={7} textColor={'text-white ps-3'}/>
               </div>
             </div>
           </div>
@@ -312,7 +312,7 @@ const CommercialWrap = (props) => {
               <br /><br />
               We use high-quality vinyl that resists fading and peeling, properly sized and positioned according to state requirements.</p>
             <div className="lg:w-10/12 w-[370px] mx-auto lg:mx-0 lg:px-12 my-8 lg:my-0">
-              <Button4P buttonText={'Start Your Project from $50'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={7} textColor={'text-white ps-3'}/>
+              <Button4P buttonText={'Start Your Project from $100'} buttonLink={'#contact'} buttonBgAnimation={'btn-red-to-blue'} iconOption={7} textColor={'text-white ps-3'}/>
             </div>
           </div>
 
@@ -421,7 +421,7 @@ const CommercialWrap = (props) => {
           <div className="custom-path lg:min-h-[400px] lg:h-[400px]">
             <div className="back-red-wrapping-page min-h-[400px] lg:rounded-r-xl lg:ps-[389px] pe-8 ps-8 content-center text-white py-8 lg:py-0">
               <h2 className="lg:text-start text-center font-bold text-[60px] leading-[60px] uppercase">Take The <span className="text-4pblack">First Step</span></h2>
-              <h3 className="lg:text-start text-center text-[30px] uppercase font-bold lg:w-[35rem] leading-[35px]">Transform Your Business Today, Get Started for Just $50.</h3>
+              <h3 className="lg:text-start text-center text-[30px] uppercase font-bold lg:w-[35rem] leading-[35px]">Transform Your Business Today, Get Started for Just $100.</h3>
               <p className="lg:text-start text-center leading-[23px] lg:w-[36rem] py-5">Schedule Your Free Consultation Connect with our wrap experts to discuss your project and receive a personalized quote. Serving Maryland, Virginia, and DC area.</p>
               <div className="lg:w-4/12 w-[250px] mx-auto lg:mx-0 content-center">
                 <Button4P buttonText={'Schedule Now'} buttonLink={'#contact'} buttonBgAnimation={'btn-blue-to-white'} iconOption={6} textColor={'text-white'}/>

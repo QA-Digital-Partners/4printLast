@@ -105,7 +105,7 @@ export const ActionTitle = "Actions speak louder than wraps. Here's how we deliv
 export const ActionList = [
     {
         boldText: "Start Small, Think Big:",
-        thinText: "Begin with just $50 to see your design"
+        thinText: "Begin with just $100 to see your design"
     },{
         boldText: "Quality Assurance Promise:",
         thinText: "Every project inspected before delivery"
@@ -203,7 +203,7 @@ export const GeekWrapsCert = ['Air Wrangler™ Certified Graphics Installer','Ad
 
 // About Page
 export const QualityProcess = ['Premium materials from industry leaders ','Expert installation taking 2-5 days based on project complexity','Every project inspected before delivery']
-export const AccesibleStart = ['Start with just $50 to see your design come to life','Quick 2-3 day design turnaround','Complimentary logo design for wraps over $350'] 
+export const AccesibleStart = ['Start with just $100 to see your design come to life','Quick 2-3 day design turnaround','Complimentary logo design for wraps over $350'] 
 
 // Services Page 
 
@@ -363,7 +363,7 @@ export const WhyChoseWrappingPageTop = [
     },
     {
         image: '50-dolars-start.svg',
-        title: "Get started for just $50!",
+        title: "Get started for just $100!",
     }
 ]
 
@@ -488,7 +488,7 @@ export const WallWrapImages = [
 
 export const FeaturesMHIC = ['Meets all Maryland state contractor regulations','Weather-resistant premium vinyl materials','Professional installation on any vehicle type','Clean, visible number display','Long-lasting durability']
 
-export const OurProcessWrap = ['Initial Consultation [Free]', 'Design & Mock-up [$50 deposit]', 'Final Design Approval', 'Installation Scheduling', 'Professional Installation', 'Final Inspection & Delivery']
+export const OurProcessWrap = ['Initial Consultation [Free]', 'Design & Mock-up [$100 deposit]', 'Final Design Approval', 'Installation Scheduling', 'Professional Installation', 'Final Inspection & Delivery']
 
 export const FAQsWrap = [
     {
@@ -514,7 +514,7 @@ export const FAQsWrap = [
     }
 ]
 
-export const OurProcessCustomWrap = ['Initial Consultation [Free]', 'Material & Design Selection [$50 deposit]', 'Final Design Approval', 'Installation Scheduling', 'Professional Installation', 'Final Inspection & Delivery']
+export const OurProcessCustomWrap = ['Initial Consultation [Free]', 'Material & Design Selection [$100 deposit]', 'Final Design Approval', 'Installation Scheduling', 'Professional Installation', 'Final Inspection & Delivery']
 
 export const FAQsCustomWrap = [
     {
@@ -3121,7 +3121,7 @@ export const WWCitiesRightGlenBurnie = [
 
 export const MiniMenuWallWrapBaltimore = [ 
     {name:'Commercial Wall Wrap Applications', 
-     link: '#commercial'
+     link: '#business'
     },
     {name:'Why Businesses Choose Wall Wraps',
      link: '#whywall'
@@ -3386,13 +3386,6 @@ export const CWMMapCitiesTrailerBaltimore = [
     },
     {
         title: "Cecil County",
-        cities: [
-
-        ],
-        link: ""
-    },
-    {
-        title: "Charles County",
         cities: [
 
         ],
@@ -3882,85 +3875,85 @@ export const CWMWhyUsTrucks = [
 
 export const DecalsWrapFAQs = [
     {
-        title: 'How long does commercial truck wrap installation take?',
-        answer: "Installation duration fluctuates depending on your commercial truck's dimensions and artwork complexity. Complete commercial truck wraps generally require 2-4 business days, while partial wraps and corporate graphics finish in 1-2 days. We arrange installations around your business schedule to reduce operational disruption."
+        title: 'How long does it take to install commercial vehicle lettering and decals?',
+        answer: "Installation time varies depending on your commercial vehicle's size and design complexity. Full commercial vehicle lettering typically takes 2-4 business days, while partial lettering and company decals can be completed in 1-2 days. We schedule installations around your business operations to minimize operational interruption."
     },
     {
-        title: "How durable are commercial truck wraps in business environments?",
-        answer: "Our premium 3M vinyl wraps for commercial trucks endure 4-6 years with appropriate maintenance, even with continuous business use. Longevity depends on washing frequency, operational conditions, and upkeep practices, but our specialized wraps deliver excellent weather resistance and adhesion throughout their service life. Heavy-duty alternatives are available for demanding operational conditions."
+        title: "How durable are commercial vehicle lettering and decals in business environments?",
+        answer: "Our premium 3M vinyl lettering and decals for commercial vehicles last 4-6 years with proper care, even with daily business use. Durability depends on cleaning frequency, operating environments, and maintenance routines, but our specialized materials offer excellent weather resistance and adhesion throughout their lifespan. Heavy-duty options are available for harsh operating conditions."
     },
     {
-        title: "Do you offer warranties for commercial truck wraps?",
-        answer: "Absolutely! We supply a one-year warranty on our commercial truck installation craftsmanship. Furthermore, all 3M materials include a manufacturer's warranty covering material imperfections, providing long-term security for your business investment."
+        title: "Do you offer warranties for commercial vehicle lettering and decals?",
+        answer: "Yes! We provide a one-year warranty on our commercial vehicle lettering and decal installation workmanship. Additionally, all 3M materials come with a manufacturer's warranty covering material defects, ensuring long-term protection for your business investment."
     },
     {
-        title: "How should I clean my wrapped commercial truck?",
-        answer: `Yes! Wrapped commercial trucks can be safely maintained with appropriate methods. We suggest:
-    .- Manual washing with commercial-grade, gentle soap and water
-    .- Preventing high-pressure systems near edges and graphic sections
-    .- Employing soft materials to avoid scratching business imagery
-    .- Frequent cleaning to preserve a professional appearance
-    .- Allowing 48 hours post-installation before initial wash
-    For professional commercial truck wraps in Maryland that attract customer interest, rely on 4Print. Contact us today to get your mobile business recognized!`
+        title: "How should I clean my commercial vehicle with lettering and decals?",
+        answer: `Yes! Commercial vehicles with lettering and decals can be safely cleaned with proper methods. We recommend:
+    .- Handwashing with commercial-grade, mild soap and water
+    .- Avoiding high-pressure washers near edges and graphic areas
+    .- Using soft cloths to prevent scratching business lettering
+    .- Regular cleaning to maintain a professional appearance
+    .- Waiting 48 hours after installation before the first wash
+    For professional commercial vehicle lettering & decals in Maryland that capture customer attention, trust 4Print. Contact us today to get your mobile business noticed!`
     }
 ]
 
 export const CWMServicesOptionsDecals1 = [
     {
-        title: 'Full Commercial Truck Wraps',
-        text: 'Entirely redesign your vehicle with bold corporate messaging and professionally crafted commercial imagery.'
+        title: 'Full Commercial Vehicle Lettering',
+        text: 'Completely brand your vehicle with high-impact business lettering and custom-designed commercial graphics.'
     },
     {
-        title: 'Corporate Graphics & Signage',
-        text: 'Keep uniform branding throughout your commercial fleet with matching vinyl designs and attractive business presentations.'
+        title: 'Company Decals & Identification',
+        text: 'Maintain consistent branding across all commercial vehicles with cohesive vinyl lettering and appealing business displays.'
     },
     {
-        title: 'Specialized Commercial Truck Wraps',
-        text: 'Perfect for distribution vehicles, work trucks, cargo haulers, and tradespeople requiring a polished mobile appearance.'
+        title: 'Specialty Commercial Vehicle Lettering',
+        text: 'Ideal for delivery vans, service vehicles, equipment trucks, and contractors needing a professional mobile presence.'
     },
     {
-        title: 'Engaging Business Visuals',
-        text: 'Captivating, premium-resolution images and designs that draw prospective clients and highlight your primary offerings.'
+        title: 'Dynamic Business Graphics',
+        text: 'Eye-catching, high-resolution lettering and decals that attract potential customers and showcase your core services.'
     },
 ]
 
 export const CWMServicesOptionsDecals2 = [
     {
-        title: 'Mobile Corporate Branding',
-        text: 'Personalized wraps for box trucks, pickup trucks, and commercial vehicles, guaranteeing optimal exposure at work locations and business sites.'
+        title: 'Mobile Business Identification',
+        text: 'Custom lettering for work trucks, cargo vans, and commercial vehicles, ensuring maximum visibility at job sites and business locations.'
     },
     {
-        title: 'High-Contrast Vinyl Solutions',
-        text: 'Boost daytime and evening recognition with bold graphics for continuous business promotion.'
+        title: 'High-Visibility Vinyl Options',
+        text: 'Enhance daytime and nighttime visibility with high-contrast lettering for round-the-clock business exposure.'
     },
     {
-        title: 'Perforated Window Graphics',
-        text: 'Window applications that permit interior visibility while presenting contact details and offerings on the exterior.'
+        title: 'Perforated Window Decals',
+        text: 'Window films that allow visibility from inside while displaying contact information and services on the outside.'
     },
     {
-        title: 'Wrap Refreshes & Alterations',
-        text: "Expert removal and reinstallation of graphics to update company details or revitalize your commercial truck's look."
+        title: 'Lettering Updates & Modifications',
+        text: "Professional removal and replacement of lettering and decals to update business information or refresh your commercial vehicle's appearance."
     },
 ]
 
 export const OurProcessDecalsWarp = [
     {
         title: 'Step 1: Design Consultation',
-        desc: 'We begin by understanding your company, marketing objectives, and customer demographics. Whether you arrive with completed artwork or require creative assistance, our internal design team offers professional recommendations. For extensive projects, we develop digital previews allowing you to envision the completed wrap before manufacturing starts.'
+        desc: 'We start by learning about your brand, business goals, and target audience. Whether you have a ready-to-go design or need creative direction, our in-house team provides expert guidance. For larger projects, we can create digital mockups so you can visualize how the final lettering will look before production begins.'
     },
     {
         title: 'Step 2: Printing with Premium Materials',
-        desc: 'Utilizing advanced printing equipment and top-tier vinyl products, we manufacture graphics with crisp imagery, bold colors, and extended durability. Our specialists verify every print satisfies rigorous quality benchmarks, ensuring your artwork appears flawless upon installation day.'
+        desc: 'Using state-of-the-art printing technology and industry-leading vinyl materials, we produce lettering and decals with sharp details, vibrant colors, and long-lasting durability. Our team ensures every print meets strict quality standards, so your design looks flawless on installation day.'
     },
     {
         title: 'Step 3: Professional Installation',
-        desc: 'Our qualified technicians manage the complete application procedure with accuracy and attention. We thoroughly prep the truck surface, position graphics perfectly, and complete with methods that ensure smooth bonding — even on textured or contoured surfaces. Most jobs finish within several days, based on scope and intricacy.'
+        desc: 'Our certified installers handle the entire installation process with precision and care. We properly prepare the vehicle surface, align lettering and decals seamlessly, and finish with techniques that guarantee smooth adhesion — even on textured or curved surfaces. Most projects are completed in just a few days, depending on size and complexity.'
     },
     {
         title: 'Step 4: Quality Inspection',
-        desc: `Prior to project handover, every commercial truck wrap undergoes thorough examination. We verify positioning, bonding, and complete finish to confirm your wrap appears perfect and functions as anticipated.
+        desc: `Before we hand the project over, every commercial vehicle lettering and decal installation goes through a detailed inspection. We check alignment, adhesion, and overall finish to make sure your graphics look perfect and perform as expected.
 
-        With 4Print, the methodology is clear, cooperative, and structured to produce outcomes that surpass expectations.`
+        With 4Print, the process is straightforward, collaborative, and designed to deliver results that exceed expectations.`
     },
 ]
 
@@ -4059,22 +4052,20 @@ export const CWMMapCitiesDecals = [
 
 export const CWMWhyUsDecals = [
     {
-        title:'Certified Commercial Truck Wrap Specialists',
-        text: 'Our 3M & Avery Dennison-certified technicians guarantee that every commercial truck wrap is flawlessly installed, with zero bubbles, separation, or detachment, even under the rigorous demands of daily business usage.'
+        title:'Certified Commercial Vehicle Lettering Specialists',
+        text: 'Our 3M & Avery Dennison-certified installers ensure that every commercial vehicle lettering and decal application is perfectly applied, with no bubbles, peeling, or lifting, even under the demanding conditions of daily business operations.'
     },
     {
         title:'Custom Business Designs for Every Industry',
-        text: 'We partner with entrepreneurs and commercial managers to develop high-visibility branding programs. Whether you require a delivery vehicle wrap or branded graphics for numerous commercial trucks, we realize your company vision through professional design and perfect execution.'
+        text: 'We collaborate with business owners and commercial operators to create high-impact branding solutions. Whether you need a single service van lettered or branded decals for multiple commercial vehicles, we bring your business vision to life with professional design and flawless execution.'
     },
     {
         title:'Commercial-Grade Materials & Professional Installation',
-        text: 'We utilize industry-leading vinyl wraps specifically chosen to endure the wear and upkeep demands of commercial vehicles. Our comprehensive preparation and skilled application guarantee pristine outcomes and maximum longevity in business settings.'
+        text: 'We use industry-leading vinyl lettering and decals specially selected to withstand the wear and maintenance requirements of commercial vehicles. Our thorough preparation and expert installation ensure spotless results and maximum durability in business environments.'
     },
     {
         title:'Quick Turnaround & Superior Service',
-        text: 'Our Maryland-based crew provides accelerated completion schedules without sacrificing quality. Most commercial truck wraps finish within several days, allowing your business to resume operations promptly.'
+        text: 'Our Maryland-based team delivers expedited turnaround times without compromising quality. Most commercial vehicle lettering and decal projects are completed within a few days, so your business can get back to operations quickly.'
     },
 ]
-
-
 

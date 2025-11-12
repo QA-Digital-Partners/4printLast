@@ -135,7 +135,7 @@ const TrailersWrapBaltimore = (props) => {
       <section className="">
         <div className="container lg:mb-[100px] mb-16">
           <div className="flex flex-wrap px-4 lg:px-0 pb-12 lg:pb-0">
-            <h2 className="lg:w-7/12 font-bold lg:text-[47px] lg:leading-[80px] text-[65px] leading-[65px] mb-8 lg:mb-0">OUR COMMERCIAL TRAILER<span className="lg:text-[80px] text-4pblue block">WRAP METHODOLOGY </span></h2>
+            <h2 className="lg:w-7/12 font-bold lg:text-[47px] lg:leading-[80px] text-[45px] leading-[49px] mb-8 lg:mb-0">OUR COMMERCIAL TRAILER<span className="lg:text-[80px] text-4pblue block">WRAP METHODOLOGY </span></h2>
             <p className="lg:w-5/12">At 4Print, we understand the finest outcomes result from a transparent, tested methodology. From the initial consultation to the completed installation, our professionals support you through each phase, guaranteeing your commercial trailer wrap is personalized, resilient, and effective.</p>
           </div>
             <div className="grid lg:grid-cols-12 grid-cols-1 gap-12 lg:px-16 lg:mt-16 px-8">
