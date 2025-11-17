@@ -7,6 +7,7 @@ export default function sitemap() {
     const fleetCities = ["glen-burnie", "baltimore" ];
     const wallcities = ["glen-burnie", "baltimore"];
     const trailersCities = ["baltimore"];
+    const blogs = ["how-much-do-truck-wraps-cost-in-maryland"];
     const staticPages = [
       "", 
       "about", 
@@ -16,6 +17,7 @@ export default function sitemap() {
       "commercial-vehicle-wrapping-lettering",
       "commercial-printing",
       "wall-wraps-maryland",
+      "blog"
     ];
   
     const urls = [
@@ -45,6 +47,10 @@ export default function sitemap() {
       })),
       ...trailersCities.map((city) => ({
         url: `${SITE_URL}/car-wraps-maryland/commercial/trailers/${city}`,
+        lastModified: new Date().toISOString(),
+      })),
+      ...blogs.map((blog) => ({
+        url: `${SITE_URL}/blog/${blog}`,
         lastModified: new Date().toISOString(),
       }))
 
