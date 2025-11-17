@@ -40,15 +40,17 @@ const HeaderComponent = () => {
             <nav>
               {headerMenu.map((data, index) =>
                 data.name === "Services" ? (
-                  <div key={index} className="inline-block">
+                  <div key={index} className="inline-block min-w-[100px] text-center">
 {/*                  <DropdownMenu key={index} menu={data} options={dropDownServices} /> */}
                     <MegaMenu menu={data}/>
 
                   </div>
                 ) : (
-                  <a key={index} href={data.link} className="mx-4 uppercase text-[15px] hover:text-4pblue hover:font-bold">
-                    {data.name}
-                  </a>
+                  <div className="min-w-[80px] inline-block text-center">
+                    <a key={index} href={data.link} className=" uppercase text-[15px] hover:text-4pblue hover:font-bold">
+                      {data.name}
+                    </a>
+                  </div>
                 )
               )}
             </nav>

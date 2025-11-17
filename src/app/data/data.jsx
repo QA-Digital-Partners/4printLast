@@ -5,6 +5,7 @@ export const headerMenu = [
     {name:'About Us', link: '/about'},
     {name:'Services', link: '/services'},
     {name:'Contact', link: '#contact'},
+    {name:'Blog', link: '/blog'},
     {name:'Gallery', link: '/gallery'},
 ] 
 
@@ -23,6 +24,8 @@ export const dropDownCarWrapsCommercial = [
     {name:'Food Trucks', link: '/car-wraps-maryland/commercial/food-trucks/'},
     {name:'Vans Wrap', link: '/car-wraps-maryland/commercial/vans/'},
     {name:'Trailer Wrap', link: '/car-wraps-maryland/commercial/trailers/'},
+    {name:'Truck', link: '/car-wraps-maryland/commercial/trucks/'},
+    {name:'Lettering and Decals', link: '/car-wraps-maryland/commercial/lettering-decals/'},
 ]
 
 // Textos del footer

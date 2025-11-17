@@ -11,9 +11,9 @@ const MegaMenu = ({menu}) => {
           setIsOpen(false)
         }}
       >
-      <div className="cursor-pointer">
+      <div className="cursor-pointer min-w-[77px] w-[77px]">
         <a href={menu.link}>
-          <span className="uppercase mx-4 text-[15px] hover:text-4pblue hover:font-bold min-w-[75.5px]">
+          <span className="uppercase text-center text-[15px] hover:text-4pblue hover:font-bold ">
             {menu.name}
           </span>
         </a>
@@ -21,7 +21,7 @@ const MegaMenu = ({menu}) => {
 
       {isOpen && (
         <>
-        <div className="absolute z-[999] left-[-641px] mt-0 w-auto lg:w-[1200px] min-w-[66em] shadow-lg pt-8">
+        <div className="absolute z-[999] left-[-617px] mt-0 w-auto lg:w-[1200px] min-w-[66em] shadow-lg pt-8">
           <div className="flex px-24 pt-4 pb-8 bg-white border-l border-r border-b border-4plight-grey rounded-b-lg gap-20">
             <div className="lg:w-6/12 flex flex-wrap px-2 content-start ease-in-out duration-300 transition-all">
               <a href="/car-wraps-maryland" className="w-full text-center font-bold text-4pblue text-[23px]">Car Wraps</a>

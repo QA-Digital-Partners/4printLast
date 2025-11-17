@@ -11,7 +11,7 @@
     font-size: 18px;
     color: #121212;
   }
-  body, html {
+ html {
     overflow-x: hidden;
   }
 
@@ -663,6 +663,39 @@ ul.list-menu li::before {
   clip-path: path( 'M 0 0 L 1080 0 L 910 675 L 0 675 Z');
 }
 
+
+.blog-post h2 {
+ font-size: 28px;
+ padding-top: 15px;
+}
+
+.blog-post h3 {
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.blog-post p {
+  padding-bottom: 20px;
+}
+
+.blog-post ul {
+  list-style-type: disc;
+}
+.blog-post li {
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.blog-post table, th, tr, td {
+  border: 1px solid
+}
+
+.blog-post figure {margin-bottom: 25px;}
+
+.blog-post td {
+  padding-left: 8px;
+}
 
 @media (max-width:767px) {
 
