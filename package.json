@@ -13,9 +13,9 @@
     "@headlessui/react": "^2.2.0",
     "@react-google-maps/api": "^2.20.6",
     "cheerio": "^1.1.2",
-    "next": "15.1.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "^15.1.9",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
     "react-google-recaptcha-v3": "^1.11.0",
     "swiper": "^11.2.1"
   },
