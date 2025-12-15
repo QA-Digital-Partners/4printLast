@@ -114,14 +114,6 @@ export default function ClientScripts() {
             }
           `}
         </Script>
-      <GoogleReCaptchaProvider
-        reCaptchaKey="6LfAh_orAAAAAHMSC7XO874uFMvtd7aLI37mXfVB"
-        scriptProps={{
-          async: true,
-          defer: true,
-          appendTo: "head",
-        }}
-      />
     </>
   );
 }

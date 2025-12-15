@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
         </noscript>
         <ClientScripts />
         <RecaptchaProviderClient>
-        <HeaderComponent />
-        {children}
-        <FooterComponent />
+          <HeaderComponent />
+            {children}
+          <FooterComponent />
         </RecaptchaProviderClient>
       </body>
     </html>

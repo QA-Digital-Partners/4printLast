@@ -5,9 +5,6 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm = ({orientation = "vertical", ...props}) => {
 
-  const recapchaSiteKey = "6LfAh_orAAAAAOw9vg4ucPXfgAzq27z_KxtT8TR5"
-  const recaptchaSecretKey = "6LfAh_orAAAAAHMSC7XO874uFMvtd7aLI37mXfVB"
-
     
     const servicesOptions = ['Commercial Vehicle Wrapping', 'Commercial Vehicle Lettering', 'Custom Car Wraps', 'Wall Wraps', 'Commercial Printing', 'Apparel', 'Stationery Printing']
 
