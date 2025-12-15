@@ -2,10 +2,11 @@
 import Image from "next/image";
 import React, { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const ContactForm = ({orientation = "vertical", ...props}) => {
 
-    
+    const { executeRecaptcha } = useGoogleReCaptcha();
     const servicesOptions = ['Commercial Vehicle Wrapping', 'Commercial Vehicle Lettering', 'Custom Car Wraps', 'Wall Wraps', 'Commercial Printing', 'Apparel', 'Stationery Printing']
 
     let formClass = false;
@@ -15,13 +16,7 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
     const statusRef = useRef(null);
     const pattern = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
     
-
     const [token, setToken] = useState("");
-    const [refreshReCaptcha, setRefreshReCaptcha] = useState(false);
-
-    const setTokenFunc = (getToken) => {
-      setToken(getToken);
-    };
 
     const handleChange = (phoneRef) => {
         const input = phoneRef.current;
@@ -29,50 +24,48 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
         input.setCustomValidity('');
       };
 
-    const handleSubmit = (event, formRef, phoneRef, statusRef) => {
-        event.preventDefault();
+      const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    const input = phone.current;
+    input.setCustomValidity("");
 
-        const input = phoneRef.current;
-        setLoading(true); // Mostrar loader
-
-    // Clear any old status
-    input.setCustomValidity('');
-
-    // Check for invalid state(s)
+    // Validar teléfono
     if (!pattern.test(input.value)) {
-      input.setCustomValidity('Please enter a valid phone number');
+      input.setCustomValidity("Please enter a valid phone number");
       input.reportValidity();
-    } else {
-      input.setCustomValidity('');
-
-
-        // ✅ Agregar aquí la URL actual al formulario
-    formRef.current.current_url.value = window.location.href;
-
-
-      // Proceed with form submission if needed
-      emailjs
-      .sendForm('service_iyjzik5', '4print_temp', formRef.current, {
-        publicKey: '25bO-dCc3QTCgWjyH',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          formRef.current.reset();
-          formClass = true;
-          statusRef.current.innerHTML = "Submition sent succesfully"
-          setLoading(false); // Ocultar loader
-        },
-        (error) => {
-          setRefreshReCaptcha(!refreshReCaptcha);
-          console.log('FAILED...', error.text);
-          formClass = false;
-          statusRef.current.innerHTML = "There was an error. Please try again or call us!"
-          setLoading(false); // Ocultar loader
-        },
-      );
+      setLoading(false);
+      return;
     }
-}
+
+    if (!executeRecaptcha) {
+      console.warn("Recaptcha not yet available");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      // ✅ Ejecuta el reCAPTCHA v3
+      const recaptchaToken = await executeRecaptcha("contact_form");
+      setToken(recaptchaToken);
+
+      // Añadir la URL actual
+      form.current.current_url.value = window.location.href;
+
+      // Enviar el formulario con EmailJS
+      await emailjs.sendForm("service_iyjzik5", "4print_temp", form.current, {
+        publicKey: "25bO-dCc3QTCgWjyH",
+      });
+
+      statusRef.current.innerHTML = "Submission sent successfully!";
+      form.current.reset();
+    } catch (err) {
+      console.error("Error submitting:", err);
+      statusRef.current.innerHTML = "There was an error. Please try again.";
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <>
@@ -87,6 +80,7 @@ const ContactForm = ({orientation = "vertical", ...props}) => {
                       <div className={`gap-8 ${ orientation?.trim().toLowerCase() === 'horizontal' ? 'grid lg:grid-cols-6 grid-cols-1' : 'grid grid-cols-1'}`}>
                       <div>
                               <input type="hidden" name="current_url" />
+                              <input type="hidden" name="recaptcha_token" value={token || ""} />
                               <input  type="text" 
                                   className={`form-control p-2 border rounded-md w-full bg-4pgrey `} 
                                   id="name"  
