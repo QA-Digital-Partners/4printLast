@@ -90,9 +90,9 @@ export default async function BlogPost({ params }) {
       />
     </section>
     <main className="container p-6 lg:p-0 ">
-      <div className="flex">
-        <aside className="lg:w-[18%] w-full sticky self-start top-8 h-fit pb-16">
-          <div className="overflow-y-auto h-[55vh]">
+      <div className="flex flex-wrap lg:flex-nowrap">
+        <aside className="lg:w-[18%] w-full lg:sticky self-start top-8 h-fit pb-16">
+          <div className="overflow-y-auto lg:h-[55vh]">
             <h3 className="font-bold mb-4">Table of Contents</h3>
             <ul className="space-y-2 text-sm">
               {headings.map((h) => (

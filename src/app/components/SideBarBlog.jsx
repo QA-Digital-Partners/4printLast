@@ -8,7 +8,7 @@ export default async function SideBarBlog( {deskWidth}) {
 
   return (
     <>
-        <aside className={`${deskWidth} w-full lg:pb-32 pb-16  sticky self-start top-8 h-fit`}>
+        <aside className={`${deskWidth} w-full lg:pb-32 pb-16 lg:sticky self-start top-8 h-fit`}>
           <div className="bg-white rounded-lg border-[1px] border-4plight-grey p-4 hidden lg:block">
             <p className="lg:text-[24px] lg:leading-[28px] font-bold ">Let's Start Your Project Today</p>
             <ContactFormBlog orientation=""/>
