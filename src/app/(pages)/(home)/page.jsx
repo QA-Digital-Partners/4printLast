@@ -46,7 +46,7 @@ export default function Home() {
               <span className="h1-print-HM rounded-[50px] px-8 text-white">{titleHM.titleLineFourHM}</span> </h1>
           <div className="lg:w-10/12">
 
-            <p className="lg:w-[58vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with commercial vehicle wraps in Maryland. Our advertising solutions help your fleet generate thousands of daily impressions, increasing brand visibility across the state. Whether you’re in Baltimore, Silver Spring, or anywhere in Maryland, we ensure your business stands out on the road.</p>
+            <p className="lg:w-[54vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with commercial vehicle wraps in Maryland. Our advertising solutions help your fleet generate thousands of daily impressions, increasing brand visibility across the state. Whether you’re in Baltimore, Silver Spring, or anywhere in Maryland, we ensure your business stands out on the road.</p>
 
             <p className="lg:text-[22px] lg:font-bold lg:w-[40vw] lg:leading-[26px]"> From Large Brands and Institutions to Local Businesses and Custom Wraps – Tailored Solutions for Every Need</p>
           </div>
