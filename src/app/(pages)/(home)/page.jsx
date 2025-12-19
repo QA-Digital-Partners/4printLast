@@ -38,16 +38,29 @@ export default function Home() {
     <main>
       {/******************  Hero Banner Section ****************************/}
       <div className="lg:bg-gradient-to-b bg-gradient-to-b from-[#EFEEEE] from-75% to-whitwe to-75% lg:pt-[200px] lg:mt-[-185px] pt-[130px] mt-[-110px]  mb-[100px]">
-        <div className="container px-6 lg:px-0">
-          <h1 className="lg:text-[80px] text-[42px] font-bold uppercase lg:leading-[90px] leading-[45px] lg:pb-8">
-            {titleHM.titleLineOneHM} <br /> 
-            <span className="text-4pblue">{titleHM.titleLineTwoHM} </span> <br /> 
-            <span className="text-4pred">{titleHM.titleLineTreeHM} </span>
-            <span className="h1-print-HM rounded-[50px] px-8 text-white">{titleHM.titleLineFourHM}</span> </h1>
+        <div className="container px-6 lg:px-0 flex flex-wrap">
+            <h1 className="lg:text-[80px] text-[42px] font-bold uppercase lg:leading-[90px] leading-[45px] lg:pb-8">
+              {titleHM.titleLineOneHM} <br /> 
+              <span className="text-4pblue">{titleHM.titleLineTwoHM} </span> <br /> 
+              <span className="text-4pred">{titleHM.titleLineTreeHM} </span>
+              <span className="h1-print-HM rounded-[50px] px-8 text-white">{titleHM.titleLineFourHM}</span> </h1>
+          <div className="lg:w-10/12">
 
-          <p className="lg:w-[45vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with commercial vehicle wraps in Maryland. Our advertising solutions help your fleet generate thousands of daily impressions, increasing brand visibility across the state. Whether you’re in Baltimore, Silver Spring, or anywhere in Maryland, we ensure your business stands out on the road.</p>
+            <p className="lg:w-[58vw] lg:pb-8 py-6 lg:py-0">Turn your vehicles into powerful mobile billboards and drive real results with commercial vehicle wraps in Maryland. Our advertising solutions help your fleet generate thousands of daily impressions, increasing brand visibility across the state. Whether you’re in Baltimore, Silver Spring, or anywhere in Maryland, we ensure your business stands out on the road.</p>
 
-          <p className="lg:text-[22px] lg:font-bold lg:w-[40vw] lg:leading-[26px]"> From Large Brands and Institutions to Local Businesses and Custom Wraps – Tailored Solutions for Every Need</p>
+            <p className="lg:text-[22px] lg:font-bold lg:w-[40vw] lg:leading-[26px]"> From Large Brands and Institutions to Local Businesses and Custom Wraps – Tailored Solutions for Every Need</p>
+          </div>
+
+          <div className="lg:w-2/12">
+            <Image
+              src="/images/3m-mcs-warranty-logo.webp"
+              alt="3M MCS Warranty Logo"
+              sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+              srcSet="/images/3m-mcs-warranty-logo.webp 768w, /images/3m-mcs-warranty-logo.webp 1024w"
+              width={200}
+              height={200}
+            />
+          </div>
         </div>
         <div className="container mb-16">
 
