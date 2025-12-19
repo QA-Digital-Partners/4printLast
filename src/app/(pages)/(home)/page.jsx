@@ -39,7 +39,7 @@ export default function Home() {
       {/******************  Hero Banner Section ****************************/}
       <div className="lg:bg-gradient-to-b bg-gradient-to-b from-[#EFEEEE] from-75% to-whitwe to-75% lg:pt-[200px] lg:mt-[-185px] pt-[130px] mt-[-110px]  mb-[100px]">
         <div className="container px-6 lg:px-0 flex flex-wrap">
-            <h1 className="lg:text-[80px] text-[42px] font-bold uppercase lg:leading-[90px] leading-[45px] lg:pb-8">
+            <h1 className="lg:text-[80px] text-[36px] font-bold uppercase lg:leading-[90px] leading-[38px] lg:pb-8">
               {titleHM.titleLineOneHM} <br /> 
               <span className="text-4pblue">{titleHM.titleLineTwoHM} </span> <br /> 
               <span className="text-4pred">{titleHM.titleLineTreeHM} </span>
@@ -51,7 +51,7 @@ export default function Home() {
             <p className="lg:text-[22px] lg:font-bold lg:w-[40vw] lg:leading-[26px]"> From Large Brands and Institutions to Local Businesses and Custom Wraps – Tailored Solutions for Every Need</p>
           </div>
 
-          <div className="lg:w-2/12">
+          <div className="lg:w-2/12 w-full justify-items-center">
             <Image
               src="/images/3m-mcs-warranty-logo.webp"
               alt="3M MCS Warranty Logo"
@@ -59,6 +59,7 @@ export default function Home() {
               srcSet="/images/3m-mcs-warranty-logo.webp 768w, /images/3m-mcs-warranty-logo.webp 1024w"
               width={200}
               height={200}
+              className="max-w-[140px] lg:max-w-[200px]"
             />
           </div>
         </div>
