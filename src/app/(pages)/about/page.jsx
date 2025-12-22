@@ -162,6 +162,37 @@ const AboutPage = (props) => {
         <div className="lg:w-4/12 w-full justify-items-center">
           <h2 className="font-bold lg:text-[70px] lg:leading-[70px] text-[41px] leading-[40px] z-10 relative lg:me-[-160px] lg:pb-16 pb-6">OUR EXPERTISE<span className="text-4pblue lg:text-[80px] lg:leading-[75px] text-[60px] block leading-[55px]">AND CORE VALUES</span></h2>
           <Image 
+            src="/images/3m-small.webp"
+            alt="Logo 3M"
+            sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+            srcSet="/images/3m-small.webp 768w, /images/3m-small.webp 1024w"
+            width={232}
+            height={104}
+            className="lg:justify-self-end"
+            />
+
+          <Image 
+            src="/images/avery-small.webp"
+            alt="Logo Arlon"
+            sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+            srcSet="/images/avery-small.webp 768w, /images/avery-small.webp 1024w"
+            width={232}
+            height={104}
+            className="lg:justify-self-end"
+            />
+          
+          
+        </div>
+
+        <div className="lg:w-8/12 w-full flex flex-wrap lg:ps-[55px] lg:pt-16">
+          <div className="lg:w-8/12 w-full pt-8 pb-8 lg:pb-0">
+            <p className="leading-[23px] lg:pt-4">When you choose 4Print, you're partnering with certified professionals who bring more than just technical expertise to your project. Our team of certified installers understands that each vehicle wrap is an opportunity to tell your brand's unique story.
+              <br/><br/>
+              As passionate enthusiasts of our craft, we pour our creativity and dedication into every project, ensuring that each design not only meets but exceeds industry standards.</p>
+          </div>
+
+          <div className="lg:w-4/12 w-full justify-items-center lg:justify-items-end">
+          <Image 
             src="/images/arlon-small.webp"
             alt="Logo Arlon"
             sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
@@ -180,35 +211,6 @@ const AboutPage = (props) => {
             height={104}
             className="lg:justify-self-end"
             />
-        </div>
-
-        <div className="lg:w-8/12 w-full flex flex-wrap lg:ps-[55px] lg:pt-16">
-          <div className="lg:w-8/12 w-full pt-8 pb-8 lg:pb-0">
-            <p className="leading-[23px] lg:pt-4">When you choose 4Print, you're partnering with certified professionals who bring more than just technical expertise to your project. Our team of certified installers understands that each vehicle wrap is an opportunity to tell your brand's unique story.
-              <br/><br/>
-              As passionate enthusiasts of our craft, we pour our creativity and dedication into every project, ensuring that each design not only meets but exceeds industry standards.</p>
-          </div>
-
-          <div className="lg:w-4/12 w-full justify-items-center lg:justify-items-end">
-            <Image 
-              src="/images/3m-small.webp"
-              alt="Logo 3M"
-              sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-              srcSet="/images/3m-small.webp 768w, /images/3m-small.webp 1024w"
-              width={232}
-              height={104}
-              className="lg:justify-self-end"
-              />
-
-            <Image 
-              src="/images/avery-small.webp"
-              alt="Logo Arlon"
-              sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
-              srcSet="/images/avery-small.webp 768w, /images/avery-small.webp 1024w"
-              width={232}
-              height={104}
-              className="lg:justify-self-end"
-              />
           </div>
           <div className="w-full lg:pe-16">
             <p className="leading-[23px] pt-4 pe-8">Our experience in the vehicle wrapping industry has given us invaluable insights into what makes a design truly stand out on the road. We've honed our skills through years of hands-on experience, constantly adapting to market trends while maintaining our commitment to premium quality and innovative solutions.
